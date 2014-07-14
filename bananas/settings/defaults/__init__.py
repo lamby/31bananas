@@ -142,10 +142,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'bananas.debug.context_processors.settings_context',
 )
 
-CSRF_COOKIE_SECURE = True
-
 SESSION_COOKIE_AGE = 86400 * 365 * 10
-SESSION_COOKIE_SECURE = True
 SESSION_COOKIE_HTTPONLY = True
 
 STATIC_MEDIA_URL = '/media/%(hash).6s/%(path)s'
@@ -156,8 +153,6 @@ DATABASE_ENGINE = None # for debug toolbar
 LOGIN_REDIRECT_URL = '/admin'
 
 KEYERROR_SECRET_KEY = '30b0a480d622c0694a7814a316a6da356349e986'
-
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTOCOL', 'https')
 
 SOUTH_TESTS_MIGRATE = False
 

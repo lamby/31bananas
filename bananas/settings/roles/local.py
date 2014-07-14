@@ -26,9 +26,6 @@ MEDIA_URL = '/storage/'
 MEDIA_ROOT = base_dir('storage')
 STATIC_MEDIA_URL = '/media/%(path)s'
 
-CSRF_COOKIE_SECURE = False
-SESSION_COOKIE_SECURE = False
-
 CACHES = {
     'default': {
         'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',

@@ -7,15 +7,14 @@
 {% block body_classes %}{{ block.super }} f_review_admin_edit{% endblock %}
 
 {% block navbar_right %}
-<a href="{{ review.get_absolute_url }}" class="btn btn-default navbar-btn">Preview</a>
-<button type="button" class="btn btn-default navbar-btn js-save">Save</button>&nbsp;
+<a href="{{ review.get_absolute_url }}" class="btn btn-default navbar-btn" target="_blank">Preview</a>
+<button type="button" class="btn btn-default navbar-btn js-save" data-loading-text="Saving&hellip;">Save</button>&nbsp;
 {% endblock %}
 
 {% block container %}
-
 <div class="row">
   <div class="col-sm-12">
-    <form method="POST" action="" class="form-post" data-url="{% url "reviews:admin:xhr-edit" review.pk %}">
+    <form method="POST" action="" class="js-edit-form" data-url="{% url "reviews:admin:xhr-edit" review.pk %}">
       {% csrf_token %}
 
       <div class="form-group">
@@ -24,6 +23,13 @@
 
       <div class="form-group">
         <textarea class="form-control" name="{{ form.content.html_name }}" id="{{ form.content.id_for_label }}" rows="60" placeholder="Start writing here...">{{ form.content.value|default:"" }}</textarea>
+      </div>
+
+      <div class="form-group">
+        <p>
+          {{ form.published }}
+          <label for="{{ form.published.id_for_label }}">Published</label>
+        </p>
       </div>
     </form>
   </div>

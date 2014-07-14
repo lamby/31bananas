@@ -19,4 +19,6 @@ $.feature('f_generic_base', function () {
       window.location.hash = hash;
     });
   });
+
+  $('[data-toggle="tooltip"]').tooltip();
 });

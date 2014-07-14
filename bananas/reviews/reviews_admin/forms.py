@@ -7,6 +7,6 @@ class ReviewForm(forms.ModelForm):
         model = Review
         fields = (
             'title',
-            'date',
             'content',
+            'published'
         )

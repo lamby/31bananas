@@ -25,9 +25,11 @@
           <td class="{% if review.published %}success{% elif review.title %}active{% else %}danger{% endif %}">
             <a
               href="{% url "reviews:admin:edit" review.pk %}"
+              {% if review.title %}
               data-toggle="tooltip"
               data-placement="bottom"
               title="{{ review.title }}"
+              {% endif %}
             >{{ review.date.day }}</a>
           {% else %}
             <td>&nbsp;</td>

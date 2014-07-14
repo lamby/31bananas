@@ -12,6 +12,8 @@ class Review(models.Model):
     content = models.TextField(blank=True)
 
     date = models.DateField(unique=True)
+    published = models.BooleanField(default=False)
+
     created = models.DateTimeField(default=datetime.datetime.utcnow)
 
     objects = ReviewManager()

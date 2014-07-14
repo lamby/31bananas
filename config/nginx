@@ -1,9 +1,9 @@
-upstream lamby-www {
+upstream bananas {
 	server		unix:/var/run/gunicorn/bananas.sock;
 }
 
 server {
-	listen		213.138.100.153:80:
+	listen		213.138.100.153:80;
 
 	server_name	bananas.chris-lamb.co.uk;
 

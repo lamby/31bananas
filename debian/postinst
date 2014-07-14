@@ -4,16 +4,16 @@
 
 set -eu
 
-BASE=/usr/share/lamby-www
+BASE=/usr/share/bananas
 
 case "${1}" in
 	configure)
-		gunicorn-debian stop lamby-www
-		su www-data -c "${BASE}/lamby/manage.py migrate --all --noinput"
-		ln -sf ${BASE}/config/gunicorn /etc/gunicorn.d/lamby-www
-		gunicorn-debian start lamby-www
+		gunicorn-debian stop bananas
+		su www-data -c "${BASE}/bananas/manage.py migrate --all --noinput"
+		ln -sf ${BASE}/config/gunicorn /etc/gunicorn.d/bananas
+		gunicorn-debian start bananas
 
-		ln -sf ${BASE}/config/nginx /etc/nginx/sites-enabled/lamby-www
+		ln -sf ${BASE}/config/nginx /etc/nginx/sites-enabled/bananas
 		invoke-rc.d nginx reload
 		;;
 

@@ -2,12 +2,13 @@
 
 {% block title %}{% endblock %}
 
-{% block extrahead %}
-{{ block.super }}
-{% include "includes/rss.html" %}
-{% endblock %}
-
 {% block body_classes %}{{ block.super }} f_landing{% endblock %}
+
+{% block navbar_right %}
+  <li><a href="#about">About</a></li>
+  <li><a href="#food">Food</a></li>
+  <li><a href="#contact">Contact</a></li>
+{% endblock %}
 
 {% block content %}
 

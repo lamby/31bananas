@@ -94,8 +94,8 @@ INSTALLED_APPS = (
     'email_from_template',
     'south',
 
-    'bananas.blog',
-    'bananas.blog.blog_admin',
+    'bananas.reviews',
+    'bananas.reviews.reviews_admin',
     'bananas.debug',
     'bananas.utils',
     'bananas.static',
@@ -133,7 +133,7 @@ AWS_STORAGE_BUCKET_NAME = 'bananas'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 
-LOGIN_URL = '/login'
+LOGIN_URL = '/admin/login' # bananas:reviews:admin:login
 
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',

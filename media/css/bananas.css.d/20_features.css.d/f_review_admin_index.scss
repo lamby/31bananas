@@ -1,0 +1,36 @@
+.f_review_admin_index {
+  section#reviews {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fff;
+
+    table {
+      margin: 0 auto;
+      max-width: 800px;
+
+      thead th {
+        padding-bottom: 15px;
+      }
+
+      td,
+      th {
+        border: 2px solid #fff;
+        padding: 0;
+        text-align: center;
+
+        a {
+          color: #000;
+          width: 100%;
+          height: 100%;
+          display: block;
+          padding: 15px;
+          font-size: 18px;
+
+          @media (min-width: 767px) {
+            padding: 30px 15px;
+          }
+        }
+      }
+    }
+  }
+}

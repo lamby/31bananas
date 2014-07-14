@@ -3,6 +3,7 @@
 {% block body_classes %}{{ block.super }} f_base{% endblock %}
 
 {% block body %}
+  {% block nav %}
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -20,13 +21,12 @@
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"><a href="#page-top"></a></li>
 
-          <li><a href="#about">About</a></li>
-          <li><a href="#food">Food</a></li>
-          <li><a href="#contact">Contact</a></li>
+          {% block navbar_right %}{% endblock %}
         </ul>
       </div>
     </div>
   </nav>
+  {% endblock %}
 
   {% block content %}
   <div class="container">

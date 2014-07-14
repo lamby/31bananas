@@ -1,0 +1,39 @@
+{% extends "reviews/admin/base.html" %}
+
+{% block body_classes %}{{ block.super }} f_review_admin_index{% endblock %}
+
+{% block content %}
+
+<section id="reviews">
+  <div class="container">
+    <table class="table">
+      <thead>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+        <th>Sun</th>
+      </thead>
+      <tbody>
+        {% for week in days %}
+        <tr>
+          {% for day in week %}
+          {% with reviews|getitem:day as review %}
+          {% if review %}
+          <td class="active">
+            <a href="{% url "reviews:admin:edit" review.pk %}" title="{{ review.title }}">{{ review.date.day }}</a>
+          {% else %}
+            <td>&nbsp;</td>
+          {% endif %}
+          {% endwith %}
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{% endblock %}

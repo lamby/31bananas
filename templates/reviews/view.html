@@ -1,0 +1,13 @@
+{% extends "base/base.html" %}
+
+{% block title %}{{ review.title }}{% endblock %}
+
+{% block body_classes %}{{ block.super }} f_review{% endblock %}
+
+{% block container %}
+
+<header>
+  <h1>{{ review.title }}</h1>
+</header>
+
+{% endblock %}

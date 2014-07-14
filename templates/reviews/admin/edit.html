@@ -1,0 +1,32 @@
+{% extends "reviews/admin/base.html" %}
+
+{% load humanize %}
+
+{% block title %}Edit review - {{ block.super }}{% endblock %}
+
+{% block body_classes %}{{ block.super }} f_review_admin_edit{% endblock %}
+
+{% block navbar_right %}
+<a href="{{ review.get_absolute_url }}" class="btn btn-default navbar-btn">Preview</a>
+<button type="button" class="btn btn-default navbar-btn js-save">Save</button>&nbsp;
+{% endblock %}
+
+{% block container %}
+
+<div class="row">
+  <div class="col-sm-12">
+    <form method="POST" action="" class="form-post" data-url="{% url "reviews:admin:xhr-edit" review.pk %}">
+      {% csrf_token %}
+
+      <div class="form-group">
+        <input type="text" class="form-control input-lg" name="{{ form.title.html_name }}" id="{{ form.title.id_for_label }}" value="{{ form.title.value|default:"" }}" placeholder="Title">
+      </div>
+
+      <div class="form-group">
+        <textarea class="form-control" name="{{ form.content.html_name }}" id="{{ form.content.id_for_label }}" rows="60" placeholder="Start writing here...">{{ form.content.value|default:"" }}</textarea>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock  %}

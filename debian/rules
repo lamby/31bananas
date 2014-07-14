@@ -2,7 +2,7 @@
 
 export PYTHONDONTWRITEBYTECODE = 1
 
-PROJECT=lamby
+PROJECT=bananas
 
 %:
 	dh $@

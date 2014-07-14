@@ -215,10 +215,10 @@ html {
 
   .btn-default:hover,
   .btn-default:focus {
-    border: 1px solid #28c3ab;
+    border: 1px solid #fff;
     outline: 0;
     color: #000;
-    background-color: #28c3ab;
+    background-color: #fff;
   }
 
   .btn-huge {
@@ -266,5 +266,9 @@ html {
 
   img::-moz-selection {
     background: 0 0;
+  }
+
+  header {
+    padding: 50px 0 20px 0;
   }
 }

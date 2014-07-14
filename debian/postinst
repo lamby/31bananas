@@ -1,0 +1,29 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+set -eu
+
+BASE=/usr/share/lamby-www
+
+case "${1}" in
+	configure)
+		gunicorn-debian stop lamby-www
+		su www-data -c "${BASE}/lamby/manage.py migrate --all --noinput"
+		ln -sf ${BASE}/config/gunicorn /etc/gunicorn.d/lamby-www
+		gunicorn-debian start lamby-www
+
+		ln -sf ${BASE}/config/nginx /etc/nginx/sites-enabled/lamby-www
+		invoke-rc.d nginx reload
+		;;
+
+	abort-upgrade|abort-remove|abort-deconfigure)
+		;;
+
+	*)
+		echo "postinst called with unknown argument \`${1}'" >&2
+		exit 1
+		;;
+esac
+
+exit 0

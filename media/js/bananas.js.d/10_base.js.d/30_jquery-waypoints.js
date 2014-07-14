@@ -1,0 +1,1 @@
+../../../../contrib/jquery-waypoints/waypoints.js

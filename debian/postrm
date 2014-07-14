@@ -1,0 +1,11 @@
+#!/bin/sh
+
+#DEBHELPER#
+
+set -e
+
+gunicorn-debian stop lamby-www || true
+rm -f /etc/gunicorn.d/lamby-www
+
+rm -f /etc/nginx/sites-enabled/lamby-www
+invoke-rc.d nginx reload || true

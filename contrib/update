@@ -1,0 +1,128 @@
+#!/bin/sh
+
+set -eu
+
+if [ "${1:-}" = "" ]
+then
+	echo "${0}: Please specify a project to upgrade" >&2
+	exit 1
+fi
+
+PROJECT="${1}"
+
+Git () {
+	URL="${1}"
+	TARGET="${2}"
+	SUBDIR="${3:-}"
+
+	rm -rf ${TARGET}
+	mkdir ${TARGET}
+	git clone "${URL}" ${TARGET}/.clone
+	git --git-dir=${TARGET}/.clone/.git log --stat > ${TARGET}/git.log
+	mv ${TARGET}/.clone/${SUBDIR}/* ${TARGET}
+	rm -rf ${TARGET}/.clone
+}
+
+Hg() {
+	URL="${1}"
+	TARGET="${2}"
+	SUBDIR="${3:-}"
+
+	rm -rf ${TARGET}
+	mkdir ${TARGET}
+	hg clone "${URL}" ${TARGET}/.clone
+	hg log -R ${TARGET}/.clone > ${TARGET}/hg.log
+	mv ${TARGET}/.clone/${SUBDIR}/* ${TARGET}
+	rm -rf ${TARGET}/.clone
+}
+
+case "${PROJECT}" in
+	akismet)
+		mkdir -p akismet
+		wget -Oakismet/__init__.py http://www.voidspace.org.uk/downloads/akismet.py
+		;;
+
+	animate.css)
+		Git git://github.com/daneden/animate.css.git ${PROJECT}
+		;;
+
+	bootstrap)
+		Git git://github.com/twbs/bootstrap.git ${PROJECT} dist/
+		;;
+
+	cache_toolbox)
+		Git git://github.com/playfire/django-cache-toolbox.git ${PROJECT} ${PROJECT}
+		;;
+
+	debug_toolbar)
+		Git git://github.com/robhudson/django-debug-toolbar.git ${PROJECT} ${PROJECT}
+		;;
+
+	django)
+		Git git://github.com/django/django.git ${PROJECT} ${PROJECT}
+		;;
+
+	django_autologin)
+		Git git://github.com/thread/django-autologin.git ${PROJECT} ${PROJECT}
+		;;
+
+	django_extensions)
+		Git git://github.com/django-extensions/django-extensions.git ${PROJECT} ${PROJECT}
+		;;
+
+	django_keyerror)
+		Git git://github.com/keyerror/django-keyerror ${PROJECT} ${PROJECT}
+		;;
+
+	django_yadt)
+		Git git://github.com/thread/django-yadt.git ${PROJECT} ${PROJECT}
+		;;
+
+	email_from_template)
+		Git git://github.com/playfire/django-email-from-template.git ${PROJECT} ${PROJECT}
+		;;
+
+	instantclick)
+		Git git://github.com/dieulot/instantclick.git ${PROJECT}
+		;;
+
+	jquery)
+		mkdir -p ${PROJECT}
+		wget -Ojquery/jquery.js http://code.jquery.com/jquery.js
+		;;
+
+	jquery-waypoints)
+		Git git://github.com/imakewebthings/jquery-waypoints.git ${PROJECT}
+		;;
+
+	scss)
+		Git git://github.com/Kronuz/pyScss.git ${PROJECT} ${PROJECT}
+		;;
+
+	south)
+		Hg http://bitbucket.org/andrewgodwin/south/ ${PROJECT} ${PROJECT}
+		;;
+
+	storages)
+		Hg http://bitbucket.org/david/django-storages ${PROJECT} ${PROJECT}
+		;;
+
+	*)
+		echo "${0}: Unknown project '${PROJECT}'" >&2
+		exit 1
+		;;
+esac
+
+export QUILT_PATCHES="$(pwd)/_patches/${PROJECT}"
+HOOK="$(pwd)/_hooks/${PROJECT}"
+
+cd ${PROJECT}
+
+quilt --quiltrc /dev/null push -a || test ${?} = 2
+rm -rf ./.pc
+
+if [ -x "${HOOK}" ]
+then
+	echo "I: Running hook ${HOOK}..."
+	${HOOK}
+fi

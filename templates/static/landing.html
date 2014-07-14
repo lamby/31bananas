@@ -1,0 +1,95 @@
+{% extends "base/base.html" %}
+
+{% block title %}{% endblock %}
+
+{% block extrahead %}
+{{ block.super }}
+{% include "includes/rss.html" %}
+{% endblock %}
+
+{% block body_classes %}{{ block.super }} f_landing{% endblock %}
+
+{% block content %}
+
+<section id="intro" style="background-image: url({% static "images/f_landing/cover.jpeg" %})">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h1 class="brand-heading">Go&nbsp;bananas</h1>
+          <p class="intro-text">
+            Every day in August I review a banana-flavoured food and post it here.
+          </p>
+          <div class="page-scroll">
+            <a href="#about" class="btn btn-circle">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>What</h2>
+        <p>
+          Every day in August 2014 I will sample a banana-flavoured food and post
+          the review here. Each food must be fairly easibly available in UK
+          shops or supermarkets.
+        </p>
+        <p>
+          Why? Why not&hellip;
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="food">
+  <div class="container">
+    <div class="row text-right">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3>Day 1</h3>
+        <h1>Nakd Banana Bread</h1>
+      </div>
+    </div>
+    <div class="row text-left">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3>Day 2</h3>
+        <h1>Banana Milk</h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Contact</h2>
+
+        <p>
+          Feel free to email us to provide some feedback on our templates, give
+          us suggestions for new templates and themes, or to just say hello!
+        </p>
+
+        <p>chris@chris-lamb.co.uk</p>
+
+        <ul class="list-inline banner-social-buttons">
+          <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+          </li>
+          <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+          <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

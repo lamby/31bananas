@@ -1,0 +1,315 @@
+commit 478ab10f236ac460a68e02cc0c37bcae14f2591f
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Mon Feb 24 09:54:27 2014 +0000
+
+    Don't return any empty session_key
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/error.py |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e242a4d3797e1f40c1604c14a6e43e0fea364344
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Mon Feb 24 09:54:00 2014 +0000
+
+    Define a fallback position.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/error.py |    2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 8a534735f23ad4e38e1ce7bf8341a4327675802f
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sun Feb 23 20:41:53 2014 +0000
+
+    If we raise an exception getting user info, still notify error.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/error.py |   26 +++++++++++++++++---------
+ 1 file changed, 17 insertions(+), 9 deletions(-)
+
+commit 186d50e4e56090052a7d41c331e94c3177370b23
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sun Feb 23 20:12:54 2014 +0000
+
+    Send the affected user back.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/app_settings.py |    5 +++++
+ django_keyerror/error.py        |   29 +++++++++++++++++++++++++++++
+ django_keyerror/utils.py        |   18 ++++++++++++++++++
+ 3 files changed, 52 insertions(+)
+
+commit 453bb8c9aceecb32328d38d4fe75a2d23041640d
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Feb 22 21:19:37 2014 +0000
+
+    Deployment notification command.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ .../commands/keyerror_deployment_notification.py   |   34 ++++++++++++++++++++
+ 1 file changed, 34 insertions(+)
+
+commit 3b6cb7e1627f7510038daed28296fbd08bad96fb
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Feb 22 20:56:33 2014 +0000
+
+    Abstract out the url processing.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/app_settings.py |    2 +-
+ django_keyerror/error.py        |    6 ++++--
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+commit bcf8a923831a280c456bca41d8c7822ca7d9e82c
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Aug 31 14:50:30 2013 +0100
+
+    Always disable KeyError in a test environment.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/app_settings.py |    5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 5208daf4e2673691c98668b36009dd6e2514d7ad
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Aug 31 14:40:25 2013 +0100
+
+    Pass an integer number of miliseconds, rather than float.
+
+ django_keyerror/middleware.py |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8d7f5ce38d27a2c250d7cf5b483b7a48621532ab
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Aug 31 14:38:24 2013 +0100
+
+    Encode variable-width args as utf8 to appease struct.pack.
+
+ django_keyerror/utils.py |    1 +
+ 1 file changed, 1 insertion(+)
+
+commit 1fc52612944351101883f47af4653e8ca31883e8
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Sat Aug 31 14:33:16 2013 +0100
+
+    Save processing time (and bandwidth) by using struct.pack over json.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/app_settings.py |    2 +-
+ django_keyerror/middleware.py   |    2 +-
+ django_keyerror/utils.py        |   36 +++++++++++++++++++++++++++---------
+ 3 files changed, 29 insertions(+), 11 deletions(-)
+
+commit 13e5700ec7ea521e714ebe8fd09d8b1604b2f5b5
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Fri Aug 30 22:26:45 2013 +0100
+
+    Also don't catch SystemExit.
+
+ django_keyerror/models.py |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit e6c45728e5fec93f0c82d19a2e80d5109aaeba22
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Fri Aug 30 22:24:39 2013 +0100
+
+    Move this into .utils
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ django_keyerror/middleware.py |   21 +++++++--------------
+ django_keyerror/utils.py      |   14 ++++++++++++++
+ 2 files changed, 21 insertions(+), 14 deletions(-)
+
+commit cfd165dbf2d8a203f9bb6850b82515da99934d32
+Author: Chris Lamb <chris@lambynet.co.uk>
+Date:   Thu Feb 28 15:53:41 2013 +0000
+
+    Initial support for queue reporting.
+    
+    Signed-off-by: Chris Lamb <chris@lambynet.co.uk>
+
+ django_keyerror/django_lightweight_queue.py |   12 ++++++++++++
+ django_keyerror/error.py                    |   21 ++++++++++++++++++---
+ django_keyerror/models.py                   |    4 ++--
+ 3 files changed, 32 insertions(+), 5 deletions(-)
+
+commit e5766dbd046dc0e17aaa715ca65032a7effb2b02
+Author: Chris Lamb <chris@lambynet.co.uk>
+Date:   Tue Feb 26 22:45:00 2013 +0000
+
+    Just use 'json' now.
+    
+    Signed-off-by: Chris Lamb <chris@lambynet.co.uk>
+
+ django_keyerror/error.py      |    8 ++++----
+ django_keyerror/middleware.py |    4 ++--
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+commit a163fc95e16c10e2c30705b14271cd426aaa0cf9
+Author: Chris Lamb <chris@lambynet.co.uk>
+Date:   Thu Jan 17 23:30:10 2013 +0000
+
+    Rename to django_keyerror to match most other Django projects.
+    
+    Signed-off-by: Chris Lamb <chris@lambynet.co.uk>
+
+ django_keyerror/app_settings.py        |   26 +++++++++++++++
+ django_keyerror/error.py               |   54 ++++++++++++++++++++++++++++++++
+ django_keyerror/middleware.py          |   45 ++++++++++++++++++++++++++
+ django_keyerror/models.py              |   26 +++++++++++++++
+ keyerror_django_client/app_settings.py |   26 ---------------
+ keyerror_django_client/error.py        |   54 --------------------------------
+ keyerror_django_client/middleware.py   |   45 --------------------------
+ keyerror_django_client/models.py       |   26 ---------------
+ setup.py                               |    2 +-
+ 9 files changed, 152 insertions(+), 152 deletions(-)
+
+commit 68b2dd4e95a11c3154537ba2451f00d6e5affe68
+Author: Chris Lamb <chris@lambynet.co.uk>
+Date:   Thu Jan 17 23:29:28 2013 +0000
+
+    Update COPYING.
+    
+    Signed-off-by: Chris Lamb <chris@lambynet.co.uk>
+
+ COPYING |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5609581709fe6d50b78c3992285e942a70a629a7
+Author: Chris Lamb <chris@lambynet.co.uk>
+Date:   Thu Jan 17 23:29:23 2013 +0000
+
+    Add UDP error reporting.
+    
+    Signed-off-by: Chris Lamb <chris@lambynet.co.uk>
+
+ keyerror_django_client/app_settings.py |    3 +++
+ keyerror_django_client/middleware.py   |   45 ++++++++++++++++++++++++++++++++
+ 2 files changed, 48 insertions(+)
+
+commit e90198853df120c139f0f7989b652dd4c963ee89
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Tue Mar 22 01:17:03 2011 +0000
+
+    Move installation instructions to the main site.
+
+ README.rst |   35 +++--------------------------------
+ 1 file changed, 3 insertions(+), 32 deletions(-)
+
+commit 5a29f7086e833a395bcc7a6c7a59b2bb61e9f85d
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Mon Mar 21 23:04:22 2011 +0000
+
+    Link to SSL version.
+
+ README.rst |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2df5a261f4d97067a9749b24c1c3dda453a55c36
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 17:14:46 2011 +0000
+
+    Set default timeout to 1.
+
+ keyerror_django_client/app_settings.py |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 721f0cbee768b72acd16650734cf5c3ed890d844
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 17:14:42 2011 +0000
+
+    Correct typo in timeout specification.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ keyerror_django_client/app_settings.py |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 72f1bb8b9c9afa71bdf8ecd4c352cf0d24d2967a
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 09:49:32 2011 +0000
+
+    Specify 'type' as some fields will be Django-specific.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ keyerror_django_client/error.py |    1 +
+ 1 file changed, 1 insertion(+)
+
+commit 21c0b6b8fd93728c4e54189bb29ea8e8c9588fd0
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:53:59 2011 +0000
+
+    Split up data we actually save and ones we just group by.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ keyerror_django_client/error.py |    7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit 548e8253373af9bca124c27e87ada9cac5d9b40b
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:52:48 2011 +0000
+
+    Add a README.rst with installation instructions.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ README.rst |   36 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+
+commit 5ffb30efff521080836e7dacca2a0195ad04e165
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:52:20 2011 +0000
+
+    Add setup.py for pip and friends.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ setup.py |    8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit c280d56b21fed8580562836c311f44f34269cdee
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:51:48 2011 +0000
+
+    Add first version of the client.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ keyerror_django_client/app_settings.py |   23 ++++++++++++++
+ keyerror_django_client/error.py        |   52 ++++++++++++++++++++++++++++++++
+ keyerror_django_client/models.py       |   26 ++++++++++++++++
+ 3 files changed, 101 insertions(+)
+
+commit 452b432183626a65933d7028970c448cd09b8d8f
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:51:38 2011 +0000
+
+    Add COPYING.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ COPYING |   21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+commit a40b423d0b1a9b544490fc459d4c62f289532efd
+Author: Chris Lamb <chris@keyerror.com>
+Date:   Wed Mar 9 00:51:27 2011 +0000
+
+    Add .gitignore.
+    
+    Signed-off-by: Chris Lamb <chris@keyerror.com>
+
+ .gitignore |    1 +
+ 1 file changed, 1 insertion(+)

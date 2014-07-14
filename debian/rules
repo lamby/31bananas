@@ -1,0 +1,28 @@
+#!/usr/bin/make -f
+
+export PYTHONDONTWRITEBYTECODE = 1
+
+PROJECT=lamby
+
+%:
+	dh $@
+
+override_dh_auto_clean:
+	rm -f contrib/*/*.log
+
+override_dh_auto_build:
+	# Test in build so we don't have to build first
+	$(PROJECT)/manage.py test --verbosity=2
+	
+	# Generate hashes so we can compile them into files
+	debian/bin/generate_hashes media > $(PROJECT)/settings/hashes.py
+	
+	# Set role
+	echo "from roles.live import *" > $(PROJECT)/settings/role.py
+	
+	debian/bin/render_media $(PROJECT)/settings/hashes.py media/css
+	debian/bin/compress_media media
+	debian/bin/concatenate_media media
+	
+	# Need to regenerate hashes as we could have changed everything
+	debian/bin/generate_hashes media > $(PROJECT)/settings/hashes.py

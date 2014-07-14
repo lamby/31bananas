@@ -1,0 +1,36 @@
+{% extends "base/generic_base.html" %}
+
+{% block body_classes %}{{ block.super }} f_base{% endblock %}
+
+{% block body %}
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="#page-top">
+          <img src="{% static "images/f_base/icon.png" %}" class="icon">
+          31 days <span class="light">of</span> bananas
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"><a href="#page-top"></a></li>
+
+          <li><a href="#about">About</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {% block content %}
+  <div class="container">
+    {% block container %}{% endblock %}
+  </div>
+  {% endblock %}
+{% endblock %}

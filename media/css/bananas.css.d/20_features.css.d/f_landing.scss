@@ -1,0 +1,66 @@
+.f_landing {
+  section {
+    padding: 100px 0;
+
+    @media (min-width: 767px) {
+      padding: 250px 0;
+    }
+  }
+
+  section#intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(missing.jpeg) no-repeat bottom center scroll;
+    background-color: #ffcc32;
+
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+
+    @media (min-width: 767px) {
+      padding: 0;
+      height: 100%;
+    }
+
+    .intro-body {
+      display: table-cell;
+      vertical-align: middle;
+
+      .brand-heading {
+        font-size: 40px;
+
+        @media (min-width: 767px) {
+          font-size: 100px;
+        }
+      }
+
+      .intro-text {
+        font-size: 18px;
+
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.34);
+
+        @media (min-width: 767px) {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+
+  section#about {
+  }
+
+  section#food {
+    background-color: #fff;
+
+    .row {
+      margin-bottom: 250px;
+    }
+  }
+}

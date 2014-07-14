@@ -1,0 +1,2299 @@
+commit a065578b1646d95b2f06b892ed51ca0a928de75c
+Merge: 292d489 f9d1291
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Mon Jun 2 18:16:32 2014 -0700
+
+    Merge pull request #217 from jory/flipped-flip
+    
+    Flipped flip
+
+commit f9d129128284e1c7cd42c57352cf86552ea67711
+Author: Jory Graham <jory.graham@gmail.com>
+Date:   Thu May 15 18:41:20 2014 -0400
+
+    Flipped flip. Fixes daneden/animate.css#214
+
+ animate.css              | 50 ++++++++++++++++++++++++------------------------
+ animate.min.css          |  2 +-
+ source/flippers/flip.css | 10 +++++-----
+ 3 files changed, 31 insertions(+), 31 deletions(-)
+
+commit 292d48904a6f3d083c34f7a8fabb267039004157
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Apr 25 18:20:45 2014 -0700
+
+    Correct slideInUp
+    
+    Fixes #208
+
+ animate.css                  | 6 ++++--
+ animate.min.css              | 2 +-
+ source/sliders/slideInUp.css | 3 ++-
+ 3 files changed, 7 insertions(+), 4 deletions(-)
+
+commit b40b961765b17d602f6338a0d74244fa5a94dc77
+Merge: 1d04010 e3a4313
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Apr 25 14:40:16 2014 -0700
+
+    Merge pull request #187 from ofagbemi/master
+    
+    Added zoom entrances and exits as per @ramatsu's request #186
+
+commit e3a4313c88998e7a7a44fa3c6f4fc898294e4aad
+Author: Jare Fagbemi <ofagbemi@stanford.edu>
+Date:   Fri Apr 25 14:36:18 2014 -0700
+
+    Adjusted zoomInUp and zoomInDown, re-added up/down zooms
+
+ animate-config.json                     |   8 +-
+ animate.css                             | 174 ++++++++++++++++++++++++++++++++
+ animate.min.css                         |   2 +-
+ source/zooming_entrances/zoomInDown.css |  17 ++++
+ source/zooming_entrances/zoomInUp.css   |  17 ++++
+ source/zooming_exits/zoomOutDown.css    |  17 ++++
+ source/zooming_exits/zoomOutUp.css      |  17 ++++
+ 7 files changed, 249 insertions(+), 3 deletions(-)
+
+commit 0e5aacd282d5b9d471e4807621297faa0cda4b31
+Author: Jare Fagbemi <ofagbemi@stanford.edu>
+Date:   Tue Apr 22 09:38:20 2014 -0700
+
+    Updated left and right animations
+
+ animate.css                              | 64 ++++++++++++++++++--------------
+ animate.min.css                          |  2 +-
+ source/zooming_entrances/zoomInLeft.css  |  5 ++-
+ source/zooming_entrances/zoomInRight.css |  5 ++-
+ source/zooming_exits/zoomOutLeft.css     |  2 +-
+ source/zooming_exits/zoomOutRight.css    |  2 +-
+ 6 files changed, 45 insertions(+), 35 deletions(-)
+
+commit acc81aff3f47ffc0c321cfa4e773549ce5e5e16d
+Author: Jare Fagbemi <ofagbemi@stanford.edu>
+Date:   Tue Apr 22 09:32:47 2014 -0700
+
+    Removed up and down zooms
+
+ animate-config.json                     |  10 +-
+ animate.css                             | 166 --------------------------------
+ animate.min.css                         |   2 +-
+ source/zooming_entrances/zoomInDown.css |  16 ---
+ source/zooming_entrances/zoomInUp.css   |  16 ---
+ source/zooming_exits/zoomOutDown.css    |  17 ----
+ source/zooming_exits/zoomOutUp.css      |  17 ----
+ 7 files changed, 4 insertions(+), 240 deletions(-)
+
+commit c643e45aeb211de9493ff641a4d0a00432707914
+Merge: 087c92f 1d04010
+Author: Jare Fagbemi <ofagbemi@stanford.edu>
+Date:   Tue Apr 22 09:19:59 2014 -0700
+
+    Fixed conflicts and merged
+
+commit 1d0401008b73494fcde9d606140625ac38753e5c
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Tue Apr 22 07:39:59 2014 -0700
+
+    Release 3.1.1
+    
+    Various bugfixes, minor additions
+
+ bower.json   | 2 +-
+ package.json | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 2265249ffe2d63b16025344b405282b0684e460c
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Apr 18 11:34:09 2014 -0700
+
+    Correct tag in package.json
+    
+    Closes #192
+
+ package.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f13b20bbfaebd2673927c6c46097829cc01fc9a8
+Merge: 14d441e 79e575a
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sun Apr 6 14:00:02 2014 -0700
+
+    Merge pull request #197 from taylorlapeyre/master
+    
+    Add message to deter unnecessary issues about .one()
+
+commit 79e575af1d72438872bb07cc6bca9bad7d93a8ba
+Author: Taylor Lapeyre <taylorlapeyre@gmail.com>
+Date:   Sun Apr 6 14:00:20 2014 -0500
+
+    add message to deter uncessary issues about one
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 14d441ed60226f659b76a565512bbb44cf404090
+Merge: d372431 a128680
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Apr 3 18:42:10 2014 -0700
+
+    Merge pull request #189 from brutaldesign/master
+    
+    Added slideInUp animation
+
+commit a128680883c5044b1af62436c607ab3312f81c05
+Author: Constantin Saguin <hello@brutaldesign.com>
+Date:   Sun Mar 30 22:59:53 2014 +0200
+
+    fixed slideInUp
+
+ animate.css                  | 20 ++++++++++----------
+ animate.min.css              |  2 +-
+ source/sliders/slideInUp.css |  4 ++--
+ 3 files changed, 13 insertions(+), 13 deletions(-)
+
+commit 2f77132db5808d28f1589b62a40a85b41aae46e7
+Author: Constantin <hello@csag.co>
+Date:   Sat Mar 29 14:02:48 2014 +0100
+
+    Added slideInUp animation
+
+ animate-config.json          |  1 +
+ animate.css                  | 33 +++++++++++++++++++++++++++++++++
+ animate.min.css              |  2 +-
+ source/sliders/slideInUp.css | 14 ++++++++++++++
+ 4 files changed, 49 insertions(+), 1 deletion(-)
+
+commit 087c92f510299b80598ad39da0babd1cea15e309
+Author: Jare Fagbemi <ofagbemi@stanford.edu>
+Date:   Tue Mar 25 16:49:51 2014 -0500
+
+    Added zoom entrances and exits as per @ramatsu's request # 186
+
+ animate-config.json                      |  16 ++
+ animate.css                              | 405 +++++++++++++++++++++++++++++++
+ animate.min.css                          |   2 +-
+ source/zooming_entrances/zoomIn.css      |  14 ++
+ source/zooming_entrances/zoomInDown.css  |  16 ++
+ source/zooming_entrances/zoomInLeft.css  |  16 ++
+ source/zooming_entrances/zoomInRight.css |  16 ++
+ source/zooming_entrances/zoomInUp.css    |  16 ++
+ source/zooming_exits/zoomOut.css         |  19 ++
+ source/zooming_exits/zoomOutDown.css     |  17 ++
+ source/zooming_exits/zoomOutLeft.css     |  17 ++
+ source/zooming_exits/zoomOutRight.css    |  17 ++
+ source/zooming_exits/zoomOutUp.css       |  17 ++
+ 13 files changed, 587 insertions(+), 1 deletion(-)
+
+commit d372431f5964ca88b8844b8de323dac39de97a32
+Merge: 701008f a1fc850
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Mar 21 10:24:16 2014 -0700
+
+    Merge pull request #185 from iamsteadman/master
+    
+    Added slideOutDown animation
+
+commit a1fc850ea2022d257fc19e43c30f11484019f140
+Author: Steadman <mark+github@steadman.io>
+Date:   Fri Mar 21 14:13:07 2014 +0000
+
+    Added slideOutDown animation
+
+ animate-config.json             |  3 ++-
+ animate.css                     | 38 ++++++++++++++++++++++++++++++++++++++
+ animate.min.css                 |  2 +-
+ source/sliders/slideOutDown.css | 14 ++++++++++++++
+ 4 files changed, 55 insertions(+), 2 deletions(-)
+
+commit 701008f7c715665ee97d096d417015bca308ae75
+Merge: d962a26 59e04a1
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Mar 19 09:35:43 2014 -0700
+
+    Merge pull request #181 from Contra/master
+    
+    Add infinite animation class
+
+commit 59e04a16fcceb06a53acb333ca008e9e063406f2
+Author: Contra <contra@maricopa.edu>
+Date:   Mon Mar 17 14:37:40 2014 -0600
+
+    infinite iteration sugar
+
+ source/_base.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit d962a263935f2edc7838beb3201c060d7f94300a
+Merge: 09338c7 7224a82
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Mar 7 09:51:12 2014 -0800
+
+    Merge pull request #173 from sarbbottam/master
+    
+    removed undesired function invocation parenthesis
+
+commit 7224a82654701892301f8d26e10121aa1c9c8b1d
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Fri Mar 7 23:10:08 2014 +0530
+
+    removed undesired function invocation parenthesis
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 09338c7304ad0e7acd211e4583803b2b7c15964c
+Merge: 53ac17b db8e990
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Mar 7 08:32:33 2014 -0800
+
+    Merge pull request #165 from sarbbottam/master
+    
+    Unified formatting and refactored Gruntfile.js
+
+commit 53ac17b2a8141fb26eec91a1fca21d9e1d2ccbde
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Tue Feb 25 07:48:53 2014 -0800
+
+    NOT A TYPO
+
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit db8e990dfc2c56df7a48022e1ec4b50dd7e33b14
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 04:25:37 2014 +0530
+
+    Refactored Gruntfile.js
+
+ Gruntfile.js | 75 ++++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 37 insertions(+), 38 deletions(-)
+
+commit 0bc05a75595c9466759ffa46d9363c982f0a4453
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 03:26:08 2014 +0530
+
+    converted all the tabs into spaces
+    
+    and fixed typo in the previous commit
+    at source/attention_seekers/swing.css
+
+ README.md                                       |  8 ++---
+ animate.css                                     |  4 +--
+ animate.min.css                                 |  2 +-
+ source/_base.css                                |  2 +-
+ source/attention_seekers/bounce.css             |  8 ++---
+ source/attention_seekers/flash.css              |  6 ++--
+ source/attention_seekers/pulse.css              |  4 +--
+ source/attention_seekers/rubberBand.css         | 12 +++----
+ source/attention_seekers/shake.css              |  8 ++---
+ source/attention_seekers/swing.css              | 16 ++++-----
+ source/attention_seekers/tada.css               | 10 +++---
+ source/attention_seekers/wobble.css             |  2 +-
+ source/bouncing_entrances/bounceIn.css          | 32 +++++++++---------
+ source/bouncing_entrances/bounceInDown.css      | 30 ++++++++---------
+ source/bouncing_entrances/bounceInLeft.css      | 30 ++++++++---------
+ source/bouncing_entrances/bounceInRight.css     | 30 ++++++++---------
+ source/bouncing_entrances/bounceInUp.css        | 30 ++++++++---------
+ source/bouncing_exits/bounceOut.css             | 30 ++++++++---------
+ source/bouncing_exits/bounceOutDown.css         | 24 +++++++-------
+ source/bouncing_exits/bounceOutLeft.css         | 24 +++++++-------
+ source/bouncing_exits/bounceOutRight.css        | 24 +++++++-------
+ source/bouncing_exits/bounceOutUp.css           | 24 +++++++-------
+ source/fading_entrances/fadeIn.css              |  6 ++--
+ source/fading_entrances/fadeInDown.css          | 18 +++++-----
+ source/fading_entrances/fadeInDownBig.css       | 18 +++++-----
+ source/fading_entrances/fadeInLeft.css          | 18 +++++-----
+ source/fading_entrances/fadeInLeftBig.css       | 18 +++++-----
+ source/fading_entrances/fadeInRight.css         | 18 +++++-----
+ source/fading_entrances/fadeInRightBig.css      | 18 +++++-----
+ source/fading_entrances/fadeInUp.css            | 18 +++++-----
+ source/fading_entrances/fadeInUpBig.css         | 18 +++++-----
+ source/fading_exits/fadeOut.css                 |  6 ++--
+ source/fading_exits/fadeOutDown.css             | 18 +++++-----
+ source/fading_exits/fadeOutDownBig.css          | 18 +++++-----
+ source/fading_exits/fadeOutLeft.css             | 18 +++++-----
+ source/fading_exits/fadeOutLeftBig.css          | 18 +++++-----
+ source/fading_exits/fadeOutRight.css            | 18 +++++-----
+ source/fading_exits/fadeOutRightBig.css         | 18 +++++-----
+ source/fading_exits/fadeOutUp.css               | 18 +++++-----
+ source/fading_exits/fadeOutUpBig.css            | 18 +++++-----
+ source/flippers/flip.css                        | 44 ++++++++++++-------------
+ source/flippers/flipInX.css                     |  4 +--
+ source/flippers/flipInY.css                     |  4 +--
+ source/flippers/flipOutX.css                    |  4 +--
+ source/flippers/flipOutY.css                    |  4 +--
+ source/lightspeed/lightSpeedIn.css              | 20 ++++++-----
+ source/lightspeed/lightSpeedOut.css             | 10 +++---
+ source/rotating_entrances/rotateIn.css          | 22 ++++++-------
+ source/rotating_entrances/rotateInDownLeft.css  | 22 ++++++-------
+ source/rotating_entrances/rotateInDownRight.css | 22 ++++++-------
+ source/rotating_entrances/rotateInUpLeft.css    | 22 ++++++-------
+ source/rotating_entrances/rotateInUpRight.css   | 22 ++++++-------
+ source/rotating_exits/rotateOut.css             | 22 ++++++-------
+ source/rotating_exits/rotateOutDownLeft.css     | 22 ++++++-------
+ source/rotating_exits/rotateOutDownRight.css    | 22 ++++++-------
+ source/rotating_exits/rotateOutUpLeft.css       | 22 ++++++-------
+ source/rotating_exits/rotateOutUpRight.css      | 22 ++++++-------
+ source/sliders/slideInDown.css                  | 16 ++++-----
+ source/sliders/slideInLeft.css                  | 16 ++++-----
+ source/sliders/slideInRight.css                 | 16 ++++-----
+ source/sliders/slideOutLeft.css                 | 16 ++++-----
+ source/sliders/slideOutRight.css                | 16 ++++-----
+ source/sliders/slideOutUp.css                   | 16 ++++-----
+ source/specials/hinge.css                       | 12 +++----
+ source/specials/rollIn.css                      |  6 ++--
+ source/specials/rollOut.css                     | 14 ++++----
+ 66 files changed, 552 insertions(+), 546 deletions(-)
+
+commit 9310cf98ed303004d77ff7abf3761e73194540d5
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 02:09:02 2014 +0530
+
+    Unified formatting across files
+    
+    indent_style = space
+    indent_size = 2
+    insert_final_newline = true
+    each line within { } to specify single rule
+
+ .gitignore                                      |  2 +-
+ animate-config.json                             |  2 +-
+ source/_base.css                                |  2 +-
+ source/attention_seekers/bounce.css             | 16 ++++++++---
+ source/attention_seekers/flash.css              | 11 +++++---
+ source/attention_seekers/pulse.css              | 16 ++++++++---
+ source/attention_seekers/rubberBand.css         | 24 +++++++++++++----
+ source/attention_seekers/shake.css              | 16 ++++++++---
+ source/attention_seekers/swing.css              | 26 +++++++++++++-----
+ source/attention_seekers/tada.css               | 26 +++++++++++++-----
+ source/attention_seekers/wobble.css             | 36 +++++++++++++++++++------
+ source/bouncing_entrances/bounceInDown.css      |  2 +-
+ source/bouncing_entrances/bounceInLeft.css      |  2 +-
+ source/bouncing_entrances/bounceInRight.css     |  2 +-
+ source/bouncing_entrances/bounceInUp.css        |  2 +-
+ source/bouncing_exits/bounceOut.css             |  2 +-
+ source/bouncing_exits/bounceOutDown.css         |  2 +-
+ source/bouncing_exits/bounceOutLeft.css         |  2 +-
+ source/bouncing_exits/bounceOutRight.css        |  2 +-
+ source/bouncing_exits/bounceOutUp.css           |  2 +-
+ source/fading_entrances/fadeIn.css              |  2 +-
+ source/fading_entrances/fadeInDown.css          |  2 +-
+ source/fading_entrances/fadeInDownBig.css       |  2 +-
+ source/fading_entrances/fadeInLeft.css          |  2 +-
+ source/fading_entrances/fadeInLeftBig.css       |  2 +-
+ source/fading_entrances/fadeInRight.css         |  2 +-
+ source/fading_entrances/fadeInRightBig.css      |  2 +-
+ source/fading_entrances/fadeInUp.css            |  2 +-
+ source/fading_entrances/fadeInUpBig.css         |  2 +-
+ source/fading_exits/fadeOut.css                 |  2 +-
+ source/fading_exits/fadeOutDown.css             |  2 +-
+ source/fading_exits/fadeOutDownBig.css          |  2 +-
+ source/fading_exits/fadeOutLeft.css             |  2 +-
+ source/fading_exits/fadeOutLeftBig.css          |  2 +-
+ source/fading_exits/fadeOutRight.css            |  2 +-
+ source/fading_exits/fadeOutRightBig.css         |  2 +-
+ source/fading_exits/fadeOutUp.css               |  2 +-
+ source/fading_exits/fadeOutUpBig.css            |  2 +-
+ source/flippers/flip.css                        |  4 +++
+ source/flippers/flipInX.css                     | 30 ++++++++++-----------
+ source/flippers/flipInY.css                     | 30 ++++++++++-----------
+ source/flippers/flipOutX.css                    | 19 ++++++-------
+ source/flippers/flipOutY.css                    | 19 ++++++-------
+ source/lightspeed/lightSpeedIn.css              | 25 ++++++++++++-----
+ source/lightspeed/lightSpeedOut.css             | 16 ++++++-----
+ source/rotating_entrances/rotateIn.css          |  2 +-
+ source/rotating_entrances/rotateInDownLeft.css  |  2 +-
+ source/rotating_entrances/rotateInDownRight.css |  2 +-
+ source/rotating_entrances/rotateInUpLeft.css    |  2 +-
+ source/rotating_entrances/rotateInUpRight.css   |  2 +-
+ source/rotating_exits/rotateOut.css             |  2 +-
+ source/rotating_exits/rotateOutDownLeft.css     |  2 +-
+ source/rotating_exits/rotateOutDownRight.css    |  2 +-
+ source/rotating_exits/rotateOutUpRight.css      |  2 +-
+ source/sliders/slideInDown.css                  |  2 +-
+ source/sliders/slideInLeft.css                  |  2 +-
+ source/sliders/slideInRight.css                 |  2 +-
+ source/sliders/slideOutLeft.css                 |  2 +-
+ source/sliders/slideOutRight.css                |  2 +-
+ source/sliders/slideOutUp.css                   |  2 +-
+ source/specials/hinge.css                       | 36 ++++++++++++++++++++-----
+ source/specials/rollIn.css                      | 13 ++++++---
+ source/specials/rollOut.css                     |  6 ++---
+ 63 files changed, 301 insertions(+), 158 deletions(-)
+
+commit 8897f6e799ac4aca36ee7977c4ece73682f6f246
+Merge: 0dbda0e 662a8eb
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sun Feb 23 11:48:07 2014 -0800
+
+    Merge pull request #163 from sarbbottam/master
+    
+    Use load-grunt-tasks, cleaned up devDependencies & added .editorconfig
+
+commit 662a8ebde5390cedb68b2e9ba84e7bd5dc94ec6b
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 00:59:40 2014 +0530
+
+    Added .editorconfig
+
+ .editorconfig | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 973f191537e6d7f773353a0065eebc15a8db40a3
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 00:57:23 2014 +0530
+
+    Deleted unused devDependencies from package.json
+
+ package.json | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 2b3de01f5cfbc0bdedd032bd797b4aa6a4f1fac0
+Author: Sarbbottam Bandyopadhyay <sarbbottam@gmail.com>
+Date:   Mon Feb 24 00:53:52 2014 +0530
+
+    Use load-grunt-tasks
+    
+    to avoid multiple grunt.loadNpmTasks(plugin) statements
+
+ Gruntfile.js    |  9 ++++----
+ animate.css     | 67 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ animate.min.css | 13 ++++++++++-
+ package.json    |  3 ++-
+ 4 files changed, 84 insertions(+), 8 deletions(-)
+
+commit 0dbda0efac5cb79de91d4bd031c187076e01c23b
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sun Feb 23 11:11:43 2014 -0800
+
+    Switch csso out for cssmin, remove preceding period from config, update bower.json
+
+ .animate-config.json | 98 ----------------------------------------------------
+ Gruntfile.js         | 22 ++++++------
+ README.md            |  2 +-
+ animate-config.json  | 98 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ bower.json           |  2 +-
+ package.json         |  3 +-
+ 6 files changed, 112 insertions(+), 113 deletions(-)
+
+commit d32b3c5df99ac3448aea8f899f44f0923665a374
+Merge: f5ed338 53f7cc8
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Feb 14 12:44:41 2014 -0800
+
+    Merge pull request #154 from mrwillis21/rubberBand
+    
+    Add “rubber band” animation.
+
+commit 53f7cc8e96f00666dbc1cb93e1bd17fe87f1d6b3
+Author: Matt Willis <contact@mrwillis.net>
+Date:   Thu Feb 13 16:04:59 2014 -0500
+
+    Adding rubber band animation.
+
+ .animate-config.json                    |  1 +
+ source/attention_seekers/rubberBand.css | 11 +++++++++++
+ 2 files changed, 12 insertions(+)
+
+commit f5ed338a584995b1b44172d5efa18f87e62c0ef9
+Merge: f59567e 85e0ee2
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sun Feb 9 17:22:47 2014 +0000
+
+    Merge pull request #151 from nicksahler/patch-1
+    
+    Fixed bounceIn opacity bug in Chrome
+
+commit 85e0ee212ba1cb37903296543f0dd01a84a1eefb
+Author: Nick Sahler <nick@sahler.co>
+Date:   Sat Feb 8 09:08:18 2014 -0500
+
+    Fixed bug in Chrome
+    
+    Fixed bug in Chrome where opacity is reverted back after 50%. (If I set an object to have 0 opacity then play the animation/apply the class, the object disappears when it is complete). This does not change the animation but prevents the bug from happening.
+
+ source/bouncing_entrances/bounceIn.css | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit f59567e4c7b07128dd4a130afd73fcb8b93cb337
+Merge: 3a84d6c 7a5732f
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Tue Feb 4 01:43:19 2014 -0800
+
+    Merge pull request #148 from IonicaBizau/patch-1
+    
+    sh code highlighing
+
+commit 7a5732f3c828dc080eae004efdb0c6dbfa590c2d
+Author: Ionică Bizău <bizauionica@yahoo.com>
+Date:   Tue Feb 4 09:51:08 2014 +0200
+
+    sh code highlighing
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 3a84d6c99ca58c827ba2613fb456a3eb5a2778a2
+Merge: 81815e2 ddfed81
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Jan 31 06:45:20 2014 -0800
+
+    Merge pull request #141 from hnrch02/json-config
+    
+    Added the .json extension to .animate-config
+
+commit 81815e25f5b623fb337abb54fae55ef51a654a08
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Jan 31 13:45:11 2014 +0000
+
+    Fix #127 on the right branch, dummy.
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ddfed810b2173986e4fafc77c01cdd22b4994297
+Author: Heinrich Fenkart <hnrch02@gmail.com>
+Date:   Wed Dec 25 17:51:08 2013 +0100
+
+    Added the .json extension to .animate-config
+    
+    For the sake of syntax highlighting, as the content of .animate-config is valid JSON.
+
+ .animate-config      | 97 ----------------------------------------------------
+ .animate-config.json | 97 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ Gruntfile.js         |  4 +--
+ README.md            |  2 +-
+ 4 files changed, 100 insertions(+), 100 deletions(-)
+
+commit bb2c830e0817449cccde36a4caf0daeb23ceafa9
+Merge: aef66f5 891005c
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Dec 6 12:32:54 2013 -0800
+
+    Merge pull request #133 from RadLikeWhoa/master
+    
+    Fix indentation in config file
+
+commit 891005cbdbd43e7d0dfa87f699659138d5f3dce1
+Author: Sacha Schmid <schmid.sacha@gmail.com>
+Date:   Thu Dec 5 09:29:14 2013 +0100
+
+    Fix indentation in config file
+    
+    A mix of tabs and spaces was used, now the config file is indented using spaces only.
+
+ .animate-config | 110 ++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 55 insertions(+), 55 deletions(-)
+
+commit aef66f57520470f5d47c90da902499403b95c95e
+Merge: b98a8d8 be0889d
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Nov 28 20:07:13 2013 -0800
+
+    Merge pull request #125 from jeffxmn/master
+    
+    Fix rotateOutUpLeft
+
+commit be0889da22f1bdbb8c718bc29d7ef0bee00bd337
+Author: Jeff Martin <jeff.mrtin@gmail.com>
+Date:   Thu Nov 28 17:35:01 2013 -0500
+
+    Fix rotateOutUpLeft
+    
+    Caught this in my diff file after working on an additional animation I
+    want to contribute (coming soon!). Grunt builded and this section
+    changed, to my surprise. After further testing, I found out
+    *rotateOutUpLeft* was broken, even on the animate.css site. Checking in
+    here as a potential fix.
+    
+    Bug and fix tested on Chrome and Safari on OS X.
+
+ animate.css     | 14 ++++++++++----
+ animate.min.css |  2 +-
+ 2 files changed, 11 insertions(+), 5 deletions(-)
+
+commit b98a8d8b6c385cc5bcabbbcb62e85f1c8e244a45
+Merge: 3829778 35d920d
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Mon Nov 25 18:54:40 2013 -0800
+
+    Merge pull request #120 from tomByrer/patch-1
+    
+    fix rotateOutUpLeft.css
+
+commit 35d920dfc0f8f7183e07f6704812abf63bb532bf
+Author: tomByrer <tomByrer@gmail.com>
+Date:   Sun Nov 24 21:02:24 2013 -0700
+
+    fix rotateOutUpLeft.css
+    
+    two too many -
+    :)
+
+ source/rotating_exits/rotateOutUpLeft.css | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 38297780019c916da14bf058b26a9f8f84636c06
+Merge: f7418f2 dff710e
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sat Nov 23 13:49:42 2013 -0800
+
+    Merge branch 'v3'
+    
+    Conflicts:
+    	bower.json
+
+commit dff710e9b36b49fde83c5e7acb739e841bdf13c1
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sat Nov 23 13:47:23 2013 -0800
+
+    Update Readme with extra jQuery info, build info
+
+ README.md | 32 ++++++++++++++++++--------------
+ 1 file changed, 18 insertions(+), 14 deletions(-)
+
+commit 79c9fb741bb5e3667ceebf00375f24de09a6e3d8
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sat Nov 23 13:24:22 2013 -0800
+
+    Implement @RadLikeWhoa’s build script
+
+ .animate-config          |  97 +++++++++++++++++++++++
+ Gruntfile.js             |  31 +++++++-
+ animate.css              | 196 +++++++++++++++++++++++++++++++++++++++++++++--
+ animate.min.css          |   2 +-
+ source/_base.css         |   4 -
+ source/flippers/flip.css |   2 +-
+ 6 files changed, 315 insertions(+), 17 deletions(-)
+
+commit 25448e347cb27e2d0b5ac52ad6f218ff53a1c35f
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Mon Nov 11 15:32:40 2013 -0800
+
+    Big update. Better file organisation, prefix dropping, workflow improvements.
+
+ .gitignore                                      |    3 +
+ Gruntfile.js                                    |   58 +
+ README.md                                       |  117 +-
+ animate.css                                     | 4980 +++++++++--------------
+ animate.min.css                                 |    2 +-
+ bower.json                                      |    2 +-
+ package.json                                    |   12 +
+ source/_base.css                                |   26 +
+ source/attention_seekers/bounce.css             |    9 +
+ source/attention_seekers/flash.css              |    8 +
+ source/attention_seekers/pulse.css              |   11 +
+ source/attention_seekers/shake.css              |    9 +
+ source/attention_seekers/swing.css              |   12 +
+ source/attention_seekers/tada.css               |   11 +
+ source/attention_seekers/wobble.css             |   15 +
+ source/bounce.css                               |   29 -
+ source/bounceIn.css                             |   86 -
+ source/bounceInDown.css                         |   86 -
+ source/bounceInLeft.css                         |   86 -
+ source/bounceInRight.css                        |   86 -
+ source/bounceInUp.css                           |   85 -
+ source/bounceOut.css                            |   86 -
+ source/bounceOutDown.css                        |   70 -
+ source/bounceOutLeft.css                        |   70 -
+ source/bounceOutRight.css                       |   70 -
+ source/bounceOutUp.css                          |   70 -
+ source/bouncing_entrances/bounceIn.css          |   23 +
+ source/bouncing_entrances/bounceInDown.css      |   23 +
+ source/bouncing_entrances/bounceInLeft.css      |   23 +
+ source/bouncing_entrances/bounceInRight.css     |   23 +
+ source/bouncing_entrances/bounceInUp.css        |   23 +
+ source/bouncing_exits/bounceOut.css             |   23 +
+ source/bouncing_exits/bounceOutDown.css         |   19 +
+ source/bouncing_exits/bounceOutLeft.css         |   19 +
+ source/bouncing_exits/bounceOutRight.css        |   19 +
+ source/bouncing_exits/bounceOutUp.css           |   19 +
+ source/fadeIn.css                               |   26 -
+ source/fadeInDown.css                           |   54 -
+ source/fadeInDownBig.css                        |   54 -
+ source/fadeInLeft.css                           |   54 -
+ source/fadeInLeftBig.css                        |   51 -
+ source/fadeInRight.css                          |   54 -
+ source/fadeInRightBig.css                       |   54 -
+ source/fadeInUp.css                             |   54 -
+ source/fadeInUpBig.css                          |   54 -
+ source/fadeOut.css                              |   26 -
+ source/fadeOutDown.css                          |   54 -
+ source/fadeOutDownBig.css                       |   54 -
+ source/fadeOutLeft.css                          |   54 -
+ source/fadeOutLeftBig.css                       |   54 -
+ source/fadeOutRight.css                         |   54 -
+ source/fadeOutRightBig.css                      |   51 -
+ source/fadeOutUp.css                            |   51 -
+ source/fadeOutUpBig.css                         |   54 -
+ source/fading_entrances/fadeIn.css              |    8 +
+ source/fading_entrances/fadeInDown.css          |   15 +
+ source/fading_entrances/fadeInDownBig.css       |   15 +
+ source/fading_entrances/fadeInLeft.css          |   15 +
+ source/fading_entrances/fadeInLeftBig.css       |   15 +
+ source/fading_entrances/fadeInRight.css         |   15 +
+ source/fading_entrances/fadeInRightBig.css      |   15 +
+ source/fading_entrances/fadeInUp.css            |   15 +
+ source/fading_entrances/fadeInUpBig.css         |   15 +
+ source/fading_exits/fadeOut.css                 |    8 +
+ source/fading_exits/fadeOutDown.css             |   15 +
+ source/fading_exits/fadeOutDownBig.css          |   15 +
+ source/fading_exits/fadeOutLeft.css             |   15 +
+ source/fading_exits/fadeOutLeftBig.css          |   15 +
+ source/fading_exits/fadeOutRight.css            |   15 +
+ source/fading_exits/fadeOutRightBig.css         |   15 +
+ source/fading_exits/fadeOutUp.css               |   15 +
+ source/fading_exits/fadeOutUpBig.css            |   15 +
+ source/flash.css                                |   26 -
+ source/flip.css                                 |   99 -
+ source/flipInX.css                              |   87 -
+ source/flipInY.css                              |   87 -
+ source/flipOutX.css                             |   54 -
+ source/flipOutY.css                             |   51 -
+ source/flippers/flip.css                        |   27 +
+ source/flippers/flipInX.css                     |   24 +
+ source/flippers/flipInY.css                     |   24 +
+ source/flippers/flipOutX.css                    |   15 +
+ source/flippers/flipOutY.css                    |   15 +
+ source/hinge.css                                |   38 -
+ source/lightSpeedIn.css                         |   39 -
+ source/lightSpeedOut.css                        |   31 -
+ source/lightspeed/lightSpeedIn.css              |   11 +
+ source/lightspeed/lightSpeedOut.css             |   10 +
+ source/pulse.css                                |   29 -
+ source/rollIn.css                               |   28 -
+ source/rollOut.css                              |   56 -
+ source/rotateIn.css                             |   59 -
+ source/rotateInDownLeft.css                     |   62 -
+ source/rotateInDownRight.css                    |   62 -
+ source/rotateInUpLeft.css                       |   62 -
+ source/rotateInUpRight.css                      |   62 -
+ source/rotateOut.css                            |   62 -
+ source/rotateOutDownLeft.css                    |   62 -
+ source/rotateOutDownRight.css                   |   62 -
+ source/rotateOutUpLeft.css                      |   62 -
+ source/rotateOutUpRight.css                     |   62 -
+ source/rotating_entrances/rotateIn.css          |   17 +
+ source/rotating_entrances/rotateInDownLeft.css  |   17 +
+ source/rotating_entrances/rotateInDownRight.css |   17 +
+ source/rotating_entrances/rotateInUpLeft.css    |   17 +
+ source/rotating_entrances/rotateInUpRight.css   |   17 +
+ source/rotating_exits/rotateOut.css             |   17 +
+ source/rotating_exits/rotateOutDownLeft.css     |   17 +
+ source/rotating_exits/rotateOutDownRight.css    |   17 +
+ source/rotating_exits/rotateOutUpLeft.css       |   17 +
+ source/rotating_exits/rotateOutUpRight.css      |   17 +
+ source/shake.css                                |   30 -
+ source/slideInDown.css                          |   50 -
+ source/slideInLeft.css                          |   50 -
+ source/slideInRight.css                         |   50 -
+ source/slideOutLeft.css                         |   50 -
+ source/slideOutRight.css                        |   50 -
+ source/slideOutUp.css                           |   50 -
+ source/sliders/slideInDown.css                  |   14 +
+ source/sliders/slideInLeft.css                  |   14 +
+ source/sliders/slideInRight.css                 |   14 +
+ source/sliders/slideOutLeft.css                 |   14 +
+ source/sliders/slideOutRight.css                |   14 +
+ source/sliders/slideOutUp.css                   |   14 +
+ source/specials/hinge.css                       |   11 +
+ source/specials/rollIn.css                      |   10 +
+ source/specials/rollOut.css                     |   17 +
+ source/swing.css                                |   43 -
+ source/tada.css                                 |   38 -
+ source/wobble.css                               |   48 -
+ 130 files changed, 3117 insertions(+), 6478 deletions(-)
+
+commit f7418f2a1cc76f2c19a2e55bf1997589ac33074e
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Nov 8 17:00:43 2013 -0800
+
+    Update bower.json to reflect new tag
+
+ bower.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 23ba4fe9c1838f9b43ebccc78cb37c5402bb132a
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Sep 11 23:03:32 2013 +0100
+
+    Add Slide animations to main and minified css files
+
+ animate.css     | 306 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ animate.min.css |   2 +-
+ bower.json      |   2 +-
+ 3 files changed, 308 insertions(+), 2 deletions(-)
+
+commit f0461189bf64937c950e8c35b138d52e16ff952c
+Merge: cf746ee 8203ee1
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Sep 11 14:57:18 2013 -0700
+
+    Merge pull request #103 from loganbfisher/add_slide_animations
+    
+    Added slide animations to the source.  Good for using with mobile navigational menus.
+
+commit cf746eecc5f41f6deb1b8d31fe9a5646b0d5f75b
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Sep 11 20:57:16 2013 +0100
+
+    Update readme with contribution guidelines.
+
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 8203ee16f6390874e8787f50cffddf64f9cd0d67
+Author: Logan Fisher <loganbfisher@gmail.com>
+Date:   Wed Sep 11 13:19:14 2013 -0500
+
+    deleting unused files
+
+ .idea/animate.css.iml           |  9 ---------
+ .idea/encodings.xml             |  5 -----
+ .idea/misc.xml                  | 22 ----------------------
+ .idea/modules.xml               |  9 ---------
+ .idea/scopes/scope_settings.xml |  5 -----
+ .idea/vcs.xml                   |  7 -------
+ 6 files changed, 57 deletions(-)
+
+commit 915f8f61325c4c126869a52784f2a5768858d082
+Author: Logan Fisher <loganbfisher@gmail.com>
+Date:   Wed Sep 11 13:13:15 2013 -0500
+
+    Added slide options to source.  Helpful for using with mobile navigational menus.
+
+ .idea/animate.css.iml           |  9 ++++++++
+ .idea/encodings.xml             |  5 +++++
+ .idea/misc.xml                  | 22 ++++++++++++++++++
+ .idea/modules.xml               |  9 ++++++++
+ .idea/scopes/scope_settings.xml |  5 +++++
+ .idea/vcs.xml                   |  7 ++++++
+ source/slideInDown.css          | 50 +++++++++++++++++++++++++++++++++++++++++
+ source/slideInLeft.css          | 50 +++++++++++++++++++++++++++++++++++++++++
+ source/slideInRight.css         | 50 +++++++++++++++++++++++++++++++++++++++++
+ source/slideOutLeft.css         | 50 +++++++++++++++++++++++++++++++++++++++++
+ source/slideOutRight.css        | 50 +++++++++++++++++++++++++++++++++++++++++
+ source/slideOutUp.css           | 50 +++++++++++++++++++++++++++++++++++++++++
+ 12 files changed, 357 insertions(+)
+
+commit 6c6912da12db3b5011c60cb54327c5b1dfcd42d7
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 22 21:52:45 2013 +0100
+
+    Remove wiggle from readme. Resolves #101
+
+ README.md | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 69085bb358dbce28189ec17d4e6bdaacd4309679
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Fri Aug 16 15:39:22 2013 +0100
+
+    Update bower.json to reflect tag version
+
+ bower.json | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 98a17f2adbe06c2a9c7cb6d3cd41595359331747
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 22:38:14 2013 +0100
+
+    Delete wiggle.css
+
+ source/wiggle.css | 67 -------------------------------------------------------
+ 1 file changed, 67 deletions(-)
+
+commit ce4bd8c984a0b6091cd206f541f36271b14ee79b
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 22:37:56 2013 +0100
+
+    Update animate.min.css
+
+ animate.min.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 96b8c915fdc0eea069ea7d6e296482500ad9a899
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 22:37:36 2013 +0100
+
+    Remove "wiggle"
+    
+    Sorry to say, "wiggle" never really passed quality control for me.
+
+ animate.css | 637 ++++++++++++++++++++++++++----------------------------------
+ 1 file changed, 280 insertions(+), 357 deletions(-)
+
+commit 6f860d9aa33938e07a672d43d41799ae6c0c8a5b
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 22:29:40 2013 +0100
+
+    Update flip.css
+
+ source/flip.css | 40 ++++++++++++++++++----------------------
+ 1 file changed, 18 insertions(+), 22 deletions(-)
+
+commit ddca902f92a8cfdf395210cc03f76fb325063185
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 22:28:32 2013 +0100
+
+    Update animate.min.css
+
+ animate.min.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 84823516659a787f8fb972982f4097b601cc690e
+Merge: f467a46 baff813
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Thu Aug 15 14:11:43 2013 -0700
+
+    Merge pull request #95 from gpetrov/master
+    
+    Fixed Flip in latest Chrome, FF and IE
+
+commit baff813261ce030b96d6e689c6ddee1fd585de9d
+Author: George Petrov <george@dmxzone.com>
+Date:   Thu Aug 15 13:15:32 2013 +0200
+
+    Fixed Flip in latest Chrome, FF and IE
+    
+    Fixed the Flip gliches in Chrome, but also improved it for the latest FF
+    and IE
+    
+    Issue #80 is solved
+
+ animate.css | 32 ++++++++++++++++----------------
+ 1 file changed, 16 insertions(+), 16 deletions(-)
+
+commit f467a4609474a8c470abb872761fccc54176d712
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Mon Aug 12 14:41:26 2013 +0100
+
+    Safely minify Animate.css
+    
+    The previous minification stripped the % signs from the initial keyframes. Sorry this went unnoticed for so long. All should be working now.
+
+ animate.min.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 686cebf30ed60433ee4ed0b32535a1b5d46bd95d
+Merge: 6f024eb 34720a5
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sat Jul 20 11:51:45 2013 -0700
+
+    Merge pull request #87 from ilovecoffee/master
+    
+    Add bower.json file to make the plugin bower compatible
+
+commit 6f024eb1d72f0dd84cb495ab35e4f4b49b26f441
+Merge: 8429a2d a4f7538
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Sat Jul 20 11:51:32 2013 -0700
+
+    Merge pull request #88 from mintbird/master
+    
+    Fix: animation started even no animated class
+
+commit a4f75386268d8a61b0a24edbc8b20cc64f68861b
+Author: mintbird <chettapong@hotmail.com>
+Date:   Sat Jul 20 18:01:43 2013 +0700
+
+    Fix: animation started even no animated class
+    
+    On Firefox, even if there is no '.animated' class the animation is still
+    started.
+
+ animate.css     | 112 ++++++++++++++++++++++++++++----------------------------
+ animate.min.css |   2 +-
+ 2 files changed, 57 insertions(+), 57 deletions(-)
+
+commit 34720a58a82d95c18bac764f8bedf77b2b89118d
+Author: ankurx <ankurx@gmail.com>
+Date:   Fri Jul 19 14:51:11 2013 -0400
+
+    Add bower.json file to make the plugin bower compatible
+
+ bower.json | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 8429a2d0d7b88200f000986c0f6b02522ba4a4a4
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Apr 9 11:46:55 2013 +0100
+
+    Update source file for fadeInDown
+
+ source/fadeInDown.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit a6ee6387151c4a8b9cf2909de9cb20797e4836c3
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Mar 12 13:00:35 2013 +0000
+
+    Update license to MIT
+    
+    I need a lawyer to explain all this stuff to me. Got a couple of emails
+    saying MIT would be better for their needs. Following blindly. Sorry
+    for all the changes.
+
+ README.md   | 2 +-
+ animate.css | 4 ++--
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 612770cb13b99686b323dca74bbbbc964ff03c5a
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Mar 6 17:40:20 2013 +0000
+
+    I have no idea what just happened
+    
+    I blame the github.com code editor.
+
+ animate.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 87044358031421ca0aa0a8fbd700ce6cd9641c56
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Mar 6 17:39:30 2013 +0000
+
+    Update license
+    
+    GPL is more "lawyery"
+
+ animate.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit df1227b8182c930f9a93dc4f1d38a5b371af85df
+Author: Daniel Eden <dan.eden@me.com>
+Date:   Wed Mar 6 17:34:20 2013 +0000
+
+    Update license in Readme
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0468b1eac43b525aa3dce8b513ebd80c63f4da16
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Jan 7 16:45:57 2013 +0000
+
+    Add Ruby gem link as discussed in #56
+    
+    Should add more resources to this section; perhaps even a wiki?
+
+ README.md | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit bf156e38a3b4a6e5e2889c601416b1fd9ab0fc6b
+Merge: 2bdc04f 30f4836
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Oct 23 04:54:26 2012 -0700
+
+    Merge pull request #52 from tzi/master
+    
+    BugFix on rotateOutUpLeft keyframes without vendor prefix
+
+commit 30f4836856fa9c4e0ac93d1ea3301e337e9e2e17
+Author: Thomas ZILLIOX <thomas@zilliox.me>
+Date:   Sun Oct 21 22:08:38 2012 +0300
+
+    BugFix on rotateOutUpLeft keyframes without vendor prefix
+
+ animate.min.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 305ed52cdacb6e278185e403b87103f328cca7a8
+Author: Thomas ZILLIOX <thomas@zilliox.me>
+Date:   Sun Oct 21 22:02:00 2012 +0300
+
+    BugFix on rotateOutUpLeft keyframes without vendor prefix
+
+ animate.css | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 2bdc04f58f6c4464cefd8884e0f44013448841b3
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Oct 2 18:43:43 2012 +0100
+
+    Update minified file
+
+ animate.min.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ebb8a1472a7bab066ad6148bb60594bec5f0159d
+Merge: 64b2505 9423240
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Oct 2 10:25:13 2012 -0700
+
+    Merge pull request #40 from jeremyricketts/master
+    
+    Address Chrome text rendering issue
+
+commit 64b2505da4197e1ebdca0e2c56613007c04493eb
+Merge: 38bc201 ccd68d7
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Oct 2 09:57:12 2012 -0700
+
+    Merge pull request #51 from danrodney/mountain-lion-safari-fix
+    
+    Add note about Safari 6 bug
+
+commit 38bc201276be43b6c8fc370aaf9800874d1337f4
+Merge: 9e26fd7 cdc8880
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Oct 2 09:53:54 2012 -0700
+
+    Merge pull request #49 from aziz/master
+    
+    Change Readme syntax highlighting to javascript
+
+commit ccd68d735f59a84d37f9b9c629df1170d615ad67
+Author: Dan Rodney <dan@danrodney.com>
+Date:   Fri Sep 14 14:22:11 2012 -0400
+
+    Fix formatting
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7a91caa3b259c7501cb2107ad2a4a420966d31d6
+Author: Dan Rodney <dan@danrodney.com>
+Date:   Fri Sep 14 14:18:10 2012 -0400
+
+    Add note for Mountain Lion Safari bug fix in Readme
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit cdc888022ba08f169ea49631709bfec12ecc3d9f
+Author: Allen Bargi <allen.bargi@gmail.com>
+Date:   Thu Sep 13 21:23:26 2012 +0300
+
+    changes syntax highlighting code to javascript
+    
+    jquery is not detected in syntax highlighting
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 9e26fd7eb38c3d7b1476b2a72120995f70db7cfc
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Sep 13 17:43:41 2012 +0200
+
+    Update syntax highlighting for Readme
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 9423240c924b14423bcb4d7536f21089345f3c6d
+Author: Jeremy Ricketts <email@jeremyricketts.com>
+Date:   Sat Jul 21 10:01:08 2012 -0700
+
+    Closes #39. Note this does NOT include a replacement for animate.min.css. I was not sure which minifier you use and didn't want to mess it up.
+
+ animate.css | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit cb62ae3f3e32eb1837f84c6457f2c654f2177ece
+Merge: 10f7938 59e3a55
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Jul 20 05:01:39 2012 -0700
+
+    Merge pull request #38 from jeremyricketts/master
+    
+    Cheat sheet added
+
+commit 59e3a5535808d8176ec7dddb3a77a7204612c49f
+Author: Jeremy Ricketts <email@jeremyricketts.com>
+Date:   Thu Jul 19 23:57:12 2012 -0700
+
+    Added a cheat sheet to the readme. Kinda silly but I found it useful. At least it's easy to copy/paste this to wherever the user wants it.
+
+ README.md | 80 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 79 insertions(+), 1 deletion(-)
+
+commit 10f793875a9220552604d03482c549fb62126a99
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Jul 9 12:21:34 2012 +0100
+
+    Update the license
+
+ animate.css | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 40f10344051ae7b23248646881ccd94b118b3655
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Jul 9 12:02:13 2012 +0100
+
+    Rename bounceOutDown
+
+ source/bounceOutDown.css | 70 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 70 insertions(+)
+
+commit b3fae9fe00ead1795e898bb6d9aef3768d5d162d
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Jul 9 12:01:50 2012 +0100
+
+    Remove -ms- prefixes
+    
+    Since IE10 dropped the animation, transform, and transition prefixes,
+    and no stable release was made with them, we can safely drop the
+    prefixes, too. Cutting a good 20% off the file sizes!
+
+ animate.css                   | 778 +-----------------------------------------
+ animate.min.css               |   2 +-
+ source/bounce.css             |   7 -
+ source/bounceIn.css           |  21 --
+ source/bounceInDown.css       |  21 --
+ source/bounceInLeft.css       |  21 --
+ source/bounceInRight.css      |  21 --
+ source/bounceInUp.css         |  20 --
+ source/bounceOut.css          |  21 --
+ source/bounceOutLeft.css      |  17 -
+ source/bounceOutRight.css     |  17 -
+ source/bounceOutUp.css        |  17 -
+ source/bounceOutdown.css      |  87 -----
+ source/fadeIn.css             |   6 -
+ source/fadeInDown.css         |  13 -
+ source/fadeInDownBig.css      |  13 -
+ source/fadeInLeft.css         |  13 -
+ source/fadeInLeftBig.css      |  12 -
+ source/fadeInRight.css        |  13 -
+ source/fadeInRightBig.css     |  13 -
+ source/fadeInUp.css           |  13 -
+ source/fadeInUpBig.css        |  13 -
+ source/fadeOut.css            |   6 -
+ source/fadeOutDown.css        |  13 -
+ source/fadeOutDownBig.css     |  13 -
+ source/fadeOutLeft.css        |  13 -
+ source/fadeOutLeftBig.css     |  13 -
+ source/fadeOutRight.css       |  13 -
+ source/fadeOutRightBig.css    |  12 -
+ source/fadeOutUp.css          |  12 -
+ source/fadeOutUpBig.css       |  13 -
+ source/flash.css              |   6 -
+ source/flip.css               |  25 --
+ source/flipInX.css            |  21 --
+ source/flipInY.css            |  21 --
+ source/flipOutX.css           |  13 -
+ source/flipOutY.css           |  12 -
+ source/hinge.css              |   9 -
+ source/lightSpeedIn.css       |   9 -
+ source/lightSpeedOut.css      |   7 -
+ source/pulse.css              |   6 -
+ source/rollIn.css             |   6 -
+ source/rollOut.css            |  13 -
+ source/rotateIn.css           |  14 -
+ source/rotateInDownLeft.css   |  15 -
+ source/rotateInDownRight.css  |  15 -
+ source/rotateInUpLeft.css     |  15 -
+ source/rotateInUpRight.css    |  15 -
+ source/rotateOut.css          |  15 -
+ source/rotateOutDownLeft.css  |  15 -
+ source/rotateOutDownRight.css |  15 -
+ source/rotateOutUpLeft.css    |  15 -
+ source/rotateOutUpRight.css   |  15 -
+ source/shake.css              |   7 -
+ source/swing.css              |  10 -
+ source/tada.css               |   9 -
+ source/wiggle.css             |  16 -
+ source/wobble.css             |  11 -
+ 58 files changed, 4 insertions(+), 1613 deletions(-)
+
+commit 13e1439055acaa2f7accb8d8aeb7adf27c1edf94
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Jun 11 14:49:35 2012 +0100
+
+    Add minified version - resolves #32
+
+ animate.min.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 5c1cfb260fc0ea43421efe6effdb5d75819d54cb
+Merge: be2e0d6 a7f45ca
+Author: Dan Eden <dan.eden@me.com>
+Date:   Sat May 19 06:40:28 2012 -0700
+
+    Merge pull request #29 from angelorohit/master
+    
+    Added new animations lightSpeedIn, lightSpeedOut, wiggle
+
+commit be2e0d66435b1c9563495b6cff53a475beab1e3d
+Merge: eb1ff9f db00a36
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri May 18 19:06:54 2012 -0700
+
+    Merge pull request #28 from elstgav/master
+    
+    Added missing Opera keyframes to BounceOutDown
+
+commit db00a368ba84359cd96e70ec4ecdb7ccbc658627
+Author: Gavin Elster <gbe@uw.edu>
+Date:   Fri May 18 15:43:58 2012 -0700
+
+    Added Missing Opera Animation
+    
+    bounceOutDown was missing Opera keyframes
+
+ animate.css | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit a7f45ca7bd1acbf281c896782c850094b95fa750
+Author: angelorohit <angelorohit@gmail.com>
+Date:   Sat May 12 17:25:49 2012 +0800
+
+    MODIFIED: Renamed vibrate to wiggle
+    
+    Signed-off-by: angelorohit <angelorohit@gmail.com>
+
+ animate.css        | 34 +++++++++++-----------
+ source/vibrate.css | 83 ------------------------------------------------------
+ source/wiggle.css  | 83 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 100 insertions(+), 100 deletions(-)
+
+commit 2984b7c050547a67670cbd1affaeaedb1b856ceb
+Author: angelorohit <angelorohit@gmail.com>
+Date:   Thu May 10 23:14:08 2012 +0800
+
+    ADDED: vibrate animation.
+    
+    Signed-off-by: angelorohit <angelorohit@gmail.com>
+
+ animate.css        | 96 +++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ source/vibrate.css | 83 ++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 178 insertions(+), 1 deletion(-)
+
+commit fe9fdb7958782862755722045b1c8d5e26b2c1f9
+Author: angelorohit <angelorohit@gmail.com>
+Date:   Thu May 10 22:00:56 2012 +0800
+
+    ADDED: lightSpeedIn and lightSpeedOut animations.
+    
+    Signed-off-by: angelorohit <angelorohit@gmail.com>
+
+ animate.css              | 108 +++++++++++++++++++++++++++++++++++++++++++++++
+ source/lightSpeedIn.css  |  48 +++++++++++++++++++++
+ source/lightSpeedOut.css |  38 +++++++++++++++++
+ 3 files changed, 194 insertions(+)
+
+commit eb1ff9f94dfe61cb8fc144639e6d8ffd6849120d
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed May 2 07:36:56 2012 +0200
+
+    Update the license. It's 2012 now, fool!
+
+ animate.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f91ff869ded384a5dbcba72c50d2e2b333fac89f
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed May 2 07:35:44 2012 +0200
+
+    Remove body's 3D transform. Resolves #26. We need to find another method of turning on 3D acceleration.
+
+ animate.css | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit e5f41a9b89ab0d8946dfa39308c6dcd00c7d5f6e
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Apr 19 07:35:31 2012 +0200
+
+    Alright, alright. Add hardware acceleration.
+
+ animate.css | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 5055705253814d15dff068c83bce887e325742f9
+Author: Dan Eden <dan.eden@me.com>
+Date:   Sat Mar 24 17:59:47 2012 +0000
+
+    Update license
+
+ LICENSE.txt | 9 ---------
+ README.md   | 3 +++
+ 2 files changed, 3 insertions(+), 9 deletions(-)
+
+commit 6a12bed41037f66fa0bd131bf414cccd58d4a010
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Feb 29 12:16:07 2012 +0000
+
+    Fix timing-function issue. Default value is 'ease' anyway, so '-prefix-animation: 1s ease;' changed to '-prefix-animation-duration: 1s'
+
+ animate.css | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+commit 480ce0baa256f39b8c50ef8bc50ee7ed29a073cb
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Dec 21 08:41:10 2011 +0000
+
+    Fix the code block (I hope)
+
+ README.md | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 7623d9629d7a368489a92ec3a129c1716962ec4b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Dec 15 23:13:59 2011 +0000
+
+    Add License
+
+ LICENSE.txt | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit a7d5f01b06a8ca71d5dabd0218ddf6a29ccdd85b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Dec 14 10:14:22 2011 +0000
+
+    New readme
+
+ README    | 15 ---------------
+ README.md | 28 ++++++++++++++++++++++++++++
+ 2 files changed, 28 insertions(+), 15 deletions(-)
+
+commit dbce97abfef3614848583f3883600d4b97da125b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Dec 8 14:50:20 2011 +0000
+
+    Add default animation fill mode
+
+ animate.css     | 21 +++++++++++++--------
+ source/flip.css |  5 +++++
+ 2 files changed, 18 insertions(+), 8 deletions(-)
+
+commit 63bd2ea92c29a65799adaed19a6975fb26a899a9
+Merge: 60ea734 f69eca9
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Nov 1 12:40:28 2011 +0000
+
+    Merge branch 'master' of github.com:daneden/animate.css
+
+commit 60ea73460691199b3e0f923785129d5089ff8d9b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Nov 1 12:39:53 2011 +0000
+
+    Add flip animations
+
+ animate.css | 1108 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 1104 insertions(+), 4 deletions(-)
+
+commit 0b7b84d4709553f20873913cede92620710b2ba7
+Author: Dan Eden <dan.eden@me.com>
+Date:   Tue Nov 1 12:39:27 2011 +0000
+
+    Add flip animations
+
+ source/flip.css     | 123 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ source/flipInX.css  | 108 +++++++++++++++++++++++++++++++++++++++++++++
+ source/flipInY.css  | 108 +++++++++++++++++++++++++++++++++++++++++++++
+ source/flipOutX.css |  67 ++++++++++++++++++++++++++++
+ source/flipOutY.css |  63 +++++++++++++++++++++++++++
+ 5 files changed, 469 insertions(+)
+
+commit f69eca9abede90c338abc3881c44cf9e20963f52
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Oct 31 16:18:35 2011 +0000
+
+    Removed iOS optimisation. Caused layout problems, iOS5+ devices will use hardware acceleration by default anyway.
+
+ animate.css | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit 791c7dbfa542a9d45a47455d13c9ba62d3c3801f
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 12:47:42 2011 +0200
+
+    Update to latest build
+
+ animate.css | 54 +++++++++++++++++++++++++-----------------------------
+ 1 file changed, 25 insertions(+), 29 deletions(-)
+
+commit 0ce4a4066f0dc708b45c6b96120a794768699923
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 12:46:27 2011 +0200
+
+    Add transform-origin to correct swing
+
+ source/swing.css | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit cdca2d0f63b5ca07abfd349e57fb807feace9de3
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 12:41:44 2011 +0200
+
+    Fixing broken hinge. Ironically.
+
+ source/hinge.css | 45 ++++++++++++++++++++-------------------------
+ 1 file changed, 20 insertions(+), 25 deletions(-)
+
+commit 5933841dd30bc9b01b2f5c72315b92785cebb51b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:48:48 2011 +0200
+
+    Add opera support, add iOS optimization with `-webkit-transform: translateZ(0);` (thanks @acalzadilla)
+
+ animate.css | 671 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ 1 file changed, 654 insertions(+), 17 deletions(-)
+
+commit 0302a856293ed6e1e8da87c9771deea6fe87f593
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:44:59 2011 +0200
+
+    Add opera support
+
+ source/wobble.css | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+
+commit 94a8fe48e987efc87ce60462f487c1eaf8adbcab
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:44:15 2011 +0200
+
+    Add opera support
+
+ source/tada.css | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit 1cb5ee5e5bc769bd6d3e7800fac33979130b1031
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:43:42 2011 +0200
+
+    Add opera support, fix accidental -webkit- declaration in -ms-keyframes
+
+ source/swing.css | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+commit a14ee16a53e1a7b3d2689c2c525055e9bd7a758a
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:42:39 2011 +0200
+
+    Add opera support
+
+ source/shake.css | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit 1cb41cb69a7ecc01960491d128e1511a37b89760
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:42:12 2011 +0200
+
+    Add opera support
+
+ source/rotateOutUpRight.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit d77007f35c836806aec46e06fcc4b62671f86131
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:41:43 2011 +0200
+
+    Add opera support
+
+ source/rotateOutUpLeft.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 1011baa5361dae9cf03b4db87b6d8cdac96a54ce
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:41:10 2011 +0200
+
+    Add opera support
+
+ source/rotateOutDownRight.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 5459d91c416eee5a54d229a6b2d73d58daf1c7f2
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:40:39 2011 +0200
+
+    Add opera support
+
+ source/rotateOutDownLeft.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 969efa017abc52d4c7cee5b5af50c5039deb605d
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:40:11 2011 +0200
+
+    Add opera support
+
+ source/rotateOut.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit c9cc6502b31ba2944aeae49690d9084ade8bbe7e
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:39:41 2011 +0200
+
+    Add opera support
+
+ source/rotateInUpRight.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 7eda8e5d536ac206b13da2f8bfee32bbf99d67ee
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:39:12 2011 +0200
+
+    Add opera support
+
+ source/rotateInUpLeft.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 74faaabbe012f7cd1835dd98a4a1d6765df6ba3e
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:38:38 2011 +0200
+
+    Add opera support
+
+ source/rotateInDownRight.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 11ffec02e8c0d5fc15da10cf6ff716db766e34c4
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:38:05 2011 +0200
+
+    Add opera support
+
+ source/rotateInDownLeft.css | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 87ab12e1b232e5aba19882224d464f654c72f76a
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:37:31 2011 +0200
+
+    Add opera support
+
+ source/rotateIn.css | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+commit b07f05a748ff146bf9a1ab7b21d2ee4ddf21e5fb
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:37:01 2011 +0200
+
+    Add opera support
+
+ source/rollOut.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 5341ba4d272b975059a40acdc6406a5cf581d35c
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:36:21 2011 +0200
+
+    Add opera class
+
+ source/rollIn.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 28163bc7cc5b147922e4d9fff9a5ece3910f7194
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:36:03 2011 +0200
+
+    Add opera support
+
+ source/rollIn.css | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit f81439e31972119288e24e7f13a6b2cb8e714698
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:35:42 2011 +0200
+
+    Add opera support
+
+ source/pulse.css | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 976011c2e40f2dd86ff0431b3a40865544d8d33b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:35:15 2011 +0200
+
+    Add opera class
+
+ source/hinge.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit bc4a6d8b0faa253bdd0647d6d690a4c691e0a7d2
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 21 09:34:54 2011 +0200
+
+    Add opera support
+
+ source/hinge.css | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+commit 99e4bc5c91a2c5431a2ccc768fca43faaada6689
+Merge: ef48626 c81d2c3
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Oct 20 12:26:13 2011 -0700
+
+    Merge pull request #14 from suissa/master
+    
+    Add opera support
+
+commit c81d2c321da01af7b9e435b18b281c002f967c3a
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:24:54 2011 -0200
+
+    add opera support
+
+ source/flash.css | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 0e12b1cb9372cbae2bda59e4cd9759fce3f64536
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:23:17 2011 -0200
+
+    add opera support
+
+ source/fadeOutUpBig.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 3d4f7d98f5495a64d0e3932634f8f8e38f53f9da
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:22:30 2011 -0200
+
+    add opera support
+
+ source/fadeOutUp.css | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit eea980f83d6a20dbfd1397add4b8d04274356be3
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:21:16 2011 -0200
+
+    add opera support
+
+ source/fadeOutRightBig.css | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 9738cc6402006ff0264411707511e917d4ed660d
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:20:30 2011 -0200
+
+    add in class
+
+ source/fadeOutRight.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 4aa892098e114986ab31ab018933fa76f015a9cb
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:19:54 2011 -0200
+
+    add opera support
+
+ source/fadeOutRight.css | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 480edb81ac11db3fc775740edb8ac319b1ddaa96
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:18:51 2011 -0200
+
+    add opera support
+
+ source/fadeOutLeftBig.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit e5a833b657add04b37a62bda2d6046a630dc3841
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:16:58 2011 -0200
+
+    add opera support
+
+ source/fadeOutLeft.css | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+commit 0f36083c40da00265a51b636fbef703a36c0c553
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:16:20 2011 -0200
+
+    add opera support
+
+ source/fadeOutDownBig.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 891b2cf981b54a289095493a97e23f6681316de1
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:15:08 2011 -0200
+
+    add opera support
+
+ source/fadeOutDown.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit d24a581c3980b21e9a6e60e87f5b2ec81dd145cf
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:14:38 2011 -0200
+
+    add opera support
+
+ source/fadeOut.css | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit a42eda01eaabdd465d5e6f5a2e4c480f1cc0b60f
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:13:03 2011 -0200
+
+    add opera support
+
+ source/fadeInUpBig.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit a5ac2688bd2c262bb40aa96c0391b6843372afc1
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:12:25 2011 -0200
+
+    add in class
+
+ source/fadeInRightBig.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7deda693f784936b58ec2ce5e3b386e7f8052fb4
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:11:02 2011 -0200
+
+    add opera support
+
+ source/fadeInUp.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 640f132020a7b955f8f4ecfa27356368daf12944
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:10:31 2011 -0200
+
+    add opera support
+
+ source/fadeInRightBig.css | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 039dc7438865930b67270cf6fd8befa2af3ed882
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:09:56 2011 -0200
+
+    add opera support
+
+ source/fadeInRight.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 6107e98bd698f1f9cfe4779d9b2c7b9b27355f64
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:05:49 2011 -0200
+
+    add opera support
+
+ source/fadeInLeftBig.css | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit f24276748756abd87853c47c32494fe28c58b19d
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:04:59 2011 -0200
+
+    add opera support
+
+ source/fadeInLeft.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 6a133d5475e99b6dedecdcd840a9eccdd7ef4cc9
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:04:11 2011 -0200
+
+    add opera support
+
+ source/fadeInDownBig.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 013cebf3814abcef3eeb7ced9374b416a839c0f8
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:03:39 2011 -0200
+
+    add opera support
+
+ source/fadeInDown.css | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 4981bf7ee0060a8f4ae20899a1492554c707667b
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 17:02:36 2011 -0200
+
+    Add opera support
+
+ source/fadeIn.css | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit d35f1d7a4f7bbe29130f73be9fc200021472bc15
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:59:39 2011 -0200
+
+    add opera support
+
+ source/bounceOutdown.css | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit bbc35ee74b173d460b3e7441004c31ec51b76198
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:58:52 2011 -0200
+
+    add in class
+
+ source/bounce.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit cdecf0aff9398a0d0ad5ef0fceb298cc313dafcc
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:58:23 2011 -0200
+
+    Add in class
+
+ source/bounceIn.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 97526f8ed439e6f1642eb62359f9af025b84c4b6
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:57:58 2011 -0200
+
+    add in class
+
+ source/bounceInDown.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 3929952a486aabb9deeeb375cf9d526e73284dd4
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:53:42 2011 -0200
+
+    Add in class
+
+ source/bounceInLeft.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 978575cf9c5e0b6a06a77db931163cd1168ff18d
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:40:27 2011 -0200
+
+    Add in class
+
+ source/bounceInRight.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit bd9e726741eabe9230f5e690aebd591c0dc95ba6
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:39:31 2011 -0200
+
+    Add in class
+
+ source/bounceInUp.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 14baa928e1f9cb790fc0e815b63c9623d595af83
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:38:54 2011 -0200
+
+    Add in class
+
+ source/bounceOut.css | 21 +--------------------
+ 1 file changed, 1 insertion(+), 20 deletions(-)
+
+commit 78c34282781cfa0eb48b0189278e1256f1734007
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:37:03 2011 -0200
+
+    Add in class
+
+ source/bounceOutLeft.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 807e2b27f683acf97631f8c4672150d4a324ecfd
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:27:24 2011 -0200
+
+    Add in class
+
+ source/bounceOutRight.css | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 9549c7bc3740c14f2504ac84f94c0032dbcf72b7
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:26:48 2011 -0200
+
+    Add Opera support
+
+ source/bounceOutUp.css | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+
+commit f274bf12dac28b3b69bf05dbabeb25a03d060edd
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:22:46 2011 -0200
+
+    Add Opera support
+
+ source/bounceOutRight.css | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit d50959e0613bff9ffaeb62c9333629e2bcb4899c
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:22:03 2011 -0200
+
+    Add Opera support
+
+ source/bounceOutLeft.css | 16 ++++++++++++++++
+ 1 file changed, 16 insertions(+)
+
+commit c45589b8be88c158530e65e36872edddc06480f5
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:21:28 2011 -0200
+
+    Add Opera support
+
+ source/bounceOut.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 1d9b65f9f39948dd91e66969615c7282b4d3d319
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:20:41 2011 -0200
+
+    Add Opera support
+
+ source/bounceOut.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit f1faa61e87abbf2ea8656d33aa22720f7beee4ae
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:18:51 2011 -0200
+
+    Add Opera support
+
+ source/bounceInUp.css | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+commit ef4862682bf7013f584cc4a2c8a51784f7742377
+Merge: a73a879 aa793bb
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Oct 20 11:17:25 2011 -0700
+
+    Merge pull request #13 from suissa/master
+    
+    Add Opera Support
+
+commit aa793bb8abc67c14f0468ddf1f246e5ffaacfe3d
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:07:24 2011 -0200
+
+    Add Opera support
+
+ source/bounceInRight.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 60509a87cd5236913beca9b20887b2c7dff437cb
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:05:07 2011 -0200
+
+    Add Opera support
+
+ source/bounceInLeft.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 1a70219609fcc5815b7ffe384eef85e6f938435f
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:04:30 2011 -0200
+
+    Add opera support
+
+ source/bounceInDown.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 35855f23b2db031862d15bee70402dce76553ce0
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:03:51 2011 -0200
+
+    Add Opera support
+
+ source/bounceIn.css | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit a95540466a6e499ed403fa5d4f04cc27293aeb60
+Author: Jean Carlo Nascimento <jnascimento@gmail.com>
+Date:   Thu Oct 20 16:01:26 2011 -0200
+
+    Add Opera support
+
+ source/bounce.css | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit a73a879d5151508eb07353fb91b84fbb0fdfc4b8
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 19 10:58:30 2011 +0100
+
+    Added new animations
+
+ animate.css        | 2494 ++++++++++++++++++++++++++++++----------------------
+ source/hinge.css   |   42 +
+ source/pulse.css   |   29 +
+ source/rollIn.css  |   28 +
+ source/rollOut.css |   56 ++
+ source/swing.css   |   42 +
+ source/wobble.css  |   48 +
+ 7 files changed, 1707 insertions(+), 1032 deletions(-)
+
+commit 917d278caeeea8ab7db778c0eff7f03a8ad5776b
+Merge: febf85a 3cf5222
+Author: Dan Eden <dan.eden@me.com>
+Date:   Mon Oct 17 11:44:47 2011 -0700
+
+    Merge pull request #9 from Domw/master
+    
+    Added MIT license to Readme
+
+commit 3cf522265e66c7c261a026847e3828bcfe5b0f3c
+Author: Dom Wood <gfdsgggggggggggg@lol.com>
+Date:   Mon Oct 17 18:37:31 2011 +0200
+
+    Added MIT license
+
+ README | 14 +++++++++++++-
+ 1 file changed, 13 insertions(+), 1 deletion(-)
+
+commit febf85a8a9184c5967be1855ec6e1010838c224e
+Merge: 8a333e5 978c0bb
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 14 10:35:06 2011 -0700
+
+    Merge pull request #8 from acalzadilla/master
+    
+    Repetitive Keyframe Declarations
+
+commit 978c0bb9dbaf8d21a24fb0068957618d971a047a
+Author: Anthony Calzadilla <anthony.calzadilla@me.com>
+Date:   Fri Oct 14 11:54:30 2011 -0400
+
+    removed repetitive @keyframe declarations on .shake, .tada classes
+    
+    Signed-off-by: Anthony Calzadilla <anthony.calzadilla@me.com>
+
+ animate.css      | 201 +++++++------------------------------------------------
+ source/shake.css |  59 +++++-----------
+ source/tada.css  |  48 ++++---------
+ 3 files changed, 52 insertions(+), 256 deletions(-)
+
+commit 20ac14ab78811dbaf03db6ceca33262974feb587
+Author: Anthony Calzadilla <anthony.calzadilla@me.com>
+Date:   Fri Oct 14 11:29:24 2011 -0400
+
+    Removed repetitive @keyframe declarations from .bounce class
+    
+    Signed-off-by: Anthony Calzadilla <anthony.calzadilla@me.com>
+
+ animate.css       | 96 ++++++-------------------------------------------------
+ source/bounce.css | 24 +++-----------
+ 2 files changed, 14 insertions(+), 106 deletions(-)
+
+commit 53df09992e927ca2a67386a74babd0203ca70919
+Author: Anthony Calzadilla <anthony.calzadilla@me.com>
+Date:   Fri Oct 14 11:20:24 2011 -0400
+
+    Removed repetitive @keyframe declarations on .flash class
+    
+    Signed-off-by: Anthony Calzadilla <anthony.calzadilla@me.com>
+
+ animate.css      | 71 +++++++-------------------------------------------------
+ source/flash.css | 28 +++++++---------------
+ 2 files changed, 17 insertions(+), 82 deletions(-)
+
+commit 8a333e58b06d103778e5e181023e59d9370fe5c7
+Merge: 193e104 137af77
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 14 13:50:00 2011 +0100
+
+    Merge branch 'master' of github.com:daneden/animate.css
+
+commit 193e104d977108b8a02ae25080e853b9d3ccf3a1
+Author: Dan Eden <dan.eden@me.com>
+Date:   Fri Oct 14 13:39:11 2011 +0100
+
+    Added individual files for animations
+
+ source/bounce.css             | 46 +++++++++++++++++++++++
+ source/bounceIn.css           | 86 +++++++++++++++++++++++++++++++++++++++++++
+ source/bounceInDown.css       | 86 +++++++++++++++++++++++++++++++++++++++++++
+ source/bounceInLeft.css       | 86 +++++++++++++++++++++++++++++++++++++++++++
+ source/bounceInRight.css      | 86 +++++++++++++++++++++++++++++++++++++++++++
+ source/bounceInUp.css         | 83 +++++++++++++++++++++++++++++++++++++++++
+ source/bounceOut.css          | 86 +++++++++++++++++++++++++++++++++++++++++++
+ source/bounceOutLeft.css      | 70 +++++++++++++++++++++++++++++++++++
+ source/bounceOutRight.css     | 70 +++++++++++++++++++++++++++++++++++
+ source/bounceOutUp.css        | 70 +++++++++++++++++++++++++++++++++++
+ source/bounceOutdown.css      | 70 +++++++++++++++++++++++++++++++++++
+ source/fadeIn.css             | 26 +++++++++++++
+ source/fadeInDown.css         | 54 +++++++++++++++++++++++++++
+ source/fadeInDownBig.css      | 54 +++++++++++++++++++++++++++
+ source/fadeInLeft.css         | 54 +++++++++++++++++++++++++++
+ source/fadeInLeftBig.css      | 51 +++++++++++++++++++++++++
+ source/fadeInRight.css        | 54 +++++++++++++++++++++++++++
+ source/fadeInRightBig.css     | 54 +++++++++++++++++++++++++++
+ source/fadeInUp.css           | 54 +++++++++++++++++++++++++++
+ source/fadeInUpBig.css        | 54 +++++++++++++++++++++++++++
+ source/fadeOut.css            | 26 +++++++++++++
+ source/fadeOutDown.css        | 54 +++++++++++++++++++++++++++
+ source/fadeOutDownBig.css     | 54 +++++++++++++++++++++++++++
+ source/fadeOutLeft.css        | 53 ++++++++++++++++++++++++++
+ source/fadeOutLeftBig.css     | 54 +++++++++++++++++++++++++++
+ source/fadeOutRight.css       | 54 +++++++++++++++++++++++++++
+ source/fadeOutRightBig.css    | 51 +++++++++++++++++++++++++
+ source/fadeOutUp.css          | 51 +++++++++++++++++++++++++
+ source/fadeOutUpBig.css       | 54 +++++++++++++++++++++++++++
+ source/flash.css              | 38 +++++++++++++++++++
+ source/rotateIn.css           | 59 +++++++++++++++++++++++++++++
+ source/rotateInDownLeft.css   | 62 +++++++++++++++++++++++++++++++
+ source/rotateInDownRight.css  | 62 +++++++++++++++++++++++++++++++
+ source/rotateInUpLeft.css     | 62 +++++++++++++++++++++++++++++++
+ source/rotateInUpRight.css    | 62 +++++++++++++++++++++++++++++++
+ source/rotateOut.css          | 62 +++++++++++++++++++++++++++++++
+ source/rotateOutDownLeft.css  | 62 +++++++++++++++++++++++++++++++
+ source/rotateOutDownRight.css | 62 +++++++++++++++++++++++++++++++
+ source/rotateOutUpLeft.css    | 62 +++++++++++++++++++++++++++++++
+ source/rotateOutUpRight.css   | 62 +++++++++++++++++++++++++++++++
+ source/shake.css              | 59 +++++++++++++++++++++++++++++
+ source/tada.css               | 62 +++++++++++++++++++++++++++++++
+ 42 files changed, 2521 insertions(+)
+
+commit 137af77449c3221b13a9e2819a8d6b781b8beb1b
+Author: Dan Eden <dan.eden@me.com>
+Date:   Thu Oct 13 12:18:26 2011 +0200
+
+    New! Exciting! 'tada' animation!
+
+ animate.css | 189 +++++++++++++++++++++++++++---------------------------------
+ 1 file changed, 85 insertions(+), 104 deletions(-)
+
+commit 2fd5671408807457d6c2a6d8036adf7fe7756a8f
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 12 17:51:34 2011 +0200
+
+    Added prefixes for new animations
+
+ animate.css | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+commit 5dec8ae6d98fd0177cc37669e95ad82df35d4131
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 12 17:48:32 2011 +0200
+
+    Added 12 new animations
+
+ animate.css | 1112 ++++++++++++++++++++++++++++++++++++++++++++++++++++-------
+ 1 file changed, 994 insertions(+), 118 deletions(-)
+
+commit e3b6cf9d715163837dad6d8bdf3effad5fab4ce7
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 12 13:28:23 2011 +0200
+
+    Add support for IE10 with -ms- prefixes
+
+ animate.css | 476 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 1 file changed, 447 insertions(+), 29 deletions(-)
+
+commit da96b0f6429a8c6b38d0d3a261968c3c2a3f7458
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 12 12:11:48 2011 +0200
+
+    Edited README via GitHub
+
+ README | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 8a2380e7de3a083a4e453e7f46f29d9d10f44d43
+Author: Dan Eden <dan.eden@me.com>
+Date:   Wed Oct 12 11:08:15 2011 +0100
+
+    initial commit
+
+ README      |    0
+ animate.css | 1283 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 1283 insertions(+)

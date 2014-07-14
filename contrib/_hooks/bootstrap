@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf */*.min.*
+
+sed -i -e 's|sourceMappingURL=[^ ]*||g' css/*.css

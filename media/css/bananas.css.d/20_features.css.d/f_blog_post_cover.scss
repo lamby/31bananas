@@ -1,0 +1,47 @@
+.f_blog_post_cover {
+  header {
+    padding: 0 0 40px 0 !important;
+    margin-bottom: 20px;
+
+    h1 {
+      padding: 0 40px;
+    }
+  }
+
+  .cover {
+    height: 260px;
+    text-align: left;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: center;
+
+    @media (min-width: 768px) {
+      height: 400px;
+    }
+
+    @media (min-width: 992px) {
+      height: 530px;
+
+      a {
+        position: fixed;
+      }
+    }
+
+    a {
+      border: none;
+    }
+
+    img {
+      margin: 11px;
+      padding: 8px 10px;
+      opacity: 0.90;
+      display: inline-block;
+      background-color: #000;
+
+      &:hover {
+        opacity: 1.0;
+      }
+    }
+  }
+}

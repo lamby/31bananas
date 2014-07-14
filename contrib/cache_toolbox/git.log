@@ -1,0 +1,549 @@
+commit 246bfbb5480c09ea462fa4cccc8440641a3e5758
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Apr 5 15:12:16 2012 +0100
+
+    Bump default cache time to a week.
+
+ cache_toolbox/app_settings.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 29c16957185d1d76ed1f08dd4524e47caa3f750c
+Author: Chris Lamb <chris@playfire.com>
+Date:   Sun Mar 11 20:15:21 2012 +0000
+
+    Document this.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/relation.py |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 458458dfda4621dbdeec81534c3c95e0d883d564
+Author: Ian Cohen <ianrcohen@gmail.com>
+Date:   Sun Jan 29 22:14:31 2012 -0500
+
+    Add FileField caching support playfire#4
+
+ cache_toolbox/core.py |   10 ++++++----
+ 1 files changed, 6 insertions(+), 4 deletions(-)
+
+commit ff86e5f7ee939b882d2f75e478c5904cce92ee5d
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jan 19 17:42:45 2012 +0000
+
+    O middleware! my middleware! our fearful typo is done
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/middleware.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5c944844c45c3e81c5cc205b149c2c17d7868229
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Sep 8 17:09:38 2011 +0100
+
+    Make this copy-pastable.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/middleware.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 9bd72b9f2d4276ad709adbb4d0f737ecd39bcbda
+Author: Chris Lamb <chris@playfire.com>
+Date:   Fri Jul 8 10:36:13 2011 +0100
+
+    Some attempt at multidb support.
+    
+    We don't namespace instances by their database though so this could cause
+    coherency problems if you duplicate your tables across databases.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/core.py  |    6 +++---
+ cache_toolbox/model.py |    4 ++--
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit a0f51e23cad66a2c88aec692f1eca4c7d4549b16
+Author: Chris Lamb <chris@playfire.com>
+Date:   Fri Jul 8 10:33:15 2011 +0100
+
+    Blindly set instance._state.db to fix ForeignKey/m2m issues. Closes GH-1.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/core.py |    5 +++++
+ 1 files changed, 5 insertions(+), 0 deletions(-)
+
+commit 3e3410150de6a5d479198d609b6762153bf267cb
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:38:38 2011 +0100
+
+    Entirely the wrong directory.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/templatetags/cache_toolbox.py |   69 +++++++++++++++++++++++++++
+ templatetags/cache_toolbox.py               |   69 ---------------------------
+ 2 files changed, 69 insertions(+), 69 deletions(-)
+
+commit 640b7215b6b55cf5489cfbb76e104c51d1000307
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:36:24 2011 +0100
+
+    Add cache templatetags.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ templatetags/cache_toolbox.py |   69 +++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 69 insertions(+), 0 deletions(-)
+
+commit 61aa7127abc891d235846dbcdf92c9ef26dedd41
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:30:52 2011 +0100
+
+    Forgot to save..
+
+ README.rst |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit e5d9e9bfa64e94f5e84c13daa6e620ad25be4fa4
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:30:36 2011 +0100
+
+    Add links to docs.
+
+ README.rst |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+commit a8c603d835c115f983ec74ed6c2e7aff7165b07e
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:21:11 2011 +0100
+
+    Better titles.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_toolbox/model.py    |    4 ++--
+ cache_toolbox/relation.py |    4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 916ab03facb0a161817bbaa697a271687fc20541
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:15:24 2011 +0100
+
+    Nicer title.
+
+ cache_toolbox/__init__.py |    4 ++--
+ 1 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 82309442837077ecb222da2b85e8bd4e738a7d39
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 16:04:46 2011 +0100
+
+    Rename project to django-cache-toolbox.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py     |   29 ----------
+ cache_relation/app_settings.py |    8 ---
+ cache_relation/core.py         |   94 --------------------------------
+ cache_relation/middleware.py   |   97 ---------------------------------
+ cache_relation/model.py        |   78 --------------------------
+ cache_relation/relation.py     |  118 ----------------------------------------
+ cache_toolbox/__init__.py      |   29 ++++++++++
+ cache_toolbox/app_settings.py  |    8 +++
+ cache_toolbox/core.py          |   94 ++++++++++++++++++++++++++++++++
+ cache_toolbox/middleware.py    |   97 +++++++++++++++++++++++++++++++++
+ cache_toolbox/model.py         |   78 ++++++++++++++++++++++++++
+ cache_toolbox/relation.py      |  118 ++++++++++++++++++++++++++++++++++++++++
+ docs/conf.py                   |    2 +-
+ docs/index.rst                 |   10 ++--
+ setup.py                       |    4 +-
+ 15 files changed, 432 insertions(+), 432 deletions(-)
+
+commit 0a9fe5d367e006b503a93ee23d5b25f28f1ddc55
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 15:48:33 2011 +0100
+
+    Add a whole bunch of docs.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py   |   27 ++++++++++++++
+ cache_relation/core.py       |   51 ++++++++++++++++++++++----
+ cache_relation/middleware.py |   80 ++++++++++++++++++++++++++++++++++++++++
+ cache_relation/model.py      |   56 ++++++++++++++++++++++++++++
+ cache_relation/relation.py   |   82 +++++++++++++++++++++++++++++++++++------
+ docs/Makefile                |   80 ++++++++++++++++++++++++++++++++++++++++
+ docs/conf.py                 |   16 ++++++++
+ docs/index.rst               |    5 +++
+ docs/playfire.png            |  Bin 0 -> 6037 bytes
+ 9 files changed, 378 insertions(+), 19 deletions(-)
+
+commit 29a7c00a5f4bc57efd0d54ff8224394183d7d71c
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 15:26:36 2011 +0100
+
+    This won't work as the primary key is wrong.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/relation.py |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+commit c430a1328b122cfc88e7cadc2aa9612a376dcee5
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:36:16 2011 +0100
+
+    Typo.
+
+ cache_relation/middleware.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 4b7f9b4159124ec03134c0c25070223921ca7901
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:33:29 2011 +0100
+
+    Rename cache_key => instance_key.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/core.py |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 13254e06e18b0bd1dc0b955c5da68339cfb56e7e
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:32:17 2011 +0100
+
+    Tidy
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/middleware.py |    5 +----
+ 1 files changed, 1 insertions(+), 4 deletions(-)
+
+commit 1b68a30a674d886dd313b687fe288d01446e0901
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:31:51 2011 +0100
+
+    Import cache_backed_auth.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/middleware.py |   20 ++++++++++++++++++++
+ 1 files changed, 20 insertions(+), 0 deletions(-)
+
+commit 193931c31d8940a17cb24b08a19cba710a0ab6bd
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:26:59 2011 +0100
+
+    Rename to 'timeout'
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/app_settings.py |    4 ++--
+ cache_relation/core.py         |    8 ++++----
+ cache_relation/model.py        |    4 ++--
+ cache_relation/relation.py     |    4 ++--
+ 4 files changed, 10 insertions(+), 10 deletions(-)
+
+commit 65b4c081c3a66ccd373062f8e7c1d63295c8d8d1
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:26:46 2011 +0100
+
+    Allow global settings to override.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/app_settings.py |   10 ++++++++--
+ 1 files changed, 8 insertions(+), 2 deletions(-)
+
+commit b0b994e202eee838b3720d623ee2e933687cb688
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:26:18 2011 +0100
+
+    Set default duration in one place.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/app_settings.py |    2 ++
+ cache_relation/core.py         |    5 +++++
+ cache_relation/model.py        |    2 +-
+ cache_relation/relation.py     |    2 +-
+ 4 files changed, 9 insertions(+), 2 deletions(-)
+
+commit 972ef055bb7766f5b3f5fc197c0fecb34063b1b9
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:21:06 2011 +0100
+
+    Use duration when caching relations.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/relation.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 76b8ab52a272fd74fde4bb3965194aa8f9fb2f26
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:20:00 2011 +0100
+
+    Clear relation caches on delete too.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/relation.py |    8 +++++---
+ 1 files changed, 5 insertions(+), 3 deletions(-)
+
+commit ad7cbf00866fc7124972e52668e2802f5d8251f1
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:19:05 2011 +0100
+
+    Split cache_model and cache_relation into separate modules.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   80 +------------------------------------------
+ cache_relation/model.py    |   22 ++++++++++++
+ cache_relation/relation.py |   59 ++++++++++++++++++++++++++++++++
+ 3 files changed, 83 insertions(+), 78 deletions(-)
+
+commit cfeeb269f7e8bb05dde257eefb905cae99d77321
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:17:37 2011 +0100
+
+    Split out core utilities into 'core' module.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   54 +------------------------------------------
+ cache_relation/core.py     |   52 ++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 54 insertions(+), 52 deletions(-)
+
+commit a0e5792d1d26fc20e96a6c9ae6604795f32367fb
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 14:05:21 2011 +0100
+
+    Drop the class decorator as it's silly and rename clear_cache_on_save.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   11 +----------
+ 1 files changed, 1 insertions(+), 10 deletions(-)
+
+commit cc77185219b2f53cbdef1a9abdf7c9a94e8560e2
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Jun 23 11:50:22 2011 +0100
+
+    Split out the post_save, post_delete & get_cached patching into method.
+    
+    This is all awfully named, but will fix later.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   29 ++++++++++++++++++-----------
+ 1 files changed, 18 insertions(+), 11 deletions(-)
+
+commit d837ddb7c582c7b9c39138e10817a039af63c915
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 13:41:18 2011 +0100
+
+    Pass through duration.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit f535dd8cfde6f2d569adb96009bb7726b08c35d4
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 13:34:28 2011 +0100
+
+    We can now cache instances a bit easier.
+    
+    The Model.get_cached(pk) interface is clunky - I wonder if we can set
+    helper methods on all foreign keys of that object.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   23 ++++++++++++++++++++++-
+ 1 files changed, 22 insertions(+), 1 deletions(-)
+
+commit e5cf4aa24c240f9b61d6b23f2a6662041ae6987b
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 13:19:50 2011 +0100
+
+    Prevent problems with caching instances with DNImageField
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+commit a94890af42c14204d57e715217db71de85b26afc
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 13:18:57 2011 +0100
+
+    Document the primary key skipping.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+commit 2d4fd20fc9d4a46cfb0501a16c411568097622ec
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 13:18:29 2011 +0100
+
+    Make this rather important loop more obvious and easier to read.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   11 +++++++----
+ 1 files changed, 7 insertions(+), 4 deletions(-)
+
+commit 2a9cc09618a7a5919f8e1aec3ca8fa4849248cee
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:50:39 2011 +0100
+
+    Use "instance" everywhere.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   24 ++++++++++++------------
+ 1 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 2b151d04561862e922d12c6642bceb20dbdd9060
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:49:11 2011 +0100
+
+    Ensure instance knows it already exists in db.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    9 ++++++++-
+ 1 files changed, 8 insertions(+), 1 deletions(-)
+
+commit 979f6f09b2d00af85d494b3a20eff69087bcf4a1
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:46:16 2011 +0100
+
+    Use attname otherwise we can't reconstruct a UserData with foreign keys.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit 5b07ea55ee5bcff7a7b613a60584be388eb355c8
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:45:43 2011 +0100
+
+    Use the default manager so we are never filtered by a .get_query_set()
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    3 ++-
+ 1 files changed, 2 insertions(+), 1 deletions(-)
+
+commit b0a99d35dec8a943e7a83d2238cf01294e8a4b92
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:45:34 2011 +0100
+
+    Split out the instance caching functionality.
+    
+    So we can use them to cache arbitrary stuff.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   70 ++++++++++++++++++++++++--------------------
+ 1 files changed, 38 insertions(+), 32 deletions(-)
+
+commit 3c81b9d99f47aad4ba9b1808a781d2cdf1fc968c
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jun 20 12:44:23 2011 +0100
+
+    This isn't actually used.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |    6 ------
+ 1 files changed, 0 insertions(+), 6 deletions(-)
+
+commit 12ece36bf0355ad619635675b419d9d0e7163cf4
+Author: Chris Lamb <chris@playfire.com>
+Date:   Tue Mar 22 12:00:12 2011 +0000
+
+    Add setup.py file
+
+ setup.py |   16 ++++++++++++++++
+ 1 files changed, 16 insertions(+), 0 deletions(-)
+
+commit 36ffe1f79a8a8851a0672de6b2e536a54d97d68d
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Feb 7 14:48:45 2011 +0000
+
+    Remove README.rst
+
+ README.rst |    4 ----
+ 1 files changed, 0 insertions(+), 4 deletions(-)
+
+commit 4b485dc68984bd447152e721eb877bafd7c1e5c9
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Feb 3 15:25:54 2011 +0000
+
+    Ignore automatically generated docs
+
+ .gitignore |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+commit 075f93e1f70043b4a7a73eb2e5dc380ba3885bdd
+Author: Chris Lamb <chris@playfire.com>
+Date:   Thu Feb 3 14:01:29 2011 +0000
+
+    Update copyright years
+
+ COPYING |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+commit a25ce79d6c95965b2762c2ac8971f138c23fed16
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jan 17 18:10:02 2011 +0000
+
+    Add template README.rst
+
+ README.rst |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+commit 20029736d71efddd9d749a63045e865a750dcd88
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jan 17 16:42:23 2011 +0000
+
+    Import cache_relation.py from Playfire.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ cache_relation/__init__.py |   92 ++++++++++++++++++++++++++++++++++++++++++++
+ 1 files changed, 92 insertions(+), 0 deletions(-)
+
+commit a232078a7ad34b55d233c79c00f9897bbeed2de7
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jan 17 16:40:27 2011 +0000
+
+    Add COPYING.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ COPYING |   24 ++++++++++++++++++++++++
+ 1 files changed, 24 insertions(+), 0 deletions(-)
+
+commit 1e432e5a3b23a635bf32e738b246510ef2f83be0
+Author: Chris Lamb <chris@playfire.com>
+Date:   Mon Jan 17 16:40:23 2011 +0000
+
+    Add .gitignore.
+    
+    Signed-off-by: Chris Lamb <chris@playfire.com>
+
+ .gitignore |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)

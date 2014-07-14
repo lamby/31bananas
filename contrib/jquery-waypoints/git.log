@@ -1,0 +1,1621 @@
+commit 415eb556fc99b1475bd3b221f29c21eb4388c40c
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 13:11:17 2014 -0700
+
+    Update changelog, version references for 2.0.5 release
+
+ CHANGELOG.md                                        | 10 ++++++++++
+ bower.json                                          |  2 +-
+ package.json                                        |  2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.coffee |  2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js     |  2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee   |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.js       |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   |  2 +-
+ waypoints.coffee                                    |  2 +-
+ waypoints.js                                        |  2 +-
+ waypoints.min.js                                    |  2 +-
+ 12 files changed, 21 insertions(+), 11 deletions(-)
+
+commit d0c3876d19de03f9f9699a902e21fc0470d4b5af
+Author: Mathieu Doyon <mathieu.doyon@studiofrenetic.com>
+Date:   Fri May 2 12:48:28 2014 -0400
+
+    Protect license comment with ! for uglify
+    
+    Signed-off-by: Mathieu Doyon <mathieu.doyon@studiofrenetic.com>
+
+ waypoints.coffee | 2 +-
+ waypoints.js     | 2 +-
+ waypoints.min.js | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 43d61f04d91e00c5caefd3c23fba27a6f28fe9ba
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 12:26:43 2014 -0700
+
+    #283, stop using deprecated jQuery load method
+
+ waypoints.coffee | 2 +-
+ waypoints.js     | 2 +-
+ waypoints.min.js | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit e7d57d003c3b3c7763171e96c8342268fae03c2e
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 12:18:28 2014 -0700
+
+    #272, remove stray references to GPL license
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee   | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.js       | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 2 +-
+ waypoints.coffee                                    | 2 +-
+ waypoints.js                                        | 2 +-
+ waypoints.min.js                                    | 2 +-
+ 9 files changed, 9 insertions(+), 9 deletions(-)
+
+commit 717bd4ea1dd9fa8c7318e842838edd3f1f7a0f90
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 12:11:49 2014 -0700
+
+    #262, use window instead of this, allows Browserifyication
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee |  2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js     |  2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee   |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.js       |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   |  2 +-
+ test/AMD.html                                       | 17 +++++++++++------
+ waypoints.coffee                                    |  2 +-
+ waypoints.js                                        |  2 +-
+ waypoints.min.js                                    |  2 +-
+ 10 files changed, 20 insertions(+), 15 deletions(-)
+
+commit ab7ccc149a897c7430899fde983d3286271a3ff5
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 11:54:42 2014 -0700
+
+    #260, remove More link when infinite shortcut reaches end
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 2 ++
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 2 ++
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+
+commit bc82da708a0ba6523d5472af8f8e4ba074fd0eb4
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 11:50:18 2014 -0700
+
+    #253, moved options cloning to occur before handler assignment
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee |  1 -
+ shortcuts/infinite-scroll/waypoints-infinite.js     |  3 +--
+ shortcuts/infinite-scroll/waypoints-infinite.min.js |  2 +-
+ test/waypoints.coffee                               | 15 +++++++++++++++
+ waypoints.coffee                                    |  3 +--
+ waypoints.js                                        |  5 +----
+ waypoints.min.js                                    |  2 +-
+ 7 files changed, 20 insertions(+), 11 deletions(-)
+
+commit 3140f9c235c40a07d5f928d43db35f087ab95e37
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri May 2 08:47:56 2014 -0700
+
+    Fix Infinite tests in Chrome
+
+ .../infinite-scroll/waypoints-infinite.coffee      | 31 +++++++++---------
+ shortcuts/infinite-scroll/waypoints-infinite.js    | 38 ++++++++++++----------
+ .../infinite-scroll/waypoints-infinite.min.js      |  2 +-
+ test/infinite.coffee                               |  2 +-
+ 4 files changed, 39 insertions(+), 34 deletions(-)
+
+commit d69966f645e7e036812164001c8462dcb7b26c83
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu May 1 17:16:18 2014 -0700
+
+    Fix infinite shortcut, Chrome fixtures still hosed
+
+ .../infinite-scroll/waypoints-infinite.coffee      |   7 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js    |   9 +-
+ .../infinite-scroll/waypoints-infinite.min.js      |   2 +-
+ test/infinite.coffee                               |   2 +-
+ test/lib/jasmine-html.js                           |  89 ++-
+ test/lib/jasmine-jquery.js                         | 769 ++++++++++++++-------
+ test/lib/jasmine.css                               |   1 +
+ test/lib/jasmine.js                                | 143 +++-
+ 8 files changed, 727 insertions(+), 295 deletions(-)
+
+commit ee6d37ea7853de6dd0e7cd45ce5e89a1e5bf5acc
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu May 1 13:14:11 2014 -0700
+
+    #225, make unsticky nondestructive if called on nonsticky element
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 19 +++++++++++--------
+ shortcuts/sticky-elements/waypoints-sticky.js     | 13 +++++++++++--
+ shortcuts/sticky-elements/waypoints-sticky.min.js |  2 +-
+ test/sticky.coffee                                |  5 +++++
+ 4 files changed, 28 insertions(+), 11 deletions(-)
+
+commit ec64be7c97b8b62329f32d876d758c37ecee7d04
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu May 1 12:35:13 2014 -0700
+
+    #207, make infinite shortcut destroy/recreate instead of disable/enable
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 12 +++++++-----
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 13 +++++++------
+ shortcuts/infinite-scroll/waypoints-infinite.min.js |  2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   |  2 +-
+ 4 files changed, 16 insertions(+), 13 deletions(-)
+
+commit 1bf998bbc73f7eb5c2fdfe6e0a8f26f815a0e1a1
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu May 1 12:05:23 2014 -0700
+
+    Cleanup and document the direction option for sticky shortcut, #192
+
+ shortcuts/sticky-elements/index.html              | 9 +++++----
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 2 +-
+ 2 files changed, 6 insertions(+), 5 deletions(-)
+
+commit 8c4ff8169813686666f860b8eb0a02d15194e33a
+Merge: ddf1b09 cd67763
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu May 1 11:21:14 2014 -0700
+
+    Merge branch 'master' of github.com:ideasasylum/jquery-waypoints into 192-merge
+
+commit ddf1b09d5d51b39c7e349e081f45cd5290f8a08d
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 29 12:12:11 2014 -0800
+
+    Update bower to 2.0.4
+
+ bower.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8478a30918c6b09873cb3d79d4e01b4bcfbec142
+Merge: 9b1ca8b 4d836db
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Wed Jan 29 12:09:29 2014 -0800
+
+    Merge pull request #200 from lencioni/bower
+    
+    Add bower.json
+
+commit 9b1ca8be7dc676571a52e26d376f5e0314353953
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Thu Jan 16 23:07:01 2014 -0800
+
+    Update README.markdown
+
+ README.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit fb66af03aecb9c1512bf81c14f8fd8a38a91c80d
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Thu Jan 16 23:06:27 2014 -0800
+
+    Update CHANGELOG.md
+
+ CHANGELOG.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit f38c9896637e0a2700ee6f3ba5d5be45b4f38041
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jan 16 20:57:53 2014 -0800
+
+    Version bump to 2.0.4
+
+ CHANGELOG.md                                        | 7 ++++++-
+ package.json                                        | 4 ++--
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 4 ++--
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 4 ++--
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.coffee   | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.js       | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 4 ++--
+ waypoints.coffee                                    | 4 ++--
+ waypoints.js                                        | 4 ++--
+ waypoints.min.js                                    | 4 ++--
+ 11 files changed, 26 insertions(+), 21 deletions(-)
+
+commit 5b0a8d7d7a08ecdfc76a041adb554916b10f0a71
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jan 16 20:42:18 2014 -0800
+
+    Stop storing waypoint id references in jQuery data, fixes #243
+
+ test/waypoints.coffee |  7 +++++++
+ waypoints.coffee      | 14 +++++++-------
+ waypoints.js          | 14 +++++++-------
+ waypoints.min.js      |  2 +-
+ 4 files changed, 22 insertions(+), 15 deletions(-)
+
+commit f5e520626f85225d804bc337535695eea07ef101
+Merge: a43e7ba 3743079
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Thu Jan 16 19:07:27 2014 -0800
+
+    Merge pull request #244 from robharper/fix/return-jquery
+    
+    Make calls to enable, disable, and destroy chainable
+
+commit 374307940dfba482ec29385a6228c90a4d562b49
+Author: Rob Harper <robert.harper@gmail.com>
+Date:   Thu Jan 16 21:07:35 2014 -0500
+
+    Returns jQuery object from calls to enable, disable, and destroy
+
+ test/waypoints.coffee | 18 ++++++++++++++----
+ waypoints.coffee      | 10 +++++-----
+ waypoints.js          | 10 +++++-----
+ waypoints.min.js      |  2 +-
+ 4 files changed, 25 insertions(+), 15 deletions(-)
+
+commit a43e7ba14098769c6c1d6bc2a890929657c5ff75
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Dec 19 10:38:06 2013 -0800
+
+    Add gittip button
+
+ README.markdown | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 4d836dbe3927828a114b24c705fe50e6867e9ba4
+Author: Joe Lencioni <joe.lencioni@causes.com>
+Date:   Wed Aug 7 12:24:02 2013 -0700
+
+    Add bower.json
+    
+    This file allows this package to be installed using Bower. The package
+    has already been registered as `jquery-waypoints` in the Bower package
+    registry. It can now be installed by executing:
+    
+      bower install jquery-waypoints
+    
+    More information on Bower can be found at:
+    
+      https://github.com/bower/bower
+      http://bower.io
+
+ bower.json | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+
+commit dfb3feb2ccfcfd85eec364c75ade9f8658518af0
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Aug 5 12:47:39 2013 +0800
+
+    Copyright year in readme
+
+ README.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit aa31522976ba87030e0366cc1f209d1d3781810c
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Aug 5 12:12:36 2013 +0800
+
+    Version bump to 2.0.3
+
+ CHANGELOG.md                                        | 8 ++++++++
+ package.json                                        | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee   | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.js       | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 2 +-
+ waypoints.coffee                                    | 2 +-
+ waypoints.js                                        | 2 +-
+ waypoints.min.js                                    | 2 +-
+ 11 files changed, 18 insertions(+), 10 deletions(-)
+
+commit cd67763268b93a27191debed71aabc4125c1c67d
+Author: Jamie Lawrence <jamie@ideasasylum.com>
+Date:   Thu Jul 18 17:05:59 2013 +0100
+
+    Implement the option to 'unstuck' a bottom bar
+    
+    I've implemented the patch from
+    https://github.com/imakewebthings/jquery-waypoints/issues/172 as
+    coffeescript.
+    
+    Works well for my application and tests still pass (though I've add no new tests for this functionality)
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 5 +++--
+ shortcuts/sticky-elements/waypoints-sticky.js     | 5 +++--
+ shortcuts/sticky-elements/waypoints-sticky.min.js | 2 +-
+ 3 files changed, 7 insertions(+), 5 deletions(-)
+
+commit 1b0520f02d47b6eefc82921625c2d0826838b1fd
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Apr 22 14:57:22 2013 -0700
+
+    Add dev dependencies for coffee+uglify, update readme
+
+ .gitignore                                         |  3 ++-
+ Makefile                                           | 16 +++++++++----
+ README.markdown                                    |  4 ++++
+ package.json                                       | 19 +++++++++++++++
+ shortcuts/infinite-scroll/waypoints-infinite.js    |  8 ++++---
+ .../infinite-scroll/waypoints-infinite.min.js      |  4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.js      |  7 +++---
+ shortcuts/sticky-elements/waypoints-sticky.min.js  |  4 ++--
+ waypoints.js                                       | 28 ++++++++++++++++++----
+ waypoints.min.js                                   |  2 +-
+ 10 files changed, 74 insertions(+), 21 deletions(-)
+
+commit 701631682a041a36d945903f19f6be48553a8507
+Merge: 8b3a5de d332397
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Sun Apr 21 23:45:10 2013 -0700
+
+    Merge pull request #161 from wangyuhere/patch-1
+    
+    Fix comma typo in sticky tests
+
+commit 8b3a5de30588736f5ac8643f14aee47554b4143b
+Merge: ea602c3 6433456
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Sun Apr 21 23:11:31 2013 -0700
+
+    Merge pull request #163 from geeeyetee/master
+    
+    Proposed fix for jQuery 1.9 "SYNTAX ERROR, UNRECOGNIZED EXPRESSION"
+
+commit 6433456c47c2cb318b781b5276207b659cb0e6fd
+Author: geeeyetee <githuba@jodam.net>
+Date:   Sat Apr 20 01:01:19 2013 -0300
+
+    Proposed fix for jQuery 1.9 "SYNTAX ERROR, UNRECOGNIZED EXPRESSION"
+    
+    Because of security-motivated changes to $(html) in jQuery 1.9, if the ajax response for more content begins with any character other than < (even if there are only spaces and/or carriage returns before the first <), waypoints-infinite will cause jquery to throw "SYNTAX ERROR, UNRECOGNIZED EXPRESSION".
+    
+    This change fixes the problem by implementing the new best practice described here:
+    
+    http://jquery.com/upgrade-guide/1.9/#jquery-htmlstring-versus-jquery-selectorstring
+    
+    Also see:
+    
+    http://bugs.jquery.com/ticket/13223
+
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4078c0275cd7ff81f881c5ddff6b3a0b635acb45
+Author: geeeyetee <githuba@jodam.net>
+Date:   Sat Apr 20 00:36:49 2013 -0300
+
+    Proposed fix for jQuery 1.9 "SYNTAX ERROR, UNRECOGNIZED EXPRESSION"
+    
+    Because of security-motivated changes to $(html) in jQuery 1.9, if the ajax response for more content begins with any character other than < (even if there are only spaces and/or carriage returns before the first <), waypoints-infinite will cause jquery to throw "SYNTAX ERROR, UNRECOGNIZED EXPRESSION".
+    
+    This change fixes the problem by implementing the new best practice described here:
+    http://jquery.com/upgrade-guide/1.9/#jquery-htmlstring-versus-jquery-selectorstring
+    
+    Also see:
+    
+    http://bugs.jquery.com/ticket/13223
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 644d86cc3899808325de6c433552b82abeddc8ee
+Author: geeeyetee <githuba@jodam.net>
+Date:   Fri Apr 19 18:11:58 2013 -0300
+
+    Fix error when append html starts with white space
+    
+    Because of security-motivated changes to $(html) in jQuery 1.9, if the ajax response for more content begins with any character other than < (even if there are only spaces and/or carriage returns before the first <), waypoints-infinite will cause jquery to throw "SYNTAX ERROR, UNRECOGNIZED EXPRESSION".
+    
+    This change fixes the problem by implementing the new best practice described here:
+    http://jquery.com/upgrade-guide/1.9/#jquery-htmlstring-versus-jquery-selectorstring
+    
+    Also see:
+    
+    http://bugs.jquery.com/ticket/13223
+
+ shortcuts/infinite-scroll/waypoints-infinite.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d332397a444f1cd2c341dfb21d1d15a4be6ff390
+Author: Yu Wang <wangyuhere@gmail.com>
+Date:   Fri Apr 19 11:47:20 2013 +0300
+
+    Update sticky.coffee
+    
+    fix syntax error: missing "," between parameters
+
+ test/sticky.coffee | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ea602c37a2c457b5013ccf342271072b3e341c87
+Merge: bff2886 ddf8674
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Thu Apr 4 17:42:22 2013 -0700
+
+    Merge pull request #151 from heartsentwined/master
+    
+    Sticky shortcut: delayed height evaluation
+
+commit ddf8674e4718174140064b0fdd84be7b8210e9ad
+Author: heartsentwined <heartsentwined@cogito-lab.com>
+Date:   Thu Mar 28 12:23:58 2013 +0800
+
+    sticky: delayed height evaluation
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 5 +----
+ shortcuts/sticky-elements/waypoints-sticky.js     | 7 +------
+ shortcuts/sticky-elements/waypoints-sticky.min.js | 2 +-
+ 3 files changed, 3 insertions(+), 11 deletions(-)
+
+commit bff28864dd56d42479edf64ca3b121c78e0e2aa3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Mar 13 18:58:33 2013 -0700
+
+    Exit early from infinite shortcut if no more link, #140
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 1 +
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 5 ++++-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ test/infinite.coffee                                | 8 ++++++++
+ 4 files changed, 14 insertions(+), 2 deletions(-)
+
+commit fcea4f75423af30c6b2ec640af1723e9507011d1
+Merge: 6bdd0a5 bd9c7ef
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Mar 13 18:39:45 2013 -0700
+
+    Merge branch 'patch-1' of git://github.com/rerome/jquery-waypoints into infinite
+
+commit 6bdd0a5e9975da8f81cabcec91b8c0d8937559f3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Mar 12 10:30:23 2013 -0700
+
+    Remove closure scoped options object
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 16 ++++++++++------
+ shortcuts/sticky-elements/waypoints-sticky.js     | 15 ++++++---------
+ shortcuts/sticky-elements/waypoints-sticky.min.js |  2 +-
+ 3 files changed, 17 insertions(+), 16 deletions(-)
+
+commit f8776f7c253e291cc90b12ad0e51307e559c2486
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Mar 11 15:37:10 2013 -0700
+
+    Minor test formatting
+
+ test/sticky.coffee | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit bd9c7efadd44137f99edb96307ee43e145e032d2
+Author: Romans Dobzansis <rerome@gmail.com>
+Date:   Thu Feb 21 19:41:44 2013 -0500
+
+    Update shortcuts/infinite-scroll/waypoints-infinite.js
+    
+    Added a check if options.more actually exists, as at the jQuery.get() defaults to location.href if url parameter is undefined. 
+
+ shortcuts/infinite-scroll/waypoints-infinite.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 541bbf0c1ec76679f324d66c2461f6d7ef62c783
+Author: Cyril Duez <cyril.duez@gmail.com>
+Date:   Thu Feb 7 01:55:44 2013 +0100
+
+    Remove stuck class element when unsticky. Add test.
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee |  7 ++++---
+ shortcuts/sticky-elements/waypoints-sticky.js     |  9 +++++----
+ test/sticky.coffee                                | 13 +++++++++++++
+ 3 files changed, 22 insertions(+), 7 deletions(-)
+
+commit 36de0d5e9b7b4a30ea87bf2dd0f51ef0f1b03641
+Author: Cyril Duez <cyril.duez@gmail.com>
+Date:   Wed Feb 6 15:37:33 2013 +0100
+
+    Add unsticky function.
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee | 6 ++++++
+ shortcuts/sticky-elements/waypoints-sticky.js     | 9 ++++++++-
+ shortcuts/sticky-elements/waypoints-sticky.min.js | 2 +-
+ 3 files changed, 15 insertions(+), 2 deletions(-)
+
+commit 25ab67fd168863e59feb5b6a850d5fb321ad60b1
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Feb 3 11:25:15 2013 -0800
+
+    Minify
+
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 4 ++--
+ waypoints.min.js                                    | 4 ++--
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 650ee118f9deeca5ec49e1eb4feaf1843f2135a6
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Feb 3 11:23:11 2013 -0800
+
+    Update readme, version numbers for 2.0.2
+
+ CHANGELOG.md                                        | 6 ++++++
+ README.markdown                                     | 4 ++++
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee   | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.js       | 2 +-
+ waypoints.coffee                                    | 2 +-
+ waypoints.js                                        | 2 +-
+ 8 files changed, 16 insertions(+), 6 deletions(-)
+
+commit 54d7c501c20f99b000c60b91b8e4e3d0452e2daf
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Feb 3 10:44:23 2013 -0800
+
+    Execute options handler within sticky shortcut, fixes #123
+
+ shortcuts/sticky-elements/waypoints-sticky.coffee |  4 +++-
+ shortcuts/sticky-elements/waypoints-sticky.js     | 10 +++++++---
+ test/sticky.coffee                                | 14 ++++++++++++--
+ 3 files changed, 22 insertions(+), 6 deletions(-)
+
+commit f1c5995932eca4eb8c7298ecde19b5766b7e65ec
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Feb 3 09:49:08 2013 -0800
+
+    Do not throttle scroll on touch devices. Fixes #120.
+
+ waypoints.coffee | 8 +++++---
+ waypoints.js     | 7 ++++---
+ 2 files changed, 9 insertions(+), 6 deletions(-)
+
+commit ddf5c6a4e33011489b6306bf14c9415743c2cf68
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Jan 27 15:16:46 2013 -0800
+
+    Readjust whitespace, comments, and build min versions of files
+
+ .../infinite-scroll/waypoints-infinite.coffee      |  188 +--
+ .../infinite-scroll/waypoints-infinite.min.js      |    2 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee  |  114 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js  |    2 +-
+ waypoints.coffee                                   | 1362 ++++++++++----------
+ waypoints.min.js                                   |    2 +-
+ 6 files changed, 837 insertions(+), 833 deletions(-)
+
+commit 24397c3e1d59c2803424a0a63f03bdd9d07122dd
+Author: busticated <itsbusticated@gmail.com>
+Date:   Thu Jan 10 10:24:41 2013 -0600
+
+    first crack at test runner for AMD mode
+
+ test/AMD.html | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+commit 434dcdedbec4dbd41354bd9b70be5ea99916810b
+Author: busticated <itsbusticated@gmail.com>
+Date:   Thu Jan 10 10:23:50 2013 -0600
+
+    add require.js lib for testing
+
+ test/lib/require.js | 1993 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 1993 insertions(+)
+
+commit 7089a56a54255ae7a9f4d342b93b2ef0728ef903
+Author: busticated <itsbusticated@gmail.com>
+Date:   Thu Jan 10 10:23:23 2013 -0600
+
+    extract method so we can reuse the test setup logic across test files / harnesses
+
+ test/index.html        | 60 ++++++++------------------------------------------
+ test/lib/testloader.js | 47 +++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 56 insertions(+), 51 deletions(-)
+
+commit bdfad75c6972ffe07adc332b44396a46cc7ce5d8
+Author: busticated <itsbusticated@gmail.com>
+Date:   Thu Jan 10 10:21:54 2013 -0600
+
+    add compiled js files
+
+ shortcuts/infinite-scroll/waypoints-infinite.js |  87 +--
+ shortcuts/sticky-elements/waypoints-sticky.js   |  64 +-
+ waypoints.js                                    | 893 ++++++++++++------------
+ 3 files changed, 521 insertions(+), 523 deletions(-)
+
+commit 01c06d4cf731e32a040f6216a570edea12d360bb
+Author: busticated <itsbusticated@gmail.com>
+Date:   Thu Jan 10 10:20:30 2013 -0600
+
+    add AMD-wrapper to source files. waypoints core registers itself as a named module and depends on jquer, shortcuts are anon modules which depend on waypoints
+
+ .../infinite-scroll/waypoints-infinite.coffee      |  140 +-
+ shortcuts/sticky-elements/waypoints-sticky.coffee  |   92 +-
+ waypoints.coffee                                   | 1358 ++++++++++----------
+ 3 files changed, 802 insertions(+), 788 deletions(-)
+
+commit 45f050fb0f1cf254e98f26bcaef473d2763dcbf3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 9 08:42:14 2013 -0800
+
+    Fix wrong head meta on infinite scroll page
+
+ shortcuts/infinite-scroll/index.html | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit ac59034c9f511a5b85c35ee605514cb5e8bc1719
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Jan 8 14:39:34 2013 -0800
+
+    More version meta updates
+
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 4 ++--
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 4 ++--
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.coffee   | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.js       | 4 ++--
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 4 ++--
+ 6 files changed, 12 insertions(+), 12 deletions(-)
+
+commit 89c0dfadffdda06376579350b0223632616789f3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Jan 8 14:30:23 2013 -0800
+
+    2.0.1 meta+changelog  update
+
+ CHANGELOG.md     | 10 ++++++++--
+ waypoints.coffee |  4 ++--
+ waypoints.js     |  4 ++--
+ waypoints.min.js |  4 ++--
+ 4 files changed, 14 insertions(+), 8 deletions(-)
+
+commit c094979bc41146f2226beae9bb4b92ff63b10df1
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Jan 8 14:24:42 2013 -0800
+
+    Ensure internal scroll values are up to date during refresh, fixes #100
+
+ waypoints.coffee | 3 +++
+ waypoints.js     | 1 +
+ waypoints.min.js | 2 +-
+ 3 files changed, 5 insertions(+), 1 deletion(-)
+
+commit 86ba2a1846f20abbd880c28ca32ceabdd3a9c744
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Jan 6 10:35:28 2013 -0800
+
+    Lower default throttle values
+
+ waypoints.coffee | 4 ++--
+ waypoints.js     | 4 ++--
+ waypoints.min.js | 2 +-
+ 3 files changed, 5 insertions(+), 5 deletions(-)
+
+commit fc37af18a349011f21d3ffdebbc795ea8c65ca2b
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Jan 5 15:13:27 2013 -0800
+
+    Fixes #104, string pixel offsets
+
+ waypoints.coffee | 2 +-
+ waypoints.js     | 2 +-
+ waypoints.min.js | 2 +-
+ 3 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 693cb1194f57133ce5e72f0c61bcdf2ace21ced5
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 23:11:58 2013 -0800
+
+    Wrong default pre>code color on shortcuts
+
+ shortcuts/infinite-scroll/index.html | 2 +-
+ shortcuts/sticky-elements/index.html | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit de63b4c07def0f403966be807d39ce794bc24b68
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 18:08:47 2013 -0800
+
+    Update README for 2.0
+
+ README.markdown | 28 ++++++++++++++++------------
+ 1 file changed, 16 insertions(+), 12 deletions(-)
+
+commit d9199f7d2ce02be73a7fe697f67c086f3fa744c2
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 18:04:16 2013 -0800
+
+    Move changelog out of README, into CHANGELOG
+
+ CHANGELOG.md    | 67 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.markdown | 59 +-------------------------------------------------
+ 2 files changed, 68 insertions(+), 58 deletions(-)
+
+commit 068d0e2e2892da8a0e911848e7d684b14ee38b3a
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 17:50:21 2013 -0800
+
+    Last minute Scroll Analytics style change to article-finished link
+
+ examples/scroll-analytics/index.html | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 728ee37e0b89d253bd3f827c23f162572c71cce8
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 13:54:25 2013 -0800
+
+    Eff the GPL
+
+ examples/modernizr.custom.js |   3 -
+ licenses.txt                 | 283 +------------------------------------------
+ 2 files changed, 1 insertion(+), 285 deletions(-)
+
+commit fd751765ff783256e0118eb9f2c4ee5284ceb033
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 13:30:01 2013 -0800
+
+    Examples colorization
+
+ examples/dial-controls/index.html    | 110 ++++++++++++++++++-----------------
+ examples/scroll-analytics/index.html |  47 ++++++++-------
+ test/waypoints.coffee                |   7 +++
+ 3 files changed, 92 insertions(+), 72 deletions(-)
+
+commit ff0ea2cd64784c0df320612e39893a062968e541
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 12:13:57 2013 -0800
+
+    Include instructions to include shortcut sript tags
+
+ shortcuts/infinite-scroll/index.html | 4 ++++
+ shortcuts/sticky-elements/index.html | 4 ++++
+ 2 files changed, 8 insertions(+)
+
+commit 91333b4e67a620b4f95ce244e6006b01b216eb16
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 12:09:42 2013 -0800
+
+    Sticky shortcut colorization
+
+ shortcuts/infinite-scroll/index.html | 11 +---
+ shortcuts/sticky-elements/index.html | 97 ++++++++++++++++++++++++++----------
+ 2 files changed, 72 insertions(+), 36 deletions(-)
+
+commit 2f264f21d109d982a26dbc736851a12d0419b14b
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jan 2 11:46:17 2013 -0800
+
+    Infinite shortcut styling based on pages branch
+
+ shortcuts/infinite-scroll/index.html | 111 +++++++++++++++++++++++++++--------
+ 1 file changed, 85 insertions(+), 26 deletions(-)
+
+commit 8e212ed812f0bbc5141d42da1a923b21e8dc07a2
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Dec 24 00:24:43 2012 -0800
+
+    Bring rest of the examples in line with Shortcuts styling
+
+ examples/dial-controls/index.html    | 316 ++++++++++++++++++++++++++++-------
+ examples/scroll-analytics/index.html | 163 ++++++++++++++++--
+ examples/scroll-analytics/style.css  | 210 -----------------------
+ 3 files changed, 403 insertions(+), 286 deletions(-)
+
+commit 250d63f4d676c7cdf5f3eeb1fae05180a53be93a
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Dec 24 00:01:44 2012 -0800
+
+    Freshen up Dial Controls example to match new Shortcuts style
+
+ examples/dial-controls/style.css | 191 ---------------------------------------
+ 1 file changed, 191 deletions(-)
+
+commit 615b4be70d584f11d8124512094fd9d6819c77ab
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Dec 23 17:46:47 2012 -0800
+
+    Update build options for new Uglify 2.0 cli options
+
+ Makefile                                            | 6 +++---
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 9 ++++++++-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 9 ++++++++-
+ waypoints.min.js                                    | 9 ++++++++-
+ 4 files changed, 27 insertions(+), 6 deletions(-)
+
+commit 31760bc19702302a6a6d812ec7ca915f103e74e1
+Merge: 5fd9cb1 e5adbcb
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Dec 23 17:17:00 2012 -0800
+
+    Merge branch '2.0-checkEmpty_bugfix' of git://github.com/al/jquery-waypoints into 2.0
+
+commit e5adbcbdf3b85a679f5d358827d99b949ee8046c
+Author: Alan Larkin <alan.larkin@gmail.com>
+Date:   Tue Nov 27 12:04:52 2012 +0000
+
+    Fixed precedence bug in Context.prototype.checkEmpty.
+
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 2 +-
+ shortcuts/infinite-scroll/waypoints-infinite.min.js | 8 +-------
+ shortcuts/sticky-elements/waypoints-sticky.js       | 2 +-
+ shortcuts/sticky-elements/waypoints-sticky.min.js   | 8 +-------
+ waypoints.coffee                                    | 4 ++--
+ waypoints.js                                        | 4 ++--
+ waypoints.min.js                                    | 8 +-------
+ 7 files changed, 9 insertions(+), 27 deletions(-)
+
+commit 5fd9cb1649631d30eb03c2244d4d57a603d1f276
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 11 17:09:30 2012 -0700
+
+    Clean up old examples
+
+ examples/infinite-scroll/index.html  |  82 ---------------
+ examples/infinite-scroll/style.css   | 150 --------------------------
+ examples/sticky-elements/style.css   | 198 -----------------------------------
+ shortcuts/infinite-scroll/index.html |  32 +++---
+ 4 files changed, 16 insertions(+), 446 deletions(-)
+
+commit ce60db31838ac044e03178a4cc5d0bcdc28d9965
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 11 16:58:55 2012 -0700
+
+    Add 'auto' value to infinite shortcut container option, make it default
+
+ shortcuts/infinite-scroll/index.html                | 7 ++++---
+ shortcuts/infinite-scroll/waypoints-infinite.coffee | 6 ++++--
+ shortcuts/infinite-scroll/waypoints-infinite.js     | 4 ++--
+ 3 files changed, 10 insertions(+), 7 deletions(-)
+
+commit 132c2051e25a9710cf261ec27505eb7f076edb7c
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 11 16:19:21 2012 -0700
+
+    Style infinite scroll dl/dt/dd
+
+ shortcuts/infinite-scroll/index.html | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit c387fc1babf68a69ab3c05b41959b45d49e57030
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Oct 9 17:12:05 2012 -0700
+
+    Infinite shortcut B&W page
+
+ shortcuts/infinite-scroll/index.html               | 207 +++++++++++++++++++++
+ .../infinite-scroll/waypoints-infinite.coffee      |   1 +
+ shortcuts/infinite-scroll/waypoints-infinite.js    |   1 +
+ shortcuts/sticky-elements/waypoints-sticky.js      |   3 +-
+ waypoints.js                                       |   2 +-
+ 5 files changed, 212 insertions(+), 2 deletions(-)
+
+commit 8fd27e3658dc515224ce83c75f47ff1b4be4a243
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Oct 9 11:47:24 2012 -0700
+
+    Sticky shortcut page
+
+ examples/sticky-elements/index.html               | 141 --------------------
+ shortcuts/sticky-elements/index.html              | 155 ++++++++++++++++++++++
+ shortcuts/sticky-elements/waypoints-sticky.coffee |   1 +
+ waypoints.js                                      |   2 +-
+ 4 files changed, 157 insertions(+), 142 deletions(-)
+
+commit 211d8845dfda82c45a1318fb7106bf1073506f2e
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 4 15:20:44 2012 -0700
+
+    Switch sticky example to use shortcut
+
+ examples/sticky-elements/index.html | 29 ++++++++++++++---------------
+ examples/sticky-elements/style.css  | 19 ++++++-------------
+ 2 files changed, 20 insertions(+), 28 deletions(-)
+
+commit 9691560d9c1c9d6791fd47685241adfeb3ff2a2c
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Aug 30 20:24:43 2012 +0800
+
+    Sticky elements shortcut
+
+ Makefile                                           |  3 +-
+ .../infinite-scroll/waypoints-infinite.min.js      |  7 ++-
+ shortcuts/sticky-elements/waypoints-sticky.coffee  | 66 ++++++++++++++++++++++
+ shortcuts/sticky-elements/waypoints-sticky.js      | 45 +++++++++++++++
+ shortcuts/sticky-elements/waypoints-sticky.min.js  |  7 +++
+ test/fixtures/sticky.html                          | 18 ++++++
+ test/index.html                                    |  4 +-
+ test/infinite.coffee                               |  2 +-
+ test/sticky.coffee                                 | 39 +++++++++++++
+ 9 files changed, 187 insertions(+), 4 deletions(-)
+
+commit dd53665a1a1e7f0e38609b697b991d9784ac2ba3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Aug 27 22:25:24 2012 +0800
+
+    Infinite Scroll shortcut
+
+ Makefile                                           |   3 +-
+ .../infinite-scroll/waypoints-infinite.coffee      |  96 +++
+ shortcuts/infinite-scroll/waypoints-infinite.js    |  56 ++
+ .../infinite-scroll/waypoints-infinite.min.js      |   2 +
+ test/fixtures/infinite.html                        |  24 +
+ test/index.html                                    |  32 +-
+ test/infinite.coffee                               |  47 ++
+ test/spec.coffee                                   | 696 --------------------
+ test/waypoints.coffee                              | 701 +++++++++++++++++++++
+ waypoints.coffee                                   |  22 +-
+ waypoints.js                                       |  14 +-
+ waypoints.min.js                                   |   2 +-
+ 12 files changed, 978 insertions(+), 717 deletions(-)
+
+commit 6e898420ba238b5d709848541f56b3c82e5060ef
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Aug 27 10:47:13 2012 +0800
+
+    I hear comments are good
+
+ GPL-license.txt  | 278 -----------------------------------------
+ MIT-license.txt  |  21 ----
+ Makefile         |   8 +-
+ licenses.txt     | 304 +++++++++++++++++++++++++++++++++++++++++++++
+ waypoints.coffee | 372 ++++++++++++++++++++++++++++++++++++++++++++++++++++---
+ waypoints.js     |  39 +++---
+ waypoints.min.js |   7 +-
+ 7 files changed, 695 insertions(+), 334 deletions(-)
+
+commit c7be00e5d2ad88001a06eb3dbce3b974746a716d
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Aug 26 12:06:06 2012 +0800
+
+    Global enable/disable/destroy
+
+ test/spec.coffee | 33 +++++++++++++++++++++++++++++++++
+ waypoints.coffee | 11 ++++++++++-
+ waypoints.js     | 18 +++++++++++++++++-
+ 3 files changed, 60 insertions(+), 2 deletions(-)
+
+commit 83f95021c87d821266fd9ce69b68811aad384ea6
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Aug 26 11:21:52 2012 +0800
+
+    jQuery Eventicide
+
+ test/spec.coffee | 131 ++++++++++++++++++++++++-------------------------------
+ waypoints.coffee |   6 +--
+ waypoints.js     |   9 ++--
+ 3 files changed, 65 insertions(+), 81 deletions(-)
+
+commit 183689ec18c6628e3ca2072496e581ecf7b450ad
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Aug 25 22:11:28 2012 +0800
+
+    #waypoint('prev/next'[, contextSelector]). #69
+
+ test/spec.coffee | 16 ++++++++++++
+ waypoints.coffee | 42 +++++++++++++++++++++---------
+ waypoints.js     | 79 ++++++++++++++++++++++++++++++++++++++++----------------
+ 3 files changed, 103 insertions(+), 34 deletions(-)
+
+commit 9c3ce32dcd627618af59298a01a1e9085c7287c0
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Aug 25 17:57:00 2012 +0800
+
+    waypoints('above/below/left/right'). #88
+
+ test/spec.coffee | 55 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ waypoints.coffee | 27 +++++++++++++++++++++++++++
+ waypoints.js     | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 133 insertions(+)
+
+commit 898482c3a1b6bd63f027d0218afdb657e803b557
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Aug 25 12:23:08 2012 +0800
+
+    Ensure pull request #86 still intact
+
+ test/spec.coffee | 20 ++++++++++++++++++++
+ waypoints.coffee |  6 +++++-
+ waypoints.js     | 11 +++++++----
+ 3 files changed, 32 insertions(+), 5 deletions(-)
+
+commit e3fa2697d43ddf11cf31065ee168b7126cc6a938
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri Aug 24 21:24:09 2012 +0800
+
+    Going horizontal
+
+ test/fixtures/standard.html |   7 ++
+ test/spec.coffee            |  81 +++++++++-----
+ waypoints.coffee            | 221 +++++++++++++++++++++----------------
+ waypoints.js                | 263 ++++++++++++++++++++++++--------------------
+ 4 files changed, 331 insertions(+), 241 deletions(-)
+
+commit 5703a4e818e945d6dbc7b40b60d7ea534d3f066a
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Aug 20 18:58:39 2012 +0800
+
+    Make the directon parameter an object with up/down bools
+
+ test/spec.coffee | 18 +++++++++++-------
+ waypoints.coffee | 54 ++++++++----------------------------------------------
+ waypoints.js     | 29 ++++++++++++++++++++++++-----
+ 3 files changed, 43 insertions(+), 58 deletions(-)
+
+commit cec39137fb143240ea276a3692ad372b8c02d6db
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Aug 19 17:29:15 2012 +0800
+
+    Multiple waypoints per element
+
+ test/spec.coffee | 41 +++++++++++++++++++++++++++++++++++++----
+ waypoints.coffee | 14 +++++++++-----
+ waypoints.js     | 14 ++++++++------
+ waypoints.min.js |  2 +-
+ 4 files changed, 55 insertions(+), 16 deletions(-)
+
+commit 41f8dfa840c08478f15f4300fac1710137483bb5
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Aug 19 16:22:55 2012 +0800
+
+    CoffeeScript rewrite that REALLY should not be one commit
+
+ .gitignore                           |    1 -
+ Makefile                             |    7 +
+ examples/dial-controls/index.html    |    4 +-
+ examples/infinite-scroll/index.html  |   17 +-
+ examples/scroll-analytics/index.html |    9 +-
+ examples/sticky-elements/index.html  |    7 +-
+ test/index.html                      |    8 +-
+ test/lib/coffee-script.js            |    8 +
+ test/spec.coffee                     |  525 +++++++++++++++++
+ test/spec.js                         |  720 ------------------------
+ waypoints.coffee                     |  274 +++++++++
+ waypoints.js                         | 1020 ++++++++++++----------------------
+ waypoints.min.js                     |   10 +-
+ 13 files changed, 1180 insertions(+), 1430 deletions(-)
+
+commit a417017cee5c43aa91f2463d92193c44aea946de
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Aug 18 16:10:52 2012 +0800
+
+    Upgrade to latest Jasmine/jasmine-jquery
+
+ test/index.html            |   35 +-
+ test/lib/jasmine-html.js   |  438 +++++++++++++-
+ test/lib/jasmine-jquery.js |  396 ++++++++----
+ test/lib/jasmine.css       |  247 +++-----
+ test/lib/jasmine.js        |  584 ++++++++++--------
+ test/spec.js               | 1423 ++++++++++++++++++++++----------------------
+ 6 files changed, 1863 insertions(+), 1260 deletions(-)
+
+commit 7a7e8d8698cc90c27a4f8965f2de2bc5d20a8ba3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon May 28 18:10:30 2012 +0800
+
+    Bump to 1.1.7
+
+ README.markdown  | 3 +++
+ waypoints.js     | 6 ++++--
+ waypoints.min.js | 4 ++--
+ 3 files changed, 9 insertions(+), 4 deletions(-)
+
+commit ff87b89e8190a206e2e90f13c2f92ad794aa00ee
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Apr 5 23:04:13 2012 +0800
+
+    Fix broken test, broken post-load waypoint inits, touches #62 #63
+
+ test/spec.js | 33 +++++++++++++++------------------
+ waypoints.js |  4 ++--
+ 2 files changed, 17 insertions(+), 20 deletions(-)
+
+commit d620526378b060f1f0200b4ad43cf5b4a0a0428f
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Mar 31 15:11:02 2012 +0800
+
+    README update
+
+ README.markdown | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 795193856844e01707b57cc4e83da3a8871f5b97
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Mar 31 15:09:07 2012 +0800
+
+    Fix memory leaks via unbound scroll/resize handlers, closes #57
+
+ waypoints.js     | 32 ++++++++++++++++++++------------
+ waypoints.min.js |  4 ++--
+ 2 files changed, 22 insertions(+), 14 deletions(-)
+
+commit b5ea76db6b2530a471a3b8b96c5082eda8c318f4
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Mar 18 01:30:32 2012 +0800
+
+    Link update
+
+ README.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7156ad444785ec0ae375e8e540613a411f603ff9
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Mar 18 01:11:05 2012 +0800
+
+    Make compatible with Browserify/Require, closes #52
+
+ README.markdown  | 4 ++++
+ waypoints.js     | 8 +++++---
+ waypoints.min.js | 4 ++--
+ 3 files changed, 11 insertions(+), 5 deletions(-)
+
+commit 7101ff2690780e8659aa25b28a5998a1eb8bb842
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Jan 9 10:59:33 2012 -0800
+
+    Version bump 1.1.4
+
+ MIT-license.txt  |  2 +-
+ README.markdown  | 14 ++++++++++----
+ waypoints.js     |  6 ++++--
+ waypoints.min.js |  4 ++--
+ 4 files changed, 17 insertions(+), 9 deletions(-)
+
+commit 10e442f9efb005a9067038fd0a301fb43ba46ecb
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri Dec 16 11:36:48 2011 -0800
+
+    Add handler option for #34
+
+ test/spec.js     | 19 +++++++++++++++++++
+ waypoints.js     | 26 ++++++++++++++++++++++++++
+ waypoints.min.js |  2 +-
+ 3 files changed, 46 insertions(+), 1 deletion(-)
+
+commit e9c044780384ebe94038948a43a35a9282d2ad94
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Nov 30 11:10:37 2011 +0800
+
+    Bump version
+
+ README.markdown  |  4 ++++
+ waypoints.js     | 11 +++++++----
+ waypoints.min.js |  2 +-
+ 3 files changed, 12 insertions(+), 5 deletions(-)
+
+commit 2c23070eaec546a8fe3bd8fae642954561f13b76
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Nov 29 10:23:38 2011 +0800
+
+    #28: Check for down trigger when waypoints are added without a scroll
+
+ waypoints.js     | 14 +++++++-------
+ waypoints.min.js |  2 +-
+ 2 files changed, 8 insertions(+), 8 deletions(-)
+
+commit 0a7fab85fbb5ac6f512a8e72a88fea4e65051a36
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Nov 29 10:14:42 2011 +0800
+
+    The hell was I thinking when I wrote the lat test, post-load test fixed
+
+ test/spec.js | 30 +++++++++++++++++++-----------
+ 1 file changed, 19 insertions(+), 11 deletions(-)
+
+commit fe12805ee69e0eba713ca81867ec5d8b35ef37ed
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Nov 29 09:38:33 2011 +0800
+
+    Failing test for issue #28
+
+ test/spec.js | 18 ++++++++++++++++++
+ 1 file changed, 18 insertions(+)
+
+commit c7bbc4bce60d3c306ba7bf53bdf8fc3f7561b242
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Oct 12 01:10:21 2011 +0800
+
+    Wrong version number at top of source files
+
+ waypoints.js     | 2 +-
+ waypoints.min.js | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 5aff9f85807b5110fcfe406dbba227d2bf643674
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 6 13:15:50 2011 +0800
+
+    Update changlog for 1.1.2
+
+ README.markdown | 4 ++++
+ waypoints.js    | 3 +++
+ 2 files changed, 7 insertions(+)
+
+commit 4ded95368af82b17ac6cee6527246764577b097e
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Oct 6 13:02:36 2011 +0800
+
+    Fixes #20: Check waypoint existence in refresh loop to protect against element removal
+
+ waypoints.js     | 4 ++++
+ waypoints.min.js | 2 +-
+ 2 files changed, 5 insertions(+), 1 deletion(-)
+
+commit 5761263863ff0884d72429b9f5c68a8ac1a3b7c2
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Sep 17 14:57:47 2011 +0800
+
+    More doc tweaks
+
+ waypoints.js | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit db91ea3eb92866f4826c26fd1142f552763fb79e
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Sep 17 14:52:45 2011 +0800
+
+    Update documentation, reminify
+
+ README.markdown  |  6 ++++++
+ waypoints.js     | 11 +++++++++--
+ waypoints.min.js |  4 ++--
+ 3 files changed, 17 insertions(+), 4 deletions(-)
+
+commit cb0d7d7b0e8466bdc3ef9999e3feadf599095bdf
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Sep 17 13:40:15 2011 +0800
+
+    Clean up onlyOnScroll test
+
+ test/spec.js | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+
+commit 32a84e57c367890276a237743afa2afcb26b03d1
+Merge: 9adc20e 22c8052
+Author: Caleb Troughton <caleb@imakewebthings.com>
+Date:   Fri Sep 16 22:11:33 2011 -0700
+
+    Merge pull request #17 from knuton/master
+    
+    Add an option to prevent triggering when not scrolling
+
+commit 22c80525abfc94500001fa4585e4828662069e10
+Author: Johannes Emerich <johannes@emerich.de>
+Date:   Wed Sep 14 10:18:08 2011 +0200
+
+    Rename option and add test
+
+ test/spec.js | 23 ++++++++++++++++++++++-
+ waypoints.js |  2 +-
+ 2 files changed, 23 insertions(+), 2 deletions(-)
+
+commit e047e1f4087c823f294c85522c0d1eb09ae7e5d3
+Author: Johannes Emerich <johannes@emerich.de>
+Date:   Tue Sep 13 18:07:41 2011 +0200
+
+    Add option to prevent triggering on reflow
+
+ waypoints.js | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+commit 9adc20eb7c73b2bc2fe3274356a17a0e57219aeb
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Sep 10 15:25:07 2011 +0800
+
+    Fixes #16: Give new waypoints temporary null offsets before refresh calculation to prevent incorrect triggers on midpage waypoint creation
+
+ waypoints.js     | 6 +++---
+ waypoints.min.js | 2 +-
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 0672dc5462c2286a15095c7f158f04ff6e0c1fcf
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Jul 31 13:47:14 2011 +0800
+
+    Update support documentation -> jQuery 1.4.3+
+
+ README.markdown | 2 +-
+ waypoints.js    | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 380c840b581cbe95d955971827ba03a14b79a88c
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Jul 9 10:02:57 2011 +0800
+
+    Update README examples links and browser support
+
+ README.markdown | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 4bad9394eb6c12051076228b10306326d6976f1a
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri Jun 24 13:35:06 2011 +0800
+
+    Little transition
+
+ .gitignore                       | 1 +
+ examples/dial-controls/style.css | 4 ++++
+ 2 files changed, 5 insertions(+)
+
+commit 9efff481dc4862abfc659445e74ce9728aae2e57
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 18:15:31 2011 +0800
+
+    README update
+
+ README.markdown | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 533f0a1fc91def7a7238386a4b7e2417a5c2ae01
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 18:08:55 2011 +0800
+
+    Documentation update
+
+ waypoints.js     | 84 +++++++++++++++++++++++++++++++++++---------------------
+ waypoints.min.js |  2 +-
+ 2 files changed, 54 insertions(+), 32 deletions(-)
+
+commit 51970f4f512bc56d373d2d530f7b904175889ee6
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 12:53:14 2011 +0800
+
+    Fix dial controls example description
+
+ examples/dial-controls/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0b2cbc29409c4fe5b5dfae0c9cbd2c55b6ef8742
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 12:42:06 2011 +0800
+
+    Minify
+
+ waypoints.min.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f5373fb911003550a29bf8eb0dece5d4cd2da298
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 12:27:24 2011 +0800
+
+    Adding gitignore
+
+ .gitignore | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 8128e7b786415fd2e39c793289eb7926f96fd9ff
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 12:22:30 2011 +0800
+
+    Remove stray console log
+
+ examples/dial-controls/index.html | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 6d5e087b9b9a12f81acf73f2a97be85f3c12ca51
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 11:24:55 2011 +0800
+
+    Add dial controls example for contexts
+
+ examples/dial-controls/index.html |  95 +++++++++++++++++++
+ examples/dial-controls/style.css  | 187 ++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 282 insertions(+)
+
+commit 9e09c89ffc28a82519d04c5953a72305a565c027
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Jun 23 09:34:03 2011 +0800
+
+    Actually make contexts work...
+
+ test/fixtures/standard.html |  2 +-
+ test/index.html             |  2 +-
+ test/spec.js                | 72 ++++++++++++++++++++++++++++++++++++++-------
+ waypoints.js                |  8 +++--
+ 4 files changed, 69 insertions(+), 15 deletions(-)
+
+commit 2768400548d072942200a14d9060b226b8b240e8
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Jun 22 19:43:12 2011 +0800
+
+    First shot at waypoint contexts for non-window scrolling elements
+
+ test/fixtures/standard.html |  15 +-
+ test/spec.js                |  61 ++++++
+ waypoints.js                | 491 +++++++++++++++++++++++++-------------------
+ 3 files changed, 356 insertions(+), 211 deletions(-)
+
+commit 06b9bb664a72a8667d3d78f28018c87b44be97f8
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat May 7 17:57:08 2011 +0800
+
+    Move continuous setting out of global .waypoints.settings and into individual waypoint options
+
+ test/spec.js     | 122 +++++++++++++++++++++++++++++++------------------------
+ waypoints.js     |  44 ++++++++++----------
+ waypoints.min.js |   2 +-
+ 3 files changed, 92 insertions(+), 76 deletions(-)
+
+commit c84f20ba30eb05809ba7e53a0848615daeef593b
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Apr 11 23:46:51 2011 -0700
+
+    Bump version and update documentation
+
+ README.markdown  | 17 +++++++++++------
+ waypoints.js     | 15 ++++++++++-----
+ waypoints.min.js |  2 +-
+ 3 files changed, 22 insertions(+), 12 deletions(-)
+
+commit 315fabfe988a9f4821d91487efdad48e62a6312d
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Apr 11 00:44:45 2011 -0700
+
+    Removing DS_Store
+
+ test/.DS_Store | Bin 6148 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 73d5885051ad68d2963b9ada99cdce260a2d6da0
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Apr 11 00:44:20 2011 -0700
+
+    Adding unit tests
+
+ test/.DS_Store              |  Bin 0 -> 6148 bytes
+ test/fixtures/standard.html |   59 ++
+ test/index.html             |   25 +
+ test/lib/jasmine-html.js    |  188 ++++
+ test/lib/jasmine-jquery.js  |  254 +++++
+ test/lib/jasmine.css        |  166 +++
+ test/lib/jasmine.js         | 2421 +++++++++++++++++++++++++++++++++++++++++++
+ test/spec.js                |  554 ++++++++++
+ 8 files changed, 3667 insertions(+)
+
+commit fbc474715ebea203c8abb2b154b34bed379d5a18
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sat Apr 9 23:58:52 2011 -0700
+
+    Math ceil offset % calcs to fix 1px errors from rounding
+
+ waypoints.js     | 2 +-
+ waypoints.min.js | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit c75cdc41593745f93717c659c323874f345d9c8f
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Mar 23 11:30:51 2011 -0600
+
+    Adding modernizr used by examples
+
+ examples/modernizr.custom.js | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 06d424dcb31844eae837df71a2d84ac1097c65c3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Wed Mar 23 11:29:14 2011 -0600
+
+    Adding examples directory
+
+ examples/infinite-scroll/index.html  |  85 ++++++++++++++
+ examples/infinite-scroll/style.css   | 150 +++++++++++++++++++++++++
+ examples/scroll-analytics/index.html | 129 +++++++++++++++++++++
+ examples/scroll-analytics/style.css  | 210 +++++++++++++++++++++++++++++++++++
+ examples/sticky-elements/index.html  | 143 ++++++++++++++++++++++++
+ examples/sticky-elements/style.css   | 205 ++++++++++++++++++++++++++++++++++
+ 6 files changed, 922 insertions(+)
+
+commit 7926f9858ba2b1bf26e948bc6572ced8500d3128
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Sun Mar 20 23:59:03 2011 -0600
+
+    reminified
+
+ waypoints.min.js | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d3c63e82df90449c3faf36683337ac9db3e27e83
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri Mar 11 19:01:50 2011 -0500
+
+    fix stray hard function references (.waypoints, .waypoint) and replace with modular parameter indexing
+
+ waypoints.js | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit c51ec15d62055ac9c9551ea2691a04494362a192
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Fri Mar 11 09:55:57 2011 +0800
+
+    Move scroll and resize handlers bindings out of the window load
+
+ waypoints.js | 47 +++++++++++++++++++++--------------------------
+ 1 file changed, 21 insertions(+), 26 deletions(-)
+
+commit 1d5c33b0d6b0e6ef15312b191193ebaf9a9b47b3
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Feb 28 22:37:00 2011 +0800
+
+    Update documentation, bump to 1.0.1
+
+ README.markdown  | 12 ++++++++++--
+ waypoints.js     |  9 +++++++--
+ waypoints.min.js |  2 +-
+ 3 files changed, 18 insertions(+), 5 deletions(-)
+
+commit 5fa19f5f21091994bceb4df971d7e2cd36bcdad6
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Feb 28 16:10:17 2011 +0800
+
+    Adding bottom-in-view alias for offset function
+
+ waypoints.js     | 21 +++++++++++++++++----
+ waypoints.min.js |  2 +-
+ 2 files changed, 18 insertions(+), 5 deletions(-)
+
+commit 53f8e61f618e69740ae10cd5f8e921bdf7a74def
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Feb 28 13:43:05 2011 +0800
+
+    License urls
+
+ waypoints.js     | 4 ++--
+ waypoints.min.js | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 55aed4a8fa6a42e4ed4dbc07b7293a2531eb5a2f
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Mon Feb 28 13:10:45 2011 +0800
+
+    Fix iOS support, create and expose .waypoints('viewportHeight') in the process
+
+ waypoints.js     | 44 +++++++++++++++++++++++++++++---------------
+ waypoints.min.js |  6 +++---
+ 2 files changed, 32 insertions(+), 18 deletions(-)
+
+commit 7d3fb5d1ab1026eaf281239512227758d0d4d215
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Feb 24 13:27:16 2011 +0800
+
+    Typo fix
+
+ README.markdown | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit b0f3f5654e189a51f25392e81f627a0c6c195ced
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Thu Feb 24 10:28:15 2011 +0800
+
+    Updating TODOS: Audit iOS
+
+ README.markdown | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 12ca7ca01ad2326017cc0f494aa1bd4652a0d5a4
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Feb 22 18:32:21 2011 +0800
+
+    Updating URLs
+
+ README.markdown  | 10 +++++-----
+ waypoints.js     |  6 +++---
+ waypoints.min.js |  4 ++--
+ 3 files changed, 10 insertions(+), 10 deletions(-)
+
+commit e94b2bca897bde2d49257945ddffb4465da4af85
+Author: imakewebthings <caleb@imakewebthings.com>
+Date:   Tue Feb 22 17:07:52 2011 +0800
+
+    Initial release
+
+ GPL-license.txt  | 278 ++++++++++++++++++++++++++++++++
+ MIT-license.txt  |  21 +++
+ README.markdown  |  36 +++++
+ waypoints.js     | 483 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ waypoints.min.js |   8 +
+ 5 files changed, 826 insertions(+)

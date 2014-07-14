@@ -1,0 +1,39 @@
+{% extends "blog/admin/base.html" %}
+
+{% block body_classes %}{{ block.super }} f_blog_admin_index{% endblock %}
+
+{% block body %}
+
+<div class="container">
+  <header>
+    <h1>Blog admin</h1>
+  </header>
+
+  <p class="text-center">
+    <a class="btn btn-primary btn-lg" href="{% url "blog:admin:add" %}" data-no-instant>New post</a>
+  </p>
+
+  <hr>
+
+  <table class="table table-striped">
+    {% for post in posts %}
+    <tr>
+      <td>
+        {% if post.published %}
+          <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+        {% else %}
+          <em>{{ post.title|default:"(no title)" }}</em>
+        {% endif %}
+      </td>
+
+      <td>
+        <a class="btn btn-default" href="{% url "blog:admin:edit" post.pk %}">Edit</a>
+      </td>
+    </tr>
+    {% empty %}
+      <li>(no posts)</li>
+    {% endfor %}
+  </table>
+</div>
+
+{% endblock %}

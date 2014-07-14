@@ -1,0 +1,19 @@
+Source: lamby-www
+Section: net
+Priority: optional
+Maintainer: Chris Lamb <lamby@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), python-six
+Standards-Version: 3.9.2
+
+Package: lamby-www
+Architecture: all
+Depends:
+  ${misc:Depends},
+  ${python:Depends},
+  gunicorn (>= 0.14.2),
+  nginx,
+  python-six,
+  python-pygments,
+  python-docutils,
+  python-psycopg2,
+Description: www.chris-lamb.co.uk

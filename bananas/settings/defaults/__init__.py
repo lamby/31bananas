@@ -126,7 +126,6 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 AWS_DEFAULT_ACL = 'public-read'
 AWS_ACCESS_KEY_ID = 'AKIAJ2MH6KAU3WOSKPCQ'
-AWS_S3_CUSTOM_DOMAIN = 'd1icoid1cnixnp.cloudfront.net'
 AWS_QUERYSTRING_AUTH = False
 AWS_SECRET_ACCESS_KEY = 'PFc5/5lERCkf3uNj+Icyx0PHe9ZrHcdemw/Y1kqr'
 AWS_STORAGE_BUCKET_NAME = 'bananas'
@@ -149,7 +148,7 @@ SESSION_COOKIE_AGE = 86400 * 365 * 10
 SESSION_COOKIE_SECURE = True
 SESSION_COOKIE_HTTPONLY = True
 
-STATIC_MEDIA_URL = '//d3iu69lz2dsmya.cloudfront.net/media/%(hash).6s/%(path)s'
+STATIC_MEDIA_URL = '/media/%(hash).6s/%(path)s'
 STATIC_MEDIA_ROOT = join(BANANAS_BASE, 'media')
 
 DATABASE_ENGINE = None # for debug toolbar

@@ -2,7 +2,7 @@
 
 {% load markup %}
 
-{% block title %}{{ review.title }}{% endblock %}
+{% block title %}{{ review.title }} | {{ block.super }}{% endblock %}
 
 {% block body_classes %}{{ block.super }} f_review{% endblock %}
 
@@ -11,8 +11,28 @@
 <header>
   <div class="container">
     <h1>{{ review.title }}</h1>
+    <h2><em>{{ review.source }}</em>, {{ review.price }}</h2>
   </div>
 </header>
+
+<section id="photos">
+  <div class="container-fluid">
+    <div class="row">
+      <div
+        class="photo col-xs-6"
+        style="background-image: url(http://4.bp.blogspot.com/-GpkILjtFaDI/TlP_SdllFjI/AAAAAAAAA2g/1et107lHAN4/s1600/IMG_3212.JPG)"
+      >
+        &nbsp;
+      </div>
+      <div
+        class="photo col-xs-6"
+        style="background-image: url(http://4.bp.blogspot.com/-W3QiE59bk-0/Tz8JJW0cDmI/AAAAAAAABtA/OIiWW6lfRU4/s1600/IMG_2258.JPG)"
+      >
+        &nbsp;
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="content">
   <div class="container">

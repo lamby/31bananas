@@ -1,6 +1,29 @@
 .f_review {
-  section#content {
-    width: 100%;
+  header {
+    h1,
+    h2 {
+      text-transform: none;
+    }
+  }
+
+  section {
     background-color: #fff;
+    width: 100%;
+  }
+
+  section#content {
+    padding: 40px 0;
+  }
+
+  section#photos {
+    .photo {
+      height: 500px;
+      background: url(missing.jpeg) no-repeat bottom center scroll;
+
+      background-size: cover;
+      -o-background-size: cover;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+    }
   }
 }

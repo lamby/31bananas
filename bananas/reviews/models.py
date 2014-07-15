@@ -14,6 +14,7 @@ class Review(models.Model):
     price = models.CharField(max_length=250, blank=True)
 
     content = models.TextField(blank=True)
+    nutrition = models.TextField(blank=True)
 
     date = models.DateField(unique=True)
     published = models.BooleanField(default=False)

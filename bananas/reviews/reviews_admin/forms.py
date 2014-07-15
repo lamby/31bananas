@@ -9,8 +9,7 @@ class ReviewForm(forms.ModelForm):
             'title',
             'source',
             'price',
-
             'content',
-
+            'nutrition',
             'published'
         )

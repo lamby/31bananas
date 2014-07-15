@@ -6,12 +6,18 @@
 
 {% block body_classes %}{{ block.super }} f_review{% endblock %}
 
-{% block container %}
+{% block content %}
 
 <header>
-  <h1>{{ review.title }}</h1>
+  <div class="container">
+    <h1>{{ review.title }}</h1>
+  </div>
 </header>
 
-{{ review.content|restructuredtext }}
+<section id="content">
+  <div class="container">
+    {{ review.content|restructuredtext }}
+  </div>
+</section>
 
 {% endblock %}

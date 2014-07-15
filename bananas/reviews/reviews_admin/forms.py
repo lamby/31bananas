@@ -7,6 +7,10 @@ class ReviewForm(forms.ModelForm):
         model = Review
         fields = (
             'title',
+            'source',
+            'price',
+
             'content',
+
             'published'
         )

@@ -9,6 +9,10 @@ YEAR, MONTH = 2014, 8
 
 class Review(models.Model):
     title = models.CharField(max_length=250, blank=True)
+
+    source = models.CharField(max_length=250, blank=True)
+    price = models.CharField(max_length=250, blank=True)
+
     content = models.TextField(blank=True)
 
     date = models.DateField(unique=True)

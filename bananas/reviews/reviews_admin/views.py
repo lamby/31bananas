@@ -41,11 +41,12 @@ def login(request):
 @superuser_required
 def index(request):
     c = calendar.Calendar()
-    reviews = {x.date: x for x in Review.objects.all()}
+    by_day = {x.date: x for x in Review.objects.all()}
 
     return render(request, 'reviews/admin/index.html', {
         'days': c.monthdatescalendar(YEAR, MONTH),
-        'reviews': reviews,
+        'by_day': by_day,
+        'reviews': Review.objects.all(),
     })
 
 @superuser_required

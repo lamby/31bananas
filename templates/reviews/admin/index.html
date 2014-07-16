@@ -6,7 +6,7 @@
 
 <section id="reviews">
   <div class="container">
-    <table class="table">
+    <table class="table calendar">
       <thead>
         <th>Mon</th>
         <th>Tue</th>
@@ -20,7 +20,7 @@
         {% for week in days %}
         <tr>
           {% for day in week %}
-          {% with reviews|getitem:day as review %}
+          {% with by_day|getitem:day as review %}
           {% if review %}
           <td class="{% if review.published %}success{% elif review.title %}active{% else %}danger{% endif %}">
             <h2>
@@ -49,6 +49,22 @@
       </tbody>
     </table>
   </div>
+
+  <table class="table table-striped">
+  {% for review in reviews %}
+  <tr>
+    <td style="text-align: right;">{{ review.date.day }}</td>
+    <td>
+      <a href="{% url "reviews:admin:edit" review.pk %}">
+        {{ review.title|default:"(no review)" }}
+      </a>
+    </td>
+    <td>{{ review.source }}</td>
+    <td>{{ review.price }}</td>
+  </tr>
+  {% endfor %}
+  </table>
+
 </section>
 
 {% endblock %}

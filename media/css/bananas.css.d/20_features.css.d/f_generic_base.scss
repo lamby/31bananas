@@ -74,8 +74,21 @@ html {
     outline: 0;
   }
 
-  .navbar-custom a {
-    color: #fff;
+  .navbar-custom {
+    a {
+      color: #fff;
+    }
+
+    .btn {
+      color: #000;
+    }
+  }
+
+  .top-nav-collapse {
+    .btn {
+      color: #fff;
+      border-color: #fff;
+    }
   }
 
   .navbar-custom .nav li a {

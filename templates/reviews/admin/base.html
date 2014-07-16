@@ -6,25 +6,9 @@
 
 {% block title %}Admin - {{ block.super }}{% endblock %}
 
-{% block nav %}
-
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{% url "reviews:admin:index" %}">Reviews</a>
-    </div>
-    <div class="collapse navbar-collapse">
-      <div class="navbar-right">
-        {% block navbar_right %}{% endblock %}
-      </div>
-    </div>
-  </div>
-</nav>
-
+{% block navbar_brand %}
+  <a class="navbar-brand" href="{% url "static:landing" %}#page-top">
+    <img src="{% static "images/f_base/icon.png" %}" class="icon">
+    Admin
+  </a>
 {% endblock %}

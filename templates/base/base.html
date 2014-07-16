@@ -10,10 +10,12 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
           <i class="fa fa-bars"></i>
         </button>
+        {% block navbar_brand %}
         <a class="navbar-brand" href="{% url "static:landing" %}#page-top">
           <img src="{% static "images/f_base/icon.png" %}" class="icon">
           31 days <span class="light">of</span> bananas
         </a>
+        {% endblock %}
       </div>
 
       <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -21,7 +23,11 @@
           <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
           <li class="hidden"><a href="#page-top"></a></li>
 
-          {% block navbar_right %}{% endblock %}
+          {% block navbar_right %}
+          <li><a href="{% url "static:landing" %}#about">About</a></li>
+          <li><a href="{% url "static:landing" %}#food">Food</a></li>
+          <li><a href="{% url "static:landing" %}#contact">Contact</a></li>
+          {% endblock %}
         </ul>
       </div>
     </div>

@@ -124,9 +124,7 @@ SITE_URL = 'http://bananas.chris-lamb.co.uk'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
-AWS_DEFAULT_ACL = 'public-read'
 AWS_ACCESS_KEY_ID = 'AKIAJ2MH6KAU3WOSKPCQ'
-AWS_QUERYSTRING_AUTH = False
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'lamby-bananas'
 

@@ -1,5 +1,11 @@
 .f_review {
   header {
+    padding: 10px 0;
+
+    @media (min-width: 767px) {
+      padding: 20px 0;
+    }
+
     h1 {
       margin-bottom: 8px;
       text-transform: none;
@@ -8,8 +14,8 @@
     h2 {
       font-size: 18px;
       font-weight: normal;
-      margin-bottom: 50px;
       text-transform: none;
+      padding-bottom: 10px;
     }
   }
 
@@ -42,6 +48,7 @@
 
         img {
           height: 24px;
+          margin-top: 7px;
         }
       }
 

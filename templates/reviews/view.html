@@ -20,7 +20,7 @@
     <div class="row">
       {% for image in review.images.all %}
       <div
-        class="photo col-xs-6"
+        class="photo col-xs-3 col-sm-6"
         style="background-image: url({{ image.image.url }})"
       >&nbsp;</div>
       {% endfor %}

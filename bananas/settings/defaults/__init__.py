@@ -121,7 +121,7 @@ SECRET_KEY = ')7h7swqp8%)__-x9i=_+olfr*@28oq@u!rk__5maw@_sdzb^gj'
 # fcgi is really broken
 FORCE_SCRIPT_NAME = ''
 
-SITE_URL = 'http://bananas.chris-lamb.co.uk'
+SITE_URL = 'http://31bananas.co.uk'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 

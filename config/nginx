@@ -4,10 +4,15 @@ upstream bananas {
 
 server {
 	listen		213.138.100.153:80;
+	server_name	www.31bananas.co.uk;
 
-	server_name	bananas.chris-lamb.co.uk;
+	rewrite ^ http://31bananas.co.uk$request_uri permanent;
+}
 
-	client_max_body_size	10M;
+server {
+	listen		213.138.100.153:80;
+
+	server_name	31bananas.co.uk;
 
 	location ~ /(favicon.ico|robots.txt) {
 		root 		/usr/share/bananas/media;

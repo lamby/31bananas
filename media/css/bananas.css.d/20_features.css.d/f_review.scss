@@ -23,13 +23,25 @@
 
   section#photos {
     .photo {
-      height: 500px;
+      height: 200px;
       background: url(missing.jpeg) no-repeat center center scroll;
 
       background-size: cover;
       -o-background-size: cover;
       -moz-background-size: cover;
       -webkit-background-size: cover;
+
+      @media (min-width: 767px) {
+        height: 250px;
+      }
+
+      @media (min-width: 992px) {
+        height: 350px;
+      }
+
+      @media (min-width: 1200px) {
+        height: 450px;
+      }
     }
   }
 }

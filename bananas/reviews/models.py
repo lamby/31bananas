@@ -27,7 +27,7 @@ class Review(models.Model):
     objects = ReviewManager()
 
     class Meta:
-        ordering = ('-date',)
+        ordering = ('date',)
 
     def __unicode__(self):
         return u"%s" % self.title

@@ -42,7 +42,14 @@ class Review(models.Model):
 class Image(models.Model):
     review = models.ForeignKey('reviews.Review', related_name='images')
 
-    image = YADTImageField(cachebust=True)
+    image = YADTImageField(variants={
+        'thumbnail': {
+            'crop': True,
+            'width': 200,
+            'height': 150,
+            'format': 'jpeg',
+        },
+    }, cachebust=True)
 
     order = models.IntegerField()
 

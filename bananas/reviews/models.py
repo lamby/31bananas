@@ -1,5 +1,7 @@
 import datetime
 
+from django_yadt import YADTImageField
+
 from django.db import models
 from django.utils.text import slugify
 
@@ -36,3 +38,16 @@ class Review(models.Model):
 
     def slug(self):
         return slugify(self.title)
+
+class Image(models.Model):
+    review = models.ForeignKey('reviews.Review', related_name='images')
+
+    image = YADTImageField(cachebust=True)
+
+    order = models.IntegerField()
+
+    class Meta:
+        ordering = ('order',)
+        unique_together = (
+            ('review', 'order'),
+        )

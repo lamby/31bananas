@@ -128,7 +128,7 @@ AWS_DEFAULT_ACL = 'public-read'
 AWS_ACCESS_KEY_ID = 'AKIAJ2MH6KAU3WOSKPCQ'
 AWS_QUERYSTRING_AUTH = False
 AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'bananas'
+AWS_STORAGE_BUCKET_NAME = 'lamby-bananas'
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.cookie.CookieStorage'
 

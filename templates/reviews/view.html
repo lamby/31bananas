@@ -18,18 +18,12 @@
 <section id="photos">
   <div class="container-fluid">
     <div class="row">
+      {% for image in reviews.images.all %}
       <div
         class="photo col-xs-6"
-        style="background-image: url(http://4.bp.blogspot.com/-GpkILjtFaDI/TlP_SdllFjI/AAAAAAAAA2g/1et107lHAN4/s1600/IMG_3212.JPG)"
-      >
-        &nbsp;
-      </div>
-      <div
-        class="photo col-xs-6"
-        style="background-image: url(http://4.bp.blogspot.com/-W3QiE59bk-0/Tz8JJW0cDmI/AAAAAAAABtA/OIiWW6lfRU4/s1600/IMG_2258.JPG)"
-      >
-        &nbsp;
-      </div>
+        style="background-image: url({{ image.image.url }})"
+      >&nbsp;</div>
+      {% endfor %}
     </div>
   </div>
 </section>

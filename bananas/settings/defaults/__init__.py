@@ -96,6 +96,7 @@ INSTALLED_APPS = (
 
     'bananas.reviews',
     'bananas.reviews.reviews_admin',
+    'bananas.reviews.reviews_admin.reviews_admin_images',
     'bananas.debug',
     'bananas.utils',
     'bananas.static',

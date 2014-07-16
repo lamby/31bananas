@@ -1,0 +1,21 @@
+<div class="row">
+  {% for image in review.images.all %}
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <div style="max-height: 140px; overflow: hidden;">
+        <a href="{{ image.image.url }}"><img src="{{ image.image.url }}" class="img-responsive"></a>
+      </div>
+      <div class="caption text-center">
+        <button
+          href="#"
+          class="btn btn-primary js-delete"
+          data-url="{% url "reviews:admin:images:xhr-delete" review.pk image.pk %}"
+          data-loading-text="Deleting..."
+        >Delete</button>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+<div class="clearfix"></div>

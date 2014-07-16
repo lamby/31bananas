@@ -17,7 +17,7 @@
 
   <body id="page-top" class="{% block body_classes %}f_generic_base{% endblock %}" data-target=".navbar-custom">
     {% if messages %}
-    <div class="alerts-wrapper">
+    <div class="container">
       <div class="alerts">
         {% for message in messages %}
         <div class="alert alert-{% if message.tags = "error" %}danger{% else %}{{ message.tags }}{% endif %}">

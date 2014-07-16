@@ -1,0 +1,29 @@
+<div class="row">
+  {% for image in review.images.all %}
+  <div class="col-xs-3">
+    <div class="thumbnail">
+      <img src="{{ image.image.url }}">
+      <div class="caption">
+        <h3>Image #{{ image.counter }}</h3>
+        <p><button
+          href="#"
+          class="btn btn-primary js-delete"
+          data-url="{% url "reviews:admin:images:xhr-delete" review.pk image.pk %}"
+        >Delete</a></p>
+      </div>
+    </div>
+    {% empty %}
+    (No images)
+  </div>
+  {% endfor %}
+</div>
+
+<div class="clearfix"></div>
+
+<form
+  class="js-add form-inline"
+  data-url="{% url "reviews:admin:images:xhr-add" review.pk %}"
+>
+  <input type="file" name="image">
+  <button type="submit" class="btn">Add image</button>
+</form>

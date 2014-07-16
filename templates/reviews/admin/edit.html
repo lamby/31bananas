@@ -87,4 +87,23 @@
   </div>
 </div>
 
+<section id="images" data-url="{% url "reviews:admin:images:xhr-view" review.pk %}">&nbsp;</section>
+
+<div class="well">
+  <form
+    action="{% url "reviews:admin:images:add" review.pk %}"
+    method="POST"
+    enctype='multipart/form-data'
+  >
+    {% csrf_token %}
+
+    <h3>Add image</h3>
+
+    <div class="form-group">
+      <input type="file" name="image">
+      <button type="submit" class="btn">Upload (refreshes page)</button>
+    </div>
+  </form>
+</div>
+
 {% endblock  %}

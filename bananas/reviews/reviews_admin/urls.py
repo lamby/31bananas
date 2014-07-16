@@ -1,6 +1,8 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, url, include
 
 urlpatterns = patterns('bananas.reviews.reviews_admin.views',
+    url(r'', include('bananas.reviews.reviews_admin.reviews_admin_images.urls', namespace='images')),
+
     url(r'^admin/login$', 'login',
         name='login'), # settings.LOGIN_URL
     url(r'^admin$', 'index',

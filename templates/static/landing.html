@@ -30,15 +30,35 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>What</h2>
+        <h2>About</h2>
         <p>
           Every day in August 2014 I will sample a banana-flavoured food and post
-          the review here. Each food must be fairly easibly available in UK
-          shops or supermarkets.
+          the review here.
+        </p>
+        <p>
+          Each item will be fairly easibly available in UK shops or
+          supermarkets.
         </p>
         <p>
           Why? Why not&hellip;
         </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Reviews</h2>
+        {% for review in reviews %}
+          <h3>
+            <a href="{{ review.get_absolute_url }}">
+              #{{ review.date.day }} &middot; {{ review.title }}
+            </a>
+          </h3>
+        {% endfor %}
       </div>
     </div>
   </div>

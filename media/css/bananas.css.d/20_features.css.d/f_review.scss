@@ -14,9 +14,10 @@
   section#content {
     padding: 40px 0;
 
-    .nutrition {
-      text-align: center;
-      font-style: oblique;
+    .score {
+      span {
+        margin: 0 10px;
+      }
     }
   }
 

@@ -38,8 +38,18 @@
   <div class="container">
     {{ review.content|restructuredtext }}
 
+    <p class="score">
+      Score:
+      <span>
+        {% for x in score %}
+        <img src="{% static "images/f_review/score.png" %}" style="height: 20px">
+        {% endfor %}
+      </span>
+      ({{ review.score }}/5)
+    </p>
+
     <p class="nutrition">
-      {{ review.nutrition }}
+      Nutrition: <em>{{ review.nutrition }}</em>.
     </p>
   </div>
 </section>

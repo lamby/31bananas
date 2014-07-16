@@ -1,7 +1,14 @@
 .f_review {
   header {
-    h1,
+    h1 {
+      margin-bottom: 8px;
+      text-transform: none;
+    }
+
     h2 {
+      font-size: 18px;
+      font-weight: normal;
+      margin-bottom: 50px;
       text-transform: none;
     }
   }
@@ -12,11 +19,34 @@
   }
 
   section#content {
-    padding: 40px 0;
+    padding: 50px 0;
 
-    .score {
-      span {
-        margin: 0 10px;
+    .content {
+      color: #333;
+      margin: 0 auto;
+      max-width: 700px;
+
+      dl {
+        font-size: 20px;
+        text-align: center;
+
+        dt {
+          font-style: oblique;
+          font-weight: normal;
+          margin-bottom: 5px;
+        }
+
+        dd {
+          margin-bottom: 30px;
+        }
+
+        img {
+          height: 24px;
+        }
+      }
+
+      @media (min-width: 767px) {
+        text-align: justify;
       }
     }
   }
@@ -40,7 +70,7 @@
       }
 
       @media (min-width: 1200px) {
-        height: 450px;
+        height: 400px;
       }
     }
   }

@@ -42,7 +42,7 @@ html {
   }
 
   a {
-    color: #28c3ab;
+    color: #000;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -50,8 +50,8 @@ html {
 
   a:hover,
   a:focus {
+    color: #000
     text-decoration: none;
-    color: #176e61;
   }
 
   .light {
@@ -67,7 +67,12 @@ html {
   }
 
   .navbar-brand {
+    color: #fff;
     font-weight: 700;
+
+    @media (min-width: 767px) {
+      color: #000;
+    }
   }
 
   .navbar-brand:focus {
@@ -75,16 +80,16 @@ html {
   }
 
   .navbar-custom {
-    a {
-      color: #fff;
-    }
-
     .btn {
       color: #000;
     }
   }
 
   .top-nav-collapse {
+    a {
+      color: #fff;
+    }
+
     .btn {
       color: #fff;
       border-color: #fff;

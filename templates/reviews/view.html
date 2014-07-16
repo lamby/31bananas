@@ -30,21 +30,21 @@
 
 <section id="content">
   <div class="container">
-    {{ review.content|restructuredtext }}
+    <div class="content">
+      {{ review.content|restructuredtext }}
 
-    <p class="score">
-      Score:
-      <span>
-        {% for x in score %}
-        <img src="{% static "images/f_review/score.png" %}" style="height: 20px">
-        {% endfor %}
-      </span>
-      ({{ review.score }}/5)
-    </p>
+      <dl>
+        <dt>Rating (max 5)</dt>
+        <dd>
+          {% for x in score %}
+          <img src="{% static "images/f_review/score.png" %}">
+          {% endfor %}
+        </dd>
 
-    <p class="nutrition">
-      Nutrition: <em>{{ review.nutrition }}</em>
-    </p>
+        <dt>Nutrition</dt>
+        <dd>{{ review.nutrition }}</dd>
+      </dl>
+    </div>
   </div>
 </section>
 

@@ -17,6 +17,9 @@ from .forms import ReviewForm
 
 @never_cache
 def login(request):
+    if request.user.is_authenticated():
+        return redirect('reviews:admin:index')
+
     if request.method == 'POST':
         form = AuthenticationForm(data=request.POST)
 

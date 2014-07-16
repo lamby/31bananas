@@ -17,7 +17,9 @@ class Review(models.Model):
     score = models.IntegerField(default=3)
 
     content = models.TextField(blank=True)
-    nutrition = models.TextField(blank=True)
+
+    nutrition = models.CharField(max_length=250, blank=True)
+    nutrition_serving = models.CharField(max_length=250, blank=True)
 
     date = models.DateField(unique=True)
     published = models.BooleanField(default=False)

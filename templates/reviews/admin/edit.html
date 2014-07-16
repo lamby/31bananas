@@ -63,18 +63,35 @@
         </div>
       </div>
 
-      <div class="form-group">
-        <textarea class="form-control" name="{{ form.content.html_name }}" id="{{ form.content.id_for_label }}" rows="20">{{ form.content.value|default:"" }}</textarea>
+      <div class="row">
+        <div class="col-xs-9">
+          <div class="form-group">
+            <label>Nutrition</label>
+            <input
+              id="{{ form.nutrition.id_for_label }}"
+              type="text"
+              name="{{ form.nutrition.html_name }}"
+              class="form-control"
+              value="{{ form.nutrition.value|default:"" }}"
+            >
+          </div>
+        </div>
+        <div class="col-xs-3">
+          <div class="form-group">
+            <label>Serving</label>
+            <input
+              id="{{ form.nutrition_serving.id_for_label }}"
+              type="text"
+              name="{{ form.nutrition_serving.html_name }}"
+              class="form-control"
+              value="{{ form.nutrition_serving.value|default:"" }}"
+            >
+          </div>
+        </div>
       </div>
 
       <div class="form-group">
-        <textarea
-          id="{{ form.nutrition.id_for_label }}"
-          rows="3"
-          class="form-control"
-          name="{{ form.nutrition.html_name }}"
-          placeholder="Nutrition"
-        >{{ form.nutrition.value|default:"" }}</textarea>
+        <textarea class="form-control" name="{{ form.content.html_name }}" id="{{ form.content.id_for_label }}" rows="20">{{ form.content.value|default:"" }}</textarea>
       </div>
 
       <div class="form-group">

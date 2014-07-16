@@ -12,5 +12,6 @@ class ReviewForm(forms.ModelForm):
             'score',
             'content',
             'nutrition',
+            'nutrition_serving',
             'published'
         )

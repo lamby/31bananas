@@ -41,7 +41,7 @@
           {% endfor %}
         </dd>
 
-        <dt>Nutrition</dt>
+        <dt>Nutrition{% if review.nutrition_serving %} ({{ review.nutrition_serving }}){% endif %}</dt>
         <dd>{{ review.nutrition }}</dd>
       </dl>
     </div>

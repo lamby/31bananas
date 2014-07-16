@@ -45,6 +45,12 @@ class Image(models.Model):
     review = models.ForeignKey('reviews.Review', related_name='images')
 
     image = YADTImageField(variants={
+        'cover': {
+            'crop': True,
+            'width': 1000,
+            'height': 500,
+            'format': 'jpeg',
+        },
         'thumbnail': {
             'crop': True,
             'width': 200,

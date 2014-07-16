@@ -1,6 +1,19 @@
 .f_landing {
   padding-top: 0;
 
+  .navbar-custom {
+    a {
+      color: #fff;
+    }
+
+    .icon-white {
+      display: inline;
+    }
+    .icon-black {
+      display: none;
+    }
+  }
+
   section {
     padding: 100px 0;
 

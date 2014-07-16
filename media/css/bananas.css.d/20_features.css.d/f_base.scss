@@ -1,10 +1,23 @@
 .f_base {
   padding-top: 90px;
 
-  .navbar-brand {
+  .navbar-custom {
     .icon {
       height: 17px;
       margin: -6px 8px 0 0;
+    }
+
+    .icon-white {
+      display: none;
+    }
+
+    &.top-nav-collapse {
+      .icon-white {
+        display: inline;
+      }
+      .icon-black {
+        display: none;
+      }
     }
   }
 }

@@ -1,5 +1,9 @@
+import io
+import urllib
+
 from django import forms
 from django.db import models
+from django.core.files import File
 
 from ...models import Image
 
@@ -29,3 +33,11 @@ class ImageForm(forms.ModelForm):
         instance.save()
 
         return instance
+
+class URLForm(ImageForm):
+    image = forms.URLField()
+
+    def clean_image(self):
+        fileobj = urllib.urlopen(self.cleaned_data['image'])
+
+        return File(io.BytesIO(fileobj.read()))

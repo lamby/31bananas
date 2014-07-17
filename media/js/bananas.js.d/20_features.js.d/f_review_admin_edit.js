@@ -41,4 +41,17 @@ $.feature('f_review_admin_edit', function() {
       container.html(data.html);
     });
   });
+
+  $('.js-add-url').on('paste', function(e) {
+    var input = $(this);
+
+    setTimeout(function() {
+      var url = input.val();
+      input.val('');
+
+      $.post(input.data('url'), {'image': url}, function() {
+        container.html(data.html);
+      });
+    }, 500);
+  });
 });

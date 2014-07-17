@@ -113,6 +113,14 @@
       <input type="file" name="image">
       <button type="submit" class="btn">Upload (refreshes page)</button>
     </div>
+
+    <input
+      type="text"
+      class="form-control js-add-url"
+      value=""
+      data-url="{% url "reviews:admin:images:xhr-add-url" review.pk %}"
+      placeholder="Paste an URL &hellip;"
+    >
   </form>
 </div>
 

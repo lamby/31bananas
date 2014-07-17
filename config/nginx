@@ -13,6 +13,7 @@ server {
 	listen		213.138.100.153:80;
 
 	server_name	31bananas.co.uk;
+	client_max_body_size    10M;
 
 	location ~ /(favicon.ico|robots.txt) {
 		root 		/usr/share/bananas/media;

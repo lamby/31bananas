@@ -50,11 +50,13 @@
       <div class="col-lg-8 col-lg-offset-2">
         <h2>The reviews</h2>
         {% for review in reviews %}
+        {% if review.title %}
           <h3>
             <a href="{{ review.get_absolute_url }}">
               #{{ review.date.day }} &middot; {{ review.title }}
             </a>
           </h3>
+        {% endif %}
         {% endfor %}
       </div>
     </div>

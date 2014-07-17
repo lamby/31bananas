@@ -49,7 +49,7 @@
           {% for day in week %}
           {% with by_day|getitem:day as review %}
           {% if review %}
-          <td class="{% if review.published %}success{% elif review.title %}active{% else %}danger{% endif %}">
+          <td class="{% if review.title %}success{% else %}danger{% endif %}">
             <h2>
               <a
                 href="{% url "reviews:admin:edit" review.pk %}"

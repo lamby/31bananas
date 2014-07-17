@@ -1,4 +1,5 @@
 import calendar
+import datetime
 
 from django.conf import settings
 from django.http import HttpResponseRedirect
@@ -57,6 +58,26 @@ def edit(request, review_id):
         'form': ReviewForm(instance=review),
         'review': review,
     })
+
+@superuser_required
+def move_down(request, review_id):
+    review = get_object_or_404(Review, pk=review_id)
+
+    try:
+        next_ = Review.objects.filter(date__gt=review.date)[0]
+    except IndexError:
+        pass
+    else:
+        date_ = review.date
+        review.date = datetime.date.min
+        review.save(update_fields=('date',))
+
+        # Swap
+        review.date, next_.date = next_.date, date_
+        next_.save(update_fields=('date',))
+        review.save(update_fields=('date',))
+
+    return redirect('reviews:admin:index')
 
 @require_POST
 @ajax(login_required=True)

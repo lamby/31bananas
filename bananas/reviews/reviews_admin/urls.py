@@ -10,6 +10,8 @@ urlpatterns = patterns('bananas.reviews.reviews_admin.views',
 
     url(r'^admin/edit/(?P<review_id>\d+)$', 'edit',
         name='edit'),
+    url(r'^admin/edit/(?P<review_id>\d+)/move-down$', 'move_down',
+        name='move-down'),
     url(r'^xhr/admin/save/(?P<review_id>\d+)$', 'xhr_edit',
         name='xhr-edit'),
 )

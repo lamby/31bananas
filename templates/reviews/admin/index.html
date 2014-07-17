@@ -5,6 +5,21 @@
 {% block content %}
 
 <section id="reviews">
+  <table class="table table-striped">
+  {% for review in reviews %}
+  <tr>
+    <td style="text-align: right;">{{ review.date.day }}</td>
+    <td>
+      <a href="{% url "reviews:admin:edit" review.pk %}">
+        {{ review.title|default:"(no review)" }}
+      </a>
+    </td>
+    <td>{{ review.source }}</td>
+    <td>{{ review.price }}</td>
+  </tr>
+  {% endfor %}
+  </table>
+
   <div class="container">
     <table class="table calendar">
       <thead>
@@ -49,22 +64,6 @@
       </tbody>
     </table>
   </div>
-
-  <table class="table table-striped">
-  {% for review in reviews %}
-  <tr>
-    <td style="text-align: right;">{{ review.date.day }}</td>
-    <td>
-      <a href="{% url "reviews:admin:edit" review.pk %}">
-        {{ review.title|default:"(no review)" }}
-      </a>
-    </td>
-    <td>{{ review.source }}</td>
-    <td>{{ review.price }}</td>
-  </tr>
-  {% endfor %}
-  </table>
-
 </section>
 
 {% endblock %}

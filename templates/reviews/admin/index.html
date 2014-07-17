@@ -16,6 +16,10 @@
     </td>
     <td>{{ review.source }}</td>
     <td style="text-align: right;">&pound;{{ review.price }}</td>
+    <td>
+      <a class="btn btn-default btn-xs" href="{% url "reviews:admin:edit" review.pk %}">Edit</a>
+      <a class="btn btn-default btn-xs" href="{{ review.get_absolute_url }}">View</a>
+    </td>
   </tr>
   {% endfor %}
   </table>

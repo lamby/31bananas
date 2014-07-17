@@ -13,5 +13,4 @@ class ReviewForm(forms.ModelForm):
             'content',
             'nutrition',
             'nutrition_serving',
-            'published'
         )

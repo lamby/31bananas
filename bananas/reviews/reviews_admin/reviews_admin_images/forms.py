@@ -8,8 +8,7 @@ class ImageForm(forms.ModelForm):
 
     class Meta:
         model = Image
-        fields = (
-        )
+        fields = ()
 
     def __init__(self, review, *args, **kwargs):
         self.review = review

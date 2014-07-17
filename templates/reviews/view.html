@@ -10,7 +10,15 @@
 
 <header>
   <div class="container">
-    <h1>{{ review.title|widont }}</h1>
+    <h1>
+      <a
+        {% if request.user.is_superuser %}
+        href="{% url "reviews:admin:edit" review.pk %}"
+        {% else %}
+        href="{{ review.get_absolute_url }}"
+        {% endif %}
+      >{{ review.title|widont }}</a>
+    </h1>
     <h2><em>{{ review.source }}</em>, &pound;{{ review.price }}</h2>
   </div>
 </header>

@@ -49,7 +49,7 @@ $.feature('f_review_admin_edit', function() {
       var url = input.val();
       input.val('');
 
-      $.post(input.data('url'), {'image': url}, function() {
+      $.post(input.data('url'), {'image': url}, function(data) {
         container.html(data.html);
       });
     }, 500);

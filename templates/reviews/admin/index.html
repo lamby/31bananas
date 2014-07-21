@@ -17,16 +17,18 @@
     <td>{{ review.source }}</td>
     <td style="text-align: right;">&pound;{{ review.price }}</td>
     <td>
-      <a class="btn btn-default btn-xs" href="{% url "reviews:admin:edit" review.pk %}">Edit</a>
-      <a class="btn btn-default btn-xs" href="{{ review.get_absolute_url }}">View</a>
-      {% if not forloop.last %}
-      <form method="POST" action="{% url "reviews:admin:move-down" review.pk %}" style="display: inline;">
-        {% csrf_token %}
-        <button class="btn btn-default btn-xs" type="submit">
-          <i class="fa fa-angle-double-down"></i>
-        </button>
-      </form>
-      {% endif %}
+      {% spaceless %}
+        <a class="btn btn-default btn-xs" href="{% url "reviews:admin:edit" review.pk %}">Edit</a>
+        <a class="btn btn-default btn-xs" href="{{ review.get_absolute_url }}">View</a>
+        {% if not forloop.last %}
+        <form method="POST" action="{% url "reviews:admin:move-down" review.pk %}" style="display: inline;">
+          {% csrf_token %}
+          <button class="btn btn-default btn-xs" type="submit">
+            <i class="fa fa-angle-double-down"></i>
+          </button>
+        </form>
+        {% endif %}
+      {% endspaceless %}
     </td>
   </tr>
   {% endfor %}

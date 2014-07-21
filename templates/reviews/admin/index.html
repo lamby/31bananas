@@ -15,7 +15,7 @@
       </a>
     </td>
     <td class="hidden-sm">{{ review.source }}</td>
-    <td>
+    <td style="text-align: right;">
       {% spaceless %}
         <a class="btn btn-default btn-xs" href="{% url "reviews:admin:edit" review.pk %}">Edit</a>
         <a class="btn btn-default btn-xs" href="{{ review.get_absolute_url }}">View</a>

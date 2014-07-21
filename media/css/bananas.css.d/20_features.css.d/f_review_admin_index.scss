@@ -7,15 +7,19 @@
     table {
       margin: 0 auto 60px auto;
       max-width: 800px;
+
+    }
+
+    .review-list {
+      td {
+        overflow: hidden;
+        white-space: nowrap;
+      }
     }
 
     .calendar {
       thead th {
         padding-bottom: 15px;
-      }
-
-      tr {
-        height: 13px;
       }
 
       td,
@@ -31,6 +35,10 @@
         h2 {
           margin: 0 0 7px 0;
           text-transform: none;
+        }
+
+        .btn {
+          margin-right: 10px;
         }
       }
     }

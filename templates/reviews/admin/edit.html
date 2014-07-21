@@ -22,7 +22,7 @@
       </div>
 
       <div class="row">
-        <div class="col-xs-8">
+        <div class="col-xs-6">
           <div class="form-group">
             <label>Source</label>
             <input
@@ -43,6 +43,18 @@
               name="{{ form.price.html_name }}"
               class="form-control"
               value="{{ form.price.value|default:"" }}"
+            >
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="form-group">
+            <label>Published</label>
+            <input
+              id="{{ form.published.id_for_label }}"
+              type="checkbox"
+              name="{{ form.published.html_name }}"
+              class="form-control"
+              {% if form.published.value %}checked{% endif %}
             >
           </div>
         </div>

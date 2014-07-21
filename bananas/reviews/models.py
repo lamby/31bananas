@@ -22,6 +22,7 @@ class Review(models.Model):
     nutrition_serving = models.CharField(max_length=250, blank=True)
 
     date = models.DateField(unique=True)
+    published = models.BooleanField(default=False)
 
     created = models.DateTimeField(default=datetime.datetime.utcnow)
 

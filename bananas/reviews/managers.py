@@ -12,4 +12,7 @@ class ReviewManager(models.Manager):
         if epoch.time() < PUBLISH_AT:
             epoch -= datetime.timedelta(days=1)
 
-        return self.filter(date__lte=epoch.date())
+        return self.filter(
+            date__lte=epoch.date(),
+            published=True,
+        )

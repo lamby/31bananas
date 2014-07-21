@@ -12,6 +12,14 @@
           data-url="{% url "reviews:admin:images:xhr-delete" review.pk image.pk %}"
           data-loading-text="Deleting..."
         >Delete</button>
+
+        {% if not forloop.last %}
+        <button
+          class="btn btn-default js-move-right"
+          data-url="{% url "reviews:admin:images:xhr-move-right" review.pk image.pk %}"
+          data-loading-text="&hellip;"
+        ><i class="fa fa-angle-double-right"></i></button>
+        {% endif %}
       </div>
     </div>
   </div>

@@ -75,7 +75,6 @@ def xhr_delete(request, review_id, image_id):
 @superuser_required
 def xhr_rotate(request, review_id, image_id):
     review = get_object_or_404(Review, pk=review_id)
-
     image = get_object_or_404(review.images, pk=image_id)
 
     fileobj = StringIO.StringIO()

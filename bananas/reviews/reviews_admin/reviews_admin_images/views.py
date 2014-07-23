@@ -1,5 +1,10 @@
+import StringIO
+
+from PIL import Image
+
 from django.contrib import messages
 from django.shortcuts import get_object_or_404, redirect
+from django.core.files.base import ContentFile
 from django.views.decorators.http import require_POST
 
 from bananas.utils.ajax import ajax, json_render
@@ -68,9 +73,30 @@ def xhr_delete(request, review_id, image_id):
 @require_POST
 @ajax(login_required=True)
 @superuser_required
-def xhr_move_right(request, review_id, image_id):
+def xhr_rotate(request, review_id, image_id):
     review = get_object_or_404(Review, pk=review_id)
 
+    image = get_object_or_404(review.images, pk=image_id)
+
+    fileobj = StringIO.StringIO()
+    im = Image.open(image.image.original.open())
+    im.rotate(-90).save(fileobj, 'JPEG')
+
+    image.image.save(ContentFile(fileobj.getvalue()))
+    image.image.cachebust()
+    image.save()
+
+    messages.success(request, "Image rotated.")
+
+    return json_render(request, 'reviews/admin/images/xhr_view.html', {
+        'review': review,
+    })
+
+@require_POST
+@ajax(login_required=True)
+@superuser_required
+def xhr_move_right(request, review_id, image_id):
+    review = get_object_or_404(Review, pk=review_id)
     image = get_object_or_404(review.images, pk=image_id)
 
     try:

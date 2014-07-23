@@ -30,7 +30,7 @@ $.feature('f_review_admin_edit', function() {
     });
   });
 
-  container.on('click', '.js-delete, .js-move-right', function (e) {
+  container.on('click', '.js-delete, .js-rotate, .js-move-right', function (e) {
     e.preventDefault();
 
     var elem = $(this);

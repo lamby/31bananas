@@ -9,6 +9,8 @@ urlpatterns = patterns('bananas.reviews.reviews_admin.reviews_admin_images.views
         name='xhr-add-url'),
     url(r'^xhr/admin/(?P<review_id>\d+)/images/(?P<image_id>\d+)/delete$', 'xhr_delete',
         name='xhr-delete'),
+    url(r'^xhr/admin/(?P<review_id>\d+)/images/(?P<image_id>\d+)/rotate$', 'xhr_rotate',
+        name='xhr-rotate'),
     url(r'^xhr/admin/(?P<review_id>\d+)/images/(?P<image_id>\d+)/move-right$', 'xhr_move_right',
         name='xhr-move-right'),
 )

@@ -13,6 +13,12 @@
           data-loading-text="Deleting..."
         >Delete</button>
 
+        <button
+          class="btn btn-default js-rotate"
+          data-url="{% url "reviews:admin:images:xhr-rotate" review.pk image.pk %}"
+          data-loading-text="&hellip;"
+        ><i class="fa fa-rotate-right"></i></button>
+
         {% if not forloop.last %}
         <button
           class="btn btn-default js-move-right"

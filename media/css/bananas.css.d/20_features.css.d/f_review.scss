@@ -77,12 +77,11 @@
       background: url(missing.jpeg) no-repeat center center scroll;
 
       background-size: cover;
-      -o-background-size: cover;
-      -moz-background-size: cover;
-      -webkit-background-size: cover;
+
 
       @media (min-width: 768px) {
         height: 250px;
+        -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0,0,0,1)), color-stop(75%, rgba(0,0,0,0.7)), color-stop(90%, rgba(0,0,0,0.2)), color-stop(100%,rgba(0,0,0,0)));
       }
 
       @media (min-width: 992px) {

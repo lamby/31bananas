@@ -22,7 +22,7 @@
       </div>
 
       <div class="row">
-        <div class="col-xs-6">
+        <div class="col-xs-4">
           <div class="form-group">
             <label>Source</label>
             <input
@@ -60,14 +60,29 @@
         </div>
         <div class="col-xs-2">
           <div class="form-group">
-            <label>Score</label>
+            <label>Overall</label>
             <div class="input-group">
               <input
-                id="{{ form.score.id_for_label }}"
+                id="{{ form.score_overall.id_for_label }}"
                 type="text"
-                name="{{ form.score.html_name }}"
+                name="{{ form.score_overall.html_name }}"
                 class="form-control"
-                value="{{ form.score.value|default:3 }}"
+                value="{{ form.score_overall.value|default:3 }}"
+              >
+              <span class="input-group-addon">/5</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="form-group">
+            <label>Banana</label>
+            <div class="input-group">
+              <input
+                id="{{ form.score_banana.id_for_label }}"
+                type="text"
+                name="{{ form.score_banana.html_name }}"
+                class="form-control"
+                value="{{ form.score_banana.value|default:3 }}"
               >
               <span class="input-group-addon">/5</span>
             </div>

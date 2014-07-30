@@ -20,6 +20,5 @@ def view(request, day, slug):
         return redirect(review, permanent=True)
 
     return render(request, 'reviews/view.html', {
-        'score': range(review.score),
         'review': review,
     })

@@ -14,7 +14,9 @@ class Review(models.Model):
 
     source = models.CharField(max_length=250, blank=True)
     price = models.CharField(max_length=250, blank=True)
-    score = models.IntegerField(default=3)
+
+    score_banana = models.IntegerField(default=3)
+    score_overall = models.IntegerField(default=3)
 
     content = models.TextField(blank=True)
 

@@ -41,14 +41,30 @@
     <div class="content">
       {{ review.content|restructuredtext }}
 
-      <dl>
-        <dt>Rating (max 5)</dt>
-        <dd>
-          {% for x in score %}
-          <img src="{% static "images/f_review/score.png" %}">
-          {% endfor %}
-        </dd>
+      <div class="row">
+        <div class="col-sm-6">
+          <dl>
+            <dt>Banana-ness <span class="text-muted">(max 5)</span></dt>
+            <dd>
+              {% for _ in review.score_banana|range %}
+              <img src="{% static "images/f_review/score.png" %}">
+              {% endfor %}
+            </dd>
+          </dl>
+        </div>
+        <div class="col-sm-6">
+          <dl>
+            <dt>Overall <span class="text-muted">(max 5)</span></dt>
+            <dd>
+              {% for _ in review.score_overall|range %}
+              <img src="{% static "images/f_review/score.png" %}">
+              {% endfor %}
+            </dd>
+          </dl>
+        </div>
+      </div>
 
+      <dl>
         {% if review.nutrition %}
         <dt>Nutrition{% if review.nutrition_serving %} ({{ review.nutrition_serving }}){% endif %}</dt>
         <dd>{{ review.nutrition }}</dd>

@@ -60,21 +60,6 @@
         </div>
         <div class="col-xs-2">
           <div class="form-group">
-            <label>Overall score</label>
-            <div class="input-group">
-              <input
-                id="{{ form.score_overall.id_for_label }}"
-                type="text"
-                name="{{ form.score_overall.html_name }}"
-                class="form-control"
-                value="{{ form.score_overall.value|default:3 }}"
-              >
-              <span class="input-group-addon">/5</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-2">
-          <div class="form-group">
             <label>Banana score</label>
             <div class="input-group">
               <input
@@ -83,6 +68,21 @@
                 name="{{ form.score_banana.html_name }}"
                 class="form-control"
                 value="{{ form.score_banana.value|default:3 }}"
+              >
+              <span class="input-group-addon">/5</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-2">
+          <div class="form-group">
+            <label>Overall score</label>
+            <div class="input-group">
+              <input
+                id="{{ form.score_overall.id_for_label }}"
+                type="text"
+                name="{{ form.score_overall.html_name }}"
+                class="form-control"
+                value="{{ form.score_overall.value|default:3 }}"
               >
               <span class="input-group-addon">/5</span>
             </div>

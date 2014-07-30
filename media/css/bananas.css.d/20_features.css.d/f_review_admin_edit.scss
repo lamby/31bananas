@@ -4,4 +4,10 @@
   #id_content {
     font-family: monospace;
   }
+
+  input[type=checkbox] {
+    width: 20px;
+    margin: 0;
+    box-shadow: none;
+  }
 }

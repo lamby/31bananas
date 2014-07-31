@@ -56,7 +56,7 @@
         {% if review.title %}
           <h3>
             <a href="{{ review.get_absolute_url }}">
-              #{{ review.date.day }} &middot; {{ review.title }}
+              Day {{ review.date.day }} &middot; {{ review.title }}
             </a>
           </h3>
         {% endif %}

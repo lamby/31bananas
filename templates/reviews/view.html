@@ -17,7 +17,7 @@
         {% else %}
         href="{{ review.get_absolute_url }}"
         {% endif %}
-      >{{ review.title|widont }}</a>
+      >Day {{ review.date.day }}: {{ review.title|widont }}</a>
     </h1>
     <h2><em>{{ review.source }}</em>, &pound;{{ review.price }}</h2>
   </div>

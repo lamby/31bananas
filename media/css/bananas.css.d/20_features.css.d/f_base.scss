@@ -8,15 +8,27 @@
     }
 
     .icon-white {
+      display: inline;
+    }
+    .icon-black {
       display: none;
     }
 
-    &.top-nav-collapse {
+    @media (min-width: 768px) {
       .icon-white {
-        display: inline;
+        display: none;
       }
       .icon-black {
-        display: none;
+        display: inline;
+      }
+
+      &.top-nav-collapse {
+        .icon-white {
+          display: inline;
+        }
+        .icon-black {
+          display: none;
+        }
       }
     }
   }

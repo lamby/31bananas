@@ -6,6 +6,16 @@
 
 {% block body_classes %}{{ block.super }} f_review{% endblock %}
 
+{% block extrahead %}
+{{ block.super }}
+
+<meta name="og:url" content="{{ settings.SITE_URL }}{{ review.get_absolute_url }}">
+<meta name="og:type" content="website">
+<meta name="og:title" content="Day {{ review.date.day }}: {{ review.title }}">
+<meta name="og:image" content="{{ settings.SITE_URL }}{{ review.images.all.0.image.cover.url }}">
+
+{% endblock %}
+
 {% block content %}
 
 <header>

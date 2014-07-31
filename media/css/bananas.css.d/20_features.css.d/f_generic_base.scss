@@ -64,6 +64,14 @@ html {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+
+    a {
+      color: #fff;
+
+      @media (min-width:768px) {
+        color: #000;
+      }
+    }
   }
 
   .navbar-brand {

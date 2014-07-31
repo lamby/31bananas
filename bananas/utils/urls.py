@@ -1,5 +1,4 @@
 from django.conf import settings
-from django.core.urlresolvers import reverse
 
 from bananas.settings.hashes import HASHES
 

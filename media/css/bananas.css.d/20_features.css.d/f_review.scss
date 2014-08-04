@@ -45,6 +45,15 @@
       margin: 0 auto;
       max-width: 700px;
 
+      a {
+        border-bottom: 1px dotted;
+
+        &:hover {
+          border-bottom: 1px solid;
+          text-decoration: none;
+        }
+      }
+
       dl {
         font-size: 18px;
         text-align: center;

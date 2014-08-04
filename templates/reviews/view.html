@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Day {{ review.date.day }}: {{ review.title }}">
 <meta property="og:image" content="{{ review.images.all.0.image.cover.url }}">
-<meta property="og:description" content="{{ review.content|restructuredtext }}">
+<meta property="og:description" content="{{ review.content|restructuredtext|striptags }}">
 
 {% endblock %}
 

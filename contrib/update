@@ -66,6 +66,10 @@ case "${PROJECT}" in
 		Git git://github.com/thread/django-autologin.git ${PROJECT} ${PROJECT}
 		;;
 
+	django_enumfield)
+		Git git://github.com/playfire/django-enumfield.git ${PROJECT} ${PROJECT}
+		;;
+
 	django_extensions)
 		Git git://github.com/django-extensions/django-extensions.git ${PROJECT} ${PROJECT}
 		;;

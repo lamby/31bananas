@@ -37,11 +37,6 @@ Hg() {
 }
 
 case "${PROJECT}" in
-	akismet)
-		mkdir -p akismet
-		wget -Oakismet/__init__.py http://www.voidspace.org.uk/downloads/akismet.py
-		;;
-
 	animate.css)
 		Git git://github.com/daneden/animate.css.git ${PROJECT}
 		;;

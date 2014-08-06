@@ -78,14 +78,16 @@
         </div>
         <div class="col-xs-2">
           <div class="form-group">
-            <label>Published</label>
-            <input
-              id="{{ form.published.id_for_label }}"
-              type="checkbox"
-              name="{{ form.published.html_name }}"
+            <label>State</label>
+            <select
+              id="{{ form.state.id_for_label }}"
+              name="{{ form.state.html_name }}"
               class="form-control"
-              {% if form.published.value %}checked{% endif %}
             >
+              {% for x,y in form.fields.state.choices %}
+              <option value="{{ x }}" {% if form.state.value == x %}selected{% endif %}>{{ y }}</option>
+              {% endfor %}
+            </select>
           </div>
         </div>
       </div>

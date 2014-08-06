@@ -8,9 +8,9 @@ class ReviewForm(forms.ModelForm):
         fields = (
             'title',
             'source',
+            'state',
             'price',
             'content',
-            'published',
             'nutrition',
             'score_banana',
             'score_overall',

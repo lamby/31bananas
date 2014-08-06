@@ -1,10 +1,12 @@
 import datetime
 
 from django_yadt import YADTImageField
+from django_enumfield import EnumField
 
 from django.db import models
 from django.utils.text import slugify
 
+from .enums import StateEnum
 from .managers import ReviewManager
 
 YEAR, MONTH = 2014, 8
@@ -24,7 +26,7 @@ class Review(models.Model):
     nutrition_serving = models.CharField(max_length=250, blank=True)
 
     date = models.DateField(unique=True)
-    published = models.BooleanField(default=False)
+    state = EnumField(StateEnum, default=StateEnum.DRAFT)
 
     created = models.DateTimeField(default=datetime.datetime.utcnow)
 

@@ -13,7 +13,7 @@ $.feature('f_review_admin_edit', function() {
   });
 
   $('.js-content').keydown(function (e) {
-    if (e.ctrlKey && e.keyCode == 13) {
+    if (e.ctrlKey && e.keyCode === 13) {
       $('.js-save').click();
     }
   });

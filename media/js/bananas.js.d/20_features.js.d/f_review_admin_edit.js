@@ -11,6 +11,12 @@ $.feature('f_review_admin_edit', function() {
       button.button('reset');
     });
   });
+
+  $('.js-content').keydown(function (e) {
+    if (e.ctrlKey && e.keyCode == 13) {
+      $('.js-save').click();
+    }
+  });
 });
 
 $.feature('f_review_admin_edit', function() {

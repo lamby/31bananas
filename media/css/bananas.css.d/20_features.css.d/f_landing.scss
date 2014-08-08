@@ -72,6 +72,14 @@
   }
 
   section#about {
+    .down {
+      text-align: center;
+
+      a {
+        color: #000;
+        border-color: #000;
+      }
+    }
   }
 
   section#reviews {

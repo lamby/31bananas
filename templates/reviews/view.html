@@ -37,12 +37,24 @@
 <section id="photos">
   <div class="container-fluid">
     <div class="row">
+      {% with review.images.count as num_images %}
       {% for image in review.images.all %}
       <div
-        class="photo col-xs-3 {% if forloop.counter > 4 %}hidden-xs hidden-sm{% endif %}"
+        class="
+          photo
+          {% if num_images == 2 %}
+          col-xs-6
+          {% elif num_images == 3 %}
+          col-xs-4
+          {% else %}
+          col-xs-3
+          {% endif %}
+          {% if forloop.counter > 4 %}hidden-xs hidden-sm{% endif %}
+        "
         style="background-image: url({{ image.image.cover.url }})"
       >&nbsp;</div>
       {% endfor %}
+      {% endwith %}
     </div>
   </div>
 </section>

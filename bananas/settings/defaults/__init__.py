@@ -118,7 +118,7 @@ CACHES = {
     }
 }
 
-SECRET_KEY = get('SECRET_KEY', ')7h7swqp8%)__-x9i=_+olfr*@28oq@u!rk__5maw@_sdzb^gj')
+SECRET_KEY = get('SECRET_KEY', 'local-key')
 
 # fcgi is really broken
 FORCE_SCRIPT_NAME = ''

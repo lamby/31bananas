@@ -52,9 +52,6 @@ USE_I18N = False
 # Examples: "http://foo.com/media/", "/media/".
 ADMIN_MEDIA_PREFIX = '/media/'
 
-# Make this unique, and don't share it with anybody.
-SECRET_KEY = ')zh7swqp8%)__-x4i=_+olfr*@28oq@u!rk__5maw@_sdzb^gj'
-
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',

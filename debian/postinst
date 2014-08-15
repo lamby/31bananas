@@ -4,13 +4,14 @@
 
 set -eu
 
-BASE=/usr/share/bananas
+NAME=bananas
+BASE=/usr/share/${NAME}/${NAME}
 
 case "${1}" in
 	configure)
-		gunicorn-debian stop bananas || true
-		su www-data -c "${BASE}/bananas/manage.py migrate --all --noinput"
-		gunicorn-debian start bananas || true
+		gunicorn-debian stop ${NAME} || true
+		su www-data -c "${BASE}/manage.py migrate --all --noinput"
+		gunicorn-debian start ${NAME} || true
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)

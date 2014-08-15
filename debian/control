@@ -9,8 +9,6 @@ Package: bananas
 Architecture: all
 Depends:
   ${misc:Depends},
-  gunicorn (>= 0.14.2),
-  nginx,
   python-six,
   python-docutils,
   python-psycopg2,

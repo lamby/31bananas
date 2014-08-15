@@ -8,13 +8,9 @@ BASE=/usr/share/bananas
 
 case "${1}" in
 	configure)
-		gunicorn-debian stop bananas
+		gunicorn-debian stop bananas || true
 		su www-data -c "${BASE}/bananas/manage.py migrate --all --noinput"
-		ln -sf ${BASE}/config/gunicorn /etc/gunicorn.d/bananas
-		gunicorn-debian start bananas
-
-		ln -sf ${BASE}/config/nginx /etc/nginx/sites-enabled/bananas
-		invoke-rc.d nginx reload
+		gunicorn-debian start bananas || true
 		;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)

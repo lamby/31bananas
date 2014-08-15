@@ -1,6 +1,11 @@
+import os
+
 from os.path import abspath, dirname, join
 
 from setup_warnings import *
+
+def get(k, d=None):
+    return os.environ.get('DJANGO_%s' % k, d)
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
@@ -113,7 +118,7 @@ CACHES = {
     }
 }
 
-SECRET_KEY = ')7h7swqp8%)__-x9i=_+olfr*@28oq@u!rk__5maw@_sdzb^gj'
+SECRET_KEY = get('SECRET_KEY', ')7h7swqp8%)__-x9i=_+olfr*@28oq@u!rk__5maw@_sdzb^gj')
 
 # fcgi is really broken
 FORCE_SCRIPT_NAME = ''
@@ -123,8 +128,7 @@ SITE_URL = 'http://31bananas.co.uk'
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
 AWS_ACCESS_KEY_ID = 'AKIAJ2MH6KAU3WOSKPCQ'
-AWS_SECRET_ACCESS_KEY = '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'
-
+AWS_SECRET_ACCESS_KEY = get('AWS_SECRET_ACCESS_KEY')
 AWS_QUERYSTRING_AUTH = False
 AWS_STORAGE_BUCKET_NAME = 'lamby-bananas'
 
@@ -150,7 +154,7 @@ DATABASE_ENGINE = None # for debug toolbar
 
 LOGIN_REDIRECT_URL = '/admin'
 
-KEYERROR_SECRET_KEY = '30b0a480d622c0694a7814a316a6da356349e986'
+KEYERROR_SECRET_KEY = get('KEYERROR_SECRET_KEY') #'30b0a480d622c0694a7814a316a6da356349e986'
 
 SOUTH_TESTS_MIGRATE = False
 

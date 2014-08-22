@@ -158,4 +158,33 @@
   </form>
 </div>
 
+{% if review.state.slug == "published" %}
+<div class="well">
+  <h3>Publish checklist</h3>
+
+  <ol>
+    <li>
+      <a href="https://twitter.com/" onclick="alert('Right-click &rarr; Open link in incognito window'); return false;">Twitter</a>
+      <ul>
+        <li><tt>Day {{ review.date.day }}: {{ review.title }} 31bananas.co.uk{{ review.get_absolute_url }}</tt></li>
+      </ul>
+    </li>
+    <li>
+      <a href="http://www.reddit.com/r/bananas/submit">Reddit</a>
+      <ul>
+        <li><tt>31 Bananas Day {{ review.date.day }}: {{ review.title }}</tt></li>
+        <li><tt>{{ settings.SITE_URL }}{{ review.get_absolute_url }}</tt</li>
+      </ul>
+    </li>
+    <li>
+      <a href="http://www.facebook.com/">Facebook</a>
+      <ul>
+        <li><tt>{{ settings.SITE_URL }}{{ review.get_absolute_url }}</tt></li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+{% endif %}
+
 {% endblock  %}

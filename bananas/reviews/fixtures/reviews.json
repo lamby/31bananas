@@ -1,0 +1,1375 @@
+[
+{
+  "pk": 1, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "94 calories, 5g fat, 11g carbs, 7g carbs, 1g protein, 50mg salt", 
+    "score_banana": 2, 
+    "title": "Tesco banoffee bites", 
+    "price": "1.05", 
+    "created": "2014-07-14T15:07:09.479", 
+    "nutrition_serving": "per bite", 
+    "content": "If you mix the three concepts of \"millionaire's shortbread\", \"banana republic\" and hyperinflation, I am certain there's a slightly insensitive pun that can describe these better than \"banoffee bites\". I'd never actually seen them before but given they had such a short expiry time I was compelled to include them earlier in the month.  \r\n\r\nLike millionaire's, each bite consists of essentially three layers: the base is a slightly crispy banoffee-flavoured honeycomb, a fudge layer sits in the middle and banana chips are then slightly embedded into the top like crazy paving.\r\n\r\nUnfortunately, this is where the problems start; each layer is tasted separately rather than as a blend and each part isn't nearly good enough to carry the entire bite - the banana chips are quite hard and don't mix well with the softer layers below, the fudge is slightly uninspiring and the banoffee honeycomb doesn't have enough of a banana flavour \"hit\" to compensate.\r\n\r\nWhilst the price point is fairly reasonable, they are difficult to recommend as a portable banana snack: not only are they very fragile and liable to melt (bike food this is not) it seems a little cruel to pack 600 calories in such an uninspiringly small pack. Given the surprisingly short shelf life (~1 week) one cannot even stockpile them the winter (or banana) shortage.\r\n\r\nIf you're looking for them in your local Tesco, they live near the Stroopwafels. And I'd probably just six packets of those instead.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-03", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 2, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "95 calories, 2.5g protein, 19g carbohydrate, 6.3g sugar, 1.4g fat, 80mg salt", 
+    "score_banana": 3, 
+    "title": "Soreen banana lunchbox loaves", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.494", 
+    "nutrition_serving": "per loaf", 
+    "content": "If you've never tried it before, malt loaf has a curiously moist squidgy texture that's rather difficult to describe. It's a bit of a paradox, existing somewhere in the wasteland between cake and bread but somehow manages to be simultaneously soft and heavy.\r\n\r\nSoreen itself seems to survive mostly on its own reputation (you will all of course recall the \"75 years of Soreen\" nationwide celebrations in 2013...?) and I'm fairly confident it would not be developed from scratch today. It comes across as an anachronism like spam, Fisherman's Friend mints, or those small red tins of pilchards.\r\n\r\n\u00abGood for cycling!\u00bb I am told, but that's probably more to do with a demographic overlap than anything else. Whilst calorie dense and has a reasonable macro-nutrient ratios, there is no avoiding the major issue with Soreen: if you compress or squish it in *any* way, it can never return to its original shape. In that way it reminds me of a used IKEA memory foam mattress with the corresponding aesthetics and resale value. Perhaps worse are the teeth marks left after one takes a bite - not pictured as it's just a little weird. Decidedly non-Newtonian.\r\n\r\nIt typically comes in an inconveniently-sized loaf for snacking so marketing pressure has likely dictated they go after the growing and margin-rich \"lunchbox\" market, resulting in these individually wrapped portions. The packaging for this banana variant is quite attractive, with even a few token attempts at marketing to people under 50, but a *Spot The Difference* puzzle and \"quirky\" copy redolent of an Innocent Smoothie just feels out of place here.\r\n\r\nUpon opening a loaf it looked a little sad; slightly lobsided and with a manufactured surface looking like an airline brioche. However, there's a very nice aroma of banana which increased when I tore it in half. The taste is less \"malt\" than regular Soreen and the texture isn't as sticky, although the latter is probably due to its diminutive size. Banana-wise, you are never blown away, but you get just enough of a hit to make you want a little more.\r\n\r\nYou get five loaves per packet, resulting in a unit cost of 20p which it seems excellent value. Each loaf is surprisingly filling too and I made an acceptable breakfast out of a pair of them. Somewhat reassuringly, Soreen doesn't last forever - my loaves had an expiration date about a fortnight into the future. English Twinkies they are not.\r\n\r\nWould recommend them if you can transport them safely.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-02", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 3, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "104 calories, 5.5g protein, 14.4g carbohydrate, 12.9g sugar, 2.4g fat, 100mg sodium", 
+    "score_banana": 4, 
+    "title": "N\u0101kd banana crunch & N\u0101kd banana bread", 
+    "price": "0.75", 
+    "created": "2014-07-14T15:07:09.511", 
+    "nutrition_serving": "per bar", 
+    "content": "It felt only right to get these from Waitrose. Whilst they are certainly stocked at Tesco, they appear out of place at the more plebian superstores where they are relegated to that weird section with \u00a34.25 gluten-free pizza bases. A rather pretentious diacritic (specifically, a *macron*) above the 'a' certainly helps promote this sense of affectation.\r\n\r\nThat 'a' might even be an ironic postmodern reference to the `heavy-metal umlaut <http://en.wikipedia.org/wiki/Metal_umlaut>`_ especially given how anti-industrial these bars are; as they boast, these are \"just\" dates with a few other ingredients blended together and then cold-pressed. They helpfully print the balance of ingredients on the back too, so there is even a temptation to make one's own...\r\n\r\nComparing the two, they have pretty much the same base; a lovely datey core with a just enough hint of \"dried\" banana. However, the banana crunch is very slightly crispy and just that slight bit of resistance and depth of texture actually makes it the far superior bar. The \"banana bread\" is not really bread at all and is much softer and plainer. Still delicious, just outdone.\r\n\r\nThe only drawback appears to be the price - even in multipacks (`or direct <http://www.naturalbalancefoods.co.uk/nakd-crunch-bars/nakd-banana-crunch-bar/>`_) they just feel about 20p more than they \"should\". Whilst going gluten-free would not be devoid of nice things to eat whatsover, it might be a little expensive.\r\n\r\nJust the thing for a mid-afternoon snack. Absolutely love them.", 
+    "source": "Waitrose", 
+    "state": "30", 
+    "date": "2014-08-09", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 4, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "282 calories, 14.1g protein, 45g carbohydrate, 45g sugar, 6g fat, 500mg sodium", 
+    "score_banana": 2, 
+    "title": "Yazoo banana milkshake", 
+    "price": "1.31", 
+    "created": "2014-07-14T15:07:09.516", 
+    "nutrition_serving": "per 475ml bottle", 
+    "content": "Printed on the side is the boast that \"Yazoo meets government guidelines for use in schools.\" Now, whilst I can't quite imagine how that fits into an Ofsted inspection, there's probably a Kelis reference somewhere in there. (Sometimes I just bring the ingredients to a joke, you have to do the baking yourself.)\r\n\r\nWhilst I see Yazoo regularly, I hadn't tasted it since 2004 and even then was my only try. My recollection was that it was insubstantial and inferior to `Frijj <http://31bananas.co.uk/day-25-frijj-banana-frijj-supreme-banoffee-milkshake>`_ or Yop. Since then I've noticed it's mostly sold at room temperature in the inner aisles rather than in the chiller where it could be impulse bought, increasing my skepticism about (at least) their marketing.\r\n\r\nPicking up my warm bottle in Tesco, it looked identical to a decade ago. The screw lid is actually a `folly <http://en.wikipedia.org/wiki/Folly>`_, masking the actual foil lid underneath. The smell is *okay*, not industrial like Frijj, but hardly a bouquet of banana either. The taste is curious but I can't quite put my finger on it - the overwhelming flavour might be a combination of UHT and sugar; banana is considered a third or fourth class citizen to Yazoo.\r\n\r\nI'd stick with Frijj to be honest.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-27", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 5, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "128 calories, 3g protein, 25g carbohydrate, 12g sugar, 1.4g fat", 
+    "score_banana": 2, 
+    "title": "Ella's Kitchen banana baby brekkie", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.518", 
+    "nutrition_serving": "per pack", 
+    "content": "Yes, this is baby food. And, yes, I'm not even halfway through the month. Now in fairness, it clearly states it's suitable for anyone over 6 months...\r\n\r\nBefore sampling my pouch, I broke a little rule I had set for myself and looked at other reviews - were other adults eating this stuff? Some of them were slightly obtuse on the matter. Take the following review from `\"It's a MOM thing\" <http://www.momthingreviews.com/2013/11/ellas-kitchen-review-nicole.html>`_ - is this second-hand from her daughter? It seems almost deliberately vague:\r\n\r\n   It had an amazing banana flavor that stuck out above all else [...]\r\n\r\nWhilst I bought mine at Sainsbury's, it's clearly marketed at the \"Waitrose mum\"; cuddly font, 100% organic, eco packaging, etc. (Also available: a range of spelt and fennel snacks for toddlers. Not kidding.) You get the idea. It claims to be for vegetarians too, which raises interesting ontological questions over whether a babe of a mere six months has sufficient *mens rea* to be classed a vegetarian.\r\n\r\nYes, I'm prevaricating - what did it taste like..? Well, banana, yoghurt and rice. Kinda. Once I made sure nobody was watching, I squirted a bit out of the pouch to find it had the consistency of American hot-dog mustard. No \"bits\" or definition whatsoever.\r\n\r\nAnd it didn't actually smell that great either, with a rather sharp rice/yoghurt overtone. It was definitely banana flavoured but it was really rather muted and then masked by the aforementioned rice.\r\n\r\nFinally tasting it, it was wholly unremarkable and really rather bland, unsurprising given the unrefined palate of the intended audience. I was slightly let down to be honest, implying I was somehow expecting some kind of hidden world of flavour only revealed to children.\r\n\r\nIs it good value? Well, it didn't fill me up so I guess not. I have also no idea how much this costs compared to the alternatives or even how much it costs to raise a child. I suppose announcing that I reviewed baby food will act as a social prophylactic, certainly keeping me from learning these facts for many years.", 
+    "source": "Sainsbury's", 
+    "state": "30", 
+    "date": "2014-08-14", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 6, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "646 calories, 2g protein, 64g carbohydrate, 12.5g sugar, 41g fat, 275mg sodium", 
+    "score_banana": 4, 
+    "title": "Neal's Yard Wholefoods banana chips", 
+    "price": "1.29", 
+    "created": "2014-07-14T15:07:09.533", 
+    "nutrition_serving": "per 125g packet", 
+    "content": "Forget the ice bucket challenge, it's harder to only have a single banana chip. In fact, I'm not sure I've ever come across such an addictive snack.\r\n\r\nI felt compelled to get from Holland & Barrett despite being available almost anywhere these days, but do note these are not healthy for you. At all. In fact, just glancing at some nutrition data they may be the worst offender this month.\r\n\r\nThese particular ones are fired in coconut oil and then coated in sugar, which might explain how you get them to taste different if you let them \"melt\" in your mouth first - presumably that's the sugar disappearing? They are also available coated in yoghurt, white chocolate, etc. etc. Another lifetime.\r\n\r\nWhilst they are tasty, morish and literally quite banarey, they are never entirely *satisfying*. Like cocaine, that may be the entire point.", 
+    "source": "Holland & Barrett", 
+    "state": "30", 
+    "date": "2014-08-28", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 7, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "380 calories, 3g protein, 90g carbohydrate, 83g sugar, 0.4g fat", 
+    "score_banana": 5, 
+    "title": "The Co-Operative foamy bananas", 
+    "price": "0.44", 
+    "created": "2014-07-14T15:07:09.575", 
+    "nutrition_serving": "per bag", 
+    "content": "Everyone around my age seems to vaguely remember a children's medicine that was banana flavoured \u2014 is this the source of our love of banana flavouring or did we imagine it? Maybe we simply sinking to a new low by inventing a nostalgia-laced narrative to justify our lust for *that* banana taste? \r\n\r\nBut enough of the usual circumlocution - these foam bananas are simply fantastic. Opening the packet, you are greeted with a waft of exactly that banana smell. Sure, it's nothing like a `real banana <http://skeptics.stackexchange.com/questions/20079/is-the-flavor-of-artificial-banana-flavoring-based-on-the-gros-michel-banana>`_ but it just hits home like any good drug hit.\r\n\r\nIf there's an area these could theoretically lose points it would be texture and consistency, but they somehow impress here too - whilst initially firm, they melt in the mouth with a slight fizz and\u2014rather than being uniform throughout the packet\u2014there's curious variation in texture between each hit compounding to their already moreish nature.\r\n\r\nNo really, what's not to like? Well, yes, there's a scary \"traffic light\" warning on the front muttering about the sugar content and I did feel the need to brush my teeth after a packet, but these seem such minor impediments to enjoying such a delightful and compact banana snack. Besides, the latter is easily fixed and the former can be offset by some kind of exercise - in my case, laps around Regents Park whilst scoffing the entire packet. Who needs gels? Or refinement. Or refinement.\r\n\r\nWithout wishing to pre-empt the rest of the month, at 44p per packet (yet alone 3 for \u00a31) they must surely represent the best value banana experience by a long margin and may be a serious contender in any consideration for an outright winner.", 
+    "source": "The Co-Operative", 
+    "state": "30", 
+    "date": "2014-08-11", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 8, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "195 calories, 9.5g protein, 26g carbohydrate, 23g sugar, 5.8g fat, 150mg sodium", 
+    "score_banana": 5, 
+    "title": "Provamel soya milk banana flavour", 
+    "price": "0.65", 
+    "created": "2014-07-14T15:07:09.577", 
+    "nutrition_serving": "per 250ml carton", 
+    "content": "Wikipedia soberly informs us that soya milk is \"a plant milk produced by soaking dry soybeans and grinding them with water\", but most people would recognise it as \"that weird milk for weird people\".\r\n\r\nI'm not sure I'm in a position to disagree. It's also where tofu comes from, appearing to be some sort of soy parallel to cottage cheese. The moar you know...\r\n\r\nWith all of its cult health credentials, I was expecting something ostentatiously austere - weak and thin, perhaps with a faded memory of a banana there only to remind yourself of your superiority over others. I was therefore especially surprised when it tasted amazing - a really creamy texture, more akin to regular \"blue top\" full-fat milk.\r\n\r\nIt was also sweet without being at all cloying, with an extremely nice banana taste - one of the best I've encountered. Due to the flavouring, it's not going to be a very practical milk to have lying around in your fridge compared to, say, the vanilla version but I'm definitely going to try it on cereal in the near future. Possibly even in tea.\r\n\r\nIs it good value? I got mine from Holland & Barrett\u2014where else?\u2014so am probably paying that \"tax\" in addition to having bought just a single carton and eschewing economies of scale, but even at 65p it made for a really nice snack that I would easily select over a Mars bar.\r\n\r\nHighly recommended.", 
+    "source": "Holland & Barrett", 
+    "state": "30", 
+    "date": "2014-08-17", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 9, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "106 calories, 4g protein, 23g carbohydrate, 0g sugar, 0g fat, 0mg salt", 
+    "score_banana": 3, 
+    "title": "Lick banana & honey frozen yogurt ", 
+    "price": "1.70", 
+    "created": "2014-07-14T15:07:09.579", 
+    "nutrition_serving": "per 125ml pot", 
+    "content": "Frozen yogurt has been experiencing a bit of a renaissance in the last few years, hopefully due to the \"0% fat\" marketing angle rather than the \"froyo\" neologism. I suppose it's better than \"froghurt\", but they are both incredibly ugly words.\r\n\r\nThe specialist shops around London seem to be eerily similar, each having essentially the same bright-pastel-colour-on-white aesthetic and seemingly deviate only on how they sexualise the process of refrigerating fermented milk and adding toppings from a tray (\"Snog\", \"Lick\", \"Smooch\", etc.)\r\n\r\nLick is no different here, opting for orange and pink paired with an `Pasche-tiche <http://en.wikipedia.org/wiki/John_Pasche>`_ tongue. Whilst available in larger tubs, smaller cinema-sized tubs seem to be more widespread. This might make sense given that the primary purpose of these bigger tubs is clearly bin\u2014sorry\u2014\"comfort\" eating, so it seems a little nonsensical to offer that for a perceived healthy product anyway.\r\n\r\nI was actually outsmarted by my diminutive pot. I had oh-so-cleverly chilled a spoon alongside my dessert but found that the lid actually conceals a cute little scoop. Perhaps they should trumpet that so it can be bought to eat on the street rather than something that needs taking home?\r\n\r\nDigging in, the taste is much more \"honey\" than banana at first. The banana surfaces as a nice afterthought though; not terribly strong and reminding one of a real frozen banana than anything artificial. The texture is not as creamy as real ice cream, but that's probably a trade-off for the calories (at only 106 calories per pot, a rough calculation puts that as \u2153 the calories of the equivalent H\u00e4agen-Dazs). It also melted fairly quickly even though I wasn't really handling it, in case that sort of thing rubs you the wrong way.\r\n\r\n\u00a31.70 seems fairly good value compared to a Magnum, but my observation is that there is always one tub of ~\u00a35 ice cream at half price making it a difficult buy if there's more than one of you. I'm not really ice cream kinda guy, but could see myself buying one of these again sometime though.", 
+    "source": "Sainsbury's", 
+    "state": "30", 
+    "date": "2014-08-05", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 10, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "157 calories, 7g protein, 24g carbohydrate, 22g sugar, 4g sugar, 90mg sodium", 
+    "score_banana": 5, 
+    "title": "Nestl\u00e9 Nesquik banana", 
+    "price": "2.25", 
+    "created": "2014-07-14T15:07:09.581", 
+    "nutrition_serving": "per 15g + 200ml semi-skimmed milk", 
+    "content": "This is another product that I hadn't tried before yet had somehow seen enough to acquire some rather odd preconceptions about it. In this case, and for some reasons too convoluted and tedious to go into here, I thought it was extremely French, essentially the national drink until one graduated onto Pernod's *51 Pastis*. And only available in chocolate. However, spotting this rare banana flavour I seized my chance to, err, educate myself.\r\n\r\nFor those equally ignorant, it's not entirely obvious how to make Nesquik (I know, right?). Following the instructions, I added 15g of the yellow sugar-like powder into a glass, added a small amount of milk, stirred \"into a paste\" and then topped up the glass with the rest of the milk. This \"paste\" phase is no pretention - I experimented on a second glass without this intermediary step and was unable to mix it as well.\r\n\r\nTaste? After all the disappointments with milkshakes this month, I think I was expecting something similar - a waterey, sugarey industrialised affair. However, Nesquik banana tasted absolutely fantastic, essentially liquid `foam bananas <http://31bananas.co.uk/day-11-the-co-operative-foamy-bananas>`_. Perhaps the others were handicapped by UHT / shelf-life requirement?\r\n\r\nRequiring milk makes it a little convoluted to rank value-wise as well as making it slightly more inconvenient. However, assuming 49p a pint\u2014making each serving cost just over 60p\u2014it's not at all shabby. I would probably drink it at \u00a36 a pop though, highly recommended.", 
+    "source": "Co-operative", 
+    "state": "30", 
+    "date": "2014-08-30", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 11, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "240 calories, 3.2g protein, 29g carbohydrate, 28g sugar, 12g fat, 250mg salt", 
+    "score_banana": 5, 
+    "title": "Cadbury's Dairy Milk Marvellous Creations banana caramel crisp", 
+    "price": "0.63", 
+    "created": "2014-07-14T15:07:09.582", 
+    "nutrition_serving": "per 47g bar", 
+    "content": "I can't keep up - are we supposed to hate Cadbury's these days? Is it for tax reasons? Or are they American? Both?\r\n\r\nThis bar is the product of Cadbury's \"Marvellous Creations\" skunkworks outfit under which they release slightly odd, time-limited flavours. It seems to be a good approach as it lets them piggyback a famous-but-conservative brand such as Dairy Milk whilst simultaneously being more experimental than the usual limited edition (\"Cola Pretzel\" anyone?).\r\n\r\nOpening it up, the first thing you notice is that the bar is made out of slightly odd-shaped triangles making it little awkward to break into bitesize pieces. Not that anyone is really going to share a 50g bar of chocolate but you can at least break it down a little and fool yourself. \r\n\r\nIn my tasting notes I first wrote that the banana flavour was quite diffuse - your standard Dairy Milk chocolate affair with Malteser-esque biscuits and a hint of banana throughout. Really quite pleasant but there's probably nicer chocolate out there and all that..\r\n\r\nHowever, what I didn't realise until I was almost half-way through is that it actually contains banana-flavoured jelly beans! Imagine my shock. These are truly great and turn what should be quite a boring bar into something almost exceptional.\r\n\r\nYes, it's little let down by the underlying chocolate, but I'm not sure that would stop me buying it again.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-20", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 12, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "60 calories, 0.5g protein, 13g carbohydrate, 12g sugar, 0.5g fat", 
+    "score_banana": 4, 
+    "title": "Fruit Heroes banana fruit bar", 
+    "price": "0.59", 
+    "created": "2014-07-14T15:07:09.584", 
+    "nutrition_serving": "per bar", 
+    "content": "According to the manufacturer's website these are \"Denmark's #1 fruit snack\", which sounds quite flattering until you realise that any reasonable definition of a \"fruit snack\" must surely include actual fruit. However, as they are gluten and dairy-free, suitable for vegetarians, vegans and pescatarians (as well as counting as one of your five-a-day) it might not be too bad for the poor Legolanders.\r\n\r\nI had admittedly never seen these before and had zero idea what to expect from the outside, but opening the wrapper I was pleasantly surprised by the name of the item embossed into into the top - hey, like an Lego brick! It looks even better in person. \r\n\r\nTucking in, I found it to be really rather good. Very similar in kind to a `N\u0101kd banana bread bar </day-9-nakd-banana-crunch-nakd-banana-bread>`_  but firmer and more bananarey. Cheaper too, and as they are longer & thinner (and thus offering more \"bites\") they paradoxically appear to be the more substantial snack.\r\n\r\nNot the most filling or exciting thing ever, but being tasty, petite and individually wrapped they could be ideal for a handbag, man-purse or a company tuck box. Hint hint.", 
+    "source": "Holland & Barrett", 
+    "state": "30", 
+    "date": "2014-08-15", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 13, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "272 calories, 30g carbohydrate, 17g sugar, 16g protein, 9g fat, 100mg sodium", 
+    "score_banana": 4, 
+    "title": "Grenade Reload banoffee protein flapjack", 
+    "price": "1.59", 
+    "created": "2014-07-14T15:07:09.586", 
+    "nutrition_serving": "per bar", 
+    "content": "The first thing to notice is how well-packaged this is. I mean, almost to the point of that when I removed the wrapper I was actually a little disappointed it was \"just\" a flapjack.\r\n\r\nI mean, of course it is, but what was I expecting? It's not captured very well in the photographs but it's vaguely transparent and has a congruent \"army\" aesthetic throughout. I suppose it's the grown-up equivalent of your parents pretending the spoon they were trying to feed you with is an aeroplane - somewhat patronising but remarkably effective.\r\n\r\nSaying that, the actual item looked a little *too* manufactured - flapjacks are surely meant to be a little unruly, not so... uniform. Anyway, there was a pretty good banana smell straight away and the taste is really quite good, nowhere near as sweet as a regular flapjack and the texture is reassuringly chunky. Despite being \"banoffee\", I'm not sure I would mention \"toffee\" if asked the flavour blindly. Satiety-wise, it's big and filling; you feel like you're eating something substantial and the taste doesn't get boring or too intense despite that.\r\n\r\nBought individually at \u00a31.59 it's a rather expensive one-off snack, but a box at \u00a31 each (eg. `Amazon <http://www.amazon.co.uk/gp/product/B00I6CDONY/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=B00I6CDONY&linkCode=as2&tag=chrislambcouk-21>`_) could be good value. Even then, it's sold as a protein bar yet \"only\" contains 16g protein so couldn't really replace one's incredibly masculine post-workout shake.\r\n\r\nStill, enjoyable.", 
+    "source": "Holland & Barrett", 
+    "state": "30", 
+    "date": "2014-08-04", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 14, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "140 calories, 1g protein, 19.9g carbohydrate, 13.8g sugar, 6.2g fat, 70mg sodium", 
+    "score_banana": 2, 
+    "title": "Mr Kipling banoffee slices", 
+    "price": "1.59", 
+    "created": "2014-07-14T15:07:09.588", 
+    "nutrition_serving": "per slice", 
+    "content": "Whilst these would come up in searches of Tesco.com I was finding it difficult to locate them in an physical store. However, in my unwavering quest for banana-flavoured snacks for I located a packet in Ireland and immediately undertook the 600 mile round-trip in order to sample them. Hence the late-in-the-day posting of this review. Or something.\r\n\r\nThe slices come in a \"snap pack\" of 6 individually wrapped cakes, presumably in order to create the maximum post-gluttony evidence, guilt and self-loathing. Each one is essentially a toffee-flavoured sponge with a banana-flavoured filling, topped with some yellow icing. \r\n\r\nTaking the sponge first, these sort of packaged cakes always tread a fine line \u2014 either they are made quite moist and therefore feel a little hollow and insubstantial or they are too dry and require some sort of liquid to make them properly palatable. I suppose this problem was solved years ago, where the adjustment of moistness could be dynamically adjusted with the application of custard or double cream.\r\n\r\nThese particurlar slices have erred on the \"moist\" side, which also causes it to be a just slightly slimey. The fondant icing seems a bit of a redundant too, simply adding an unnecessary \"pure sugar\" dimension to the palate, but I suppose it also ensures that the cake doesn't fall apart in an undignified manner.\r\n\r\nAnd the banana? Well, there's certainly a nice banana smell when opening the packet but the inner filling is far more toffee than banana. To be sure, it *is* there, but as a halo effect rather than a real \"hit\".\r\n\r\nIt is said that Mr Kipling makes exceedingly good cakes, but we should always remember that this was put about by the man himself and we can hardly consider him to be unbiased on this particular topic.\r\n", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-12", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 15, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "194 calories, 3g protein, 40g carbohydrate, 20g sugar, 2g fat, 44mg salt", 
+    "score_banana": 4, 
+    "title": "High5 EnergyBar banana", 
+    "price": "1.39", 
+    "created": "2014-07-14T15:07:09.590", 
+    "nutrition_serving": "per bar", 
+    "content": "High5 are very \"British\" sports nutrition company, seemingly content or possibly even proud of their rather naff packaging and marketing. They stick out at marathon or triathlon expo events, looking decidedly incongruous stocked next to the far slicker SiS or PowerBar offerings.\r\n\r\nWhilst I've used other High5 products before, I had never tried their EnergyBar range so was naturally curious about what was awaiting me inside. I was certainly expecting something a lot more medicinal but was pleasantly surprised to find a fruity oat bar like a thin moist flapjack.\r\n\r\nIn fact, I was reminded most of all of `N\u0101kd bars <http://31bananas.co.uk/day-9-nakd-banana-crunch-nakd-banana-bread>`_, although the High5 bar is little more \"manufactured\". Like the N\u0101kd bars, it actually tasted like real banana rather than some 1980s industrial byproduct (hello, PowerBar).\r\n\r\nI took my bar out on a short bike ride comprising repeats of a steep local hill. It wasn't the ideal choice of food for anaerobic efforts\u2014the higher GI of a gel might have suited the intensity a bit better\u2014but it didn't seem to linger too long in the stomach and there was no hint of, well, \"return\". The bars also seem quite practical and are likely to maintain their shape and consistency in the warm and cold, as well as providing that important semblance of \"real food\" amongst all the maltodextrin-laden sports drinks and gels.\r\n\r\nDespite that, they remain difficult to wholeheartedly recommend - as a sports bar, you can probably find something a little better (& cheaper) and as a banana snack they just don't stick out from the crowd.", 
+    "source": "Holland & Barrett", 
+    "state": "30", 
+    "date": "2014-08-10", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 16, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "79 calories, 2.2g protein, 16g carbohydrate, 3.3g sugar, 0.5g fat, 50mg sodium", 
+    "score_banana": 4, 
+    "title": "Weetabix banana", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.592", 
+    "nutrition_serving": "per biscuit", 
+    "content": "Why not just slice a regular banana over regular Weetabix? Tesco advocate exactly this Zen approach `in a bleak and postmodern recipe <http://realfood.tesco.com/recipes/banana-topped-weetabix.html>`_ on their \"Real Food\" website. I don't understand modern art.\r\n\r\nJoking aside, Weetabix banana does actually taste different - the banana flavouring is that slightly artificial one reminiscent of `foam bananas <http://31bananas.co.uk/day-11-the-co-operative-foamy-bananas>`_ (ie. extremely nice but sweet) and you are left with a lovely aftertaste in the mouth until you go and help yourself to another portion.\r\n\r\nThe packaging is more fun too, playing up the obvious banana angles. \"Peel me and go bananas!\" the internal packaging exhorts. One definite improvement would be condense the findings of `this fine essay on Weetabix\u2014Milk interaction <http://www.seriouseats.com/2012/05/cereal-eats-weetabix-milk.html>`_ - my second portion was vastly improved by this obvious advice which had eluded me for decades.\r\n\r\nBut maybe its more true of homemade pancakes, but as an adult I've found the whole point of Weetabix seems to be a vessel\u2014a Noah's Ark\u2014of all possible leftover toppings you can find in your cupboards. Kiwi fruit? Go for it. Machismo cherries? Chuck 'em on. Jelly? You bet you are.\r\n\r\nDespite its contradictions, if you don't hate Weetabix I'd absolutely recommend trying it out simply for the novelty factor; something tells me this product line won't last forever.", 
+    "source": "Sainsbury's", 
+    "state": "30", 
+    "date": "2014-08-23", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 17, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "292 calories, 21g protein, 43g carbohydrate, 10g sugar, 3g fat, 300mg sodium", 
+    "score_banana": 2, 
+    "title": "Oomf! Bench Pressed Oats banana", 
+    "price": "1.29", 
+    "created": "2014-07-14T15:07:09.593", 
+    "nutrition_serving": "per pot", 
+    "content": "Oomf decided to skip leg day and go with the bench press in their eponymous porridge, transgressing the \"squats and oats\" life advice in the process.\r\n\r\nNow, I'm a huge fan of oats but have always prefered the rather more chunky `rolled <http://www.budgetbytes.com/2014/07/beginners-guide-oats/>`_ variety to their thinner, \"instant\" siblings. In addition, I've not had great experiences with the other oat packets on the market, so this was always likely to be a bit of a let down.\r\n\r\nFollowing the instructions on the side, I added my \u00be of a cup of water. I also needed to keep the lid as I found out when I got down to step 4, requiring me to fish mine unceremoniously back out of the bin. I actually overfilled due to not actually owning a regular kettle, but I suspect the result was always going to be a little runny despite extensive stirring - better to err on the side of liquid than to find those lumps of unmixed flavouring...\r\n\r\nSo how bananery is it? Well, not really that much at all. In fact, in a blind taste test I would even be tempted to say it was vanilla flavoured, but there is banana there. Like the other packet oats, it's obviously fairly sugarey which, whilst not unpleasant, seems at odds with the \"gym\" angle.\r\n\r\nPerhaps like the actual bench press, it's an exercise mostly for show, for style and artifice over substance. I'll probably stick to chucking in an banana into my `true scotsman <http://www.scottsporage.co.uk/varieties-and-nutrition/scotts-old-fashioned/>`_ oats.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-08", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 18, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "122 calories, 3.4g protein, 19.3g carbohydrate, 14.9g sugar, 3.5g fat, 0.12g salt", 
+    "score_banana": 3, 
+    "title": "Ambrosia banana flavour custard", 
+    "price": "0.50", 
+    "created": "2014-07-14T15:07:09.595", 
+    "nutrition_serving": "per pot", 
+    "content": "\"Ambrosia\" was the drink of the Greek gods, flown to Olympus by doves and conferring immortality upon whoever consumed it. By contrast, this Ambrosia was delivered by an 18-meter articulated lorry and its health benefits have not been confirmed beyond a cursory Food Standards Agency inspection. I was also left to discover it\u2014without winged assistance\u2014in that strange supermarket aisle next to the tinned fruit, soya milk and microwavable Spotted Dick.\r\n\r\nThe packaging is attractive although unhelpfully ambiguous in guiding you whether to consume it warm or cold - pre-empting some of my previous concerns with UHT-like preservation I went with cold. Even then, I was expecting something thicker given the \"custard\" moniker but it's still sticky enough, leaving a bit of an crater when a spoon is removed.\r\n\r\nTaste-wise, it's just a little too sweet and the underlying banana is just one point too \"industrial\", but an entirely satisfactory banana hit nonetheless. I'm not a big enough custard eater to be able to compare it to, say, Birds, or to comment more deeply on how it compares to other dessert toppings.\r\n\r\nAnnoyingly, a Google search revealed that Ambrosia `used to offer these banana-flavoured flakes <http://insidethewendyhouse.blogspot.co.uk/2011/05/love-custard-youll-love-ambrosia-snacks.html>`_ (photo far right) which would probably have been more up my street. Now there's a real Greek tragedy.\r\n\r\nWould probably make a great accompianment poured on top of `2-ingredient banana pancakes <http://www.topwithcinnamon.com/2013/01/2-ingredient-healthy-pancakes-gluten-free-dairy-free.html>`_, but as a dessert replacement it falls a little short.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-07", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 19, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "117 calories, 0g protein, 26g carbohydrate, 0g fat", 
+    "score_banana": 1, 
+    "title": "UFC hot & spicy banana sauce", 
+    "price": "0.79", 
+    "created": "2014-07-14T15:07:09.597", 
+    "nutrition_serving": "per 100ml", 
+    "content": "I am strongly in favour of this trend of having entire \"ethnic\" aisles in supermarkets, not only for the increased variety of choice but also because it provides an insight into the mindset and shibboleths of ex-pats and of the natives: \"so *this* is what they miss\". The seemingly arbitrary prices for the items\u2014either absurdly expensive or inexplicably cheap\u2014only adds to their exotic nature.\r\n\r\nSo when I came across this banana sauce in the Phillipino aisle I was really quite excited to test it out - just think of all of my plain, humdrum fare I could instantly bananarise! However, imagine my disappointment when I just simply couldn't detect any hint of banana in it at all.\r\n\r\nIt's probably not just me too - I would happily wager that 99.9% of the general population would identify the \"sauce\" element as a mediocre tomato ketchup; really sugarey and not enough salt.\r\n\r\nLooking more carefully at the labelling, it's difficult to believe the claim of \"35% banana\", but I can easily believe that \"Consumption of colour [sic] may have an adverse effect on activity and attention in children\", as well as the instruction to \"Use as a condiment.\" Thanks for that.\r\n\r\nDoes it redeem itself by being hot & spicy? No. Too weak to really spice up a dish or to be used as a serious topping (cf. Encona) yet somehow too strong and opinionated to be used as \"background cosmic radiation\" (eg. Sriracha).\r\n\r\n`Similar to Fanta <http://en.wikipedia.org/wiki/Fanta#History>`_, banana sauce (or \"catsup\") was a product of WWII where locals substituted as best they could the American products. Some parts of history are seemingly best left there.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-18", 
+    "score_overall": 1
+  }
+},
+{
+  "pk": 20, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "408 calories, 20g protein, 57g carbohydrate, 57g sugar, 12g fat, 400mg sodium", 
+    "score_banana": 4, 
+    "title": "Nurishment original banana", 
+    "price": "1.30", 
+    "created": "2014-07-14T15:07:09.598", 
+    "nutrition_serving": "per 400ml can", 
+    "content": "I've always thought of Nurishment \"that builder drink\"; either lower or higher in status than Yazoo, whichever is more offensive. What on earth *is* it though? That's not a typo by the way - it's actually spelt without the \"o\". I don't know why. And yes, it comes in a weird can with an old-style ring-pull. No, I don't why either.\r\n\r\nIt doesn't shout about it but Nurishment is actually Jamaican in origin. However, whilst jerk chicken, Encona and Reggae Reggae sauce seem to have gone mainstream in the UK, curried goat, those odd-looking yellow patties and our eponymous hero will probably be sidelined for the time being.\r\n\r\nOpening the ring-pull (next time: can opener!) the drink itself smells malty and not entirely pleasant. It has a fairly good consistency though, just slightly thicker than full-fat milk.\r\n\r\nTaste-wise, the banana component is actually pretty good but the whole thing is let down by the sheer amount of added sugar. Believe me, I'm not one of those people who has a \"thing\" for sugar content in food but, wow, it does taste almost like someone literally screwed up at the factory.\r\n\r\nI was going to award it 3/5 but upon visiting the bathroom a few hours later a disturbing bright yellow discolouration...presented itself. As \"tourist food\", Nurishment represents an interesting novel experience that I can *almost* recommend but otherwise a scary Frankenstein affair.\r\n\r\n\r\n", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-21", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 21, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "218 calories, 11g protein, 31g carbohydrate, 31g sugar, 6g fat", 
+    "score_banana": 3, 
+    "title": "Jelly Belly Top Banana milkshake", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.600", 
+    "nutrition_serving": "per 330ml carton", 
+    "content": "Jelly Belly don't seem to have quite grasped the \"brand licensing\" concept yet - whilst a branded drink such as this one might make perfect sense, their other ventures (such as `these car air fresheners <http://www.jellybelly-uk.com/jelly-belly-car-accessories/238/jelly-belly-3d-car-air-freshener-blueberry.html>`_) seem utterly bizarre. And no, I am not jelly.\r\n\r\n(I was, of course, manipulated into purchasing this item entirely based on JB's far-sighted sponsorship of the `Jelly Belly pro-cycling team <http://www.jellybellycycling.com/>`_. Whilst I'm sure it gets old for their riders, the jokes from the rest of the peloton must get a little old...?)\r\n\r\nThis particular milkshake is smaller than it looks, offering only a meagre 330ml of shaken\u2014shook?\u2014milk, the same as a can of coke. I supped mine from a crystal tumbler, affecting the airs and graces of a gentleman of leisure, kidding myself I was doing it to capture a representative image for you, dear reader, but I'm sure it was simply so it would last a little bit longer.\r\n\r\nOpening it up, the smell is definitely a \"Jelly Belly\" spin on banana rather than banana\u2013banana, but after the disappointment of some of the recent \"banoffee\" flavours it was in the right ballback. Does it match the flavour of banana Jelly Belly beans? I have absolutely no idea and can even only infer their existence from this drink. It's not very natural-tasting, but if you're drinking a jelly-bean branded milkshake that has a shelf-life of *at least* three months, you cannot convince me that's a serious criterion.\r\n\r\nWhilst it's not at all bad, it's let down mostly by the texture; it's a smooth and creamy affair rather rather than something lumpy so is a bit of a let-down when labelled as a milk-*shake*. Probably wouldn't buy again, but really wouldn't recommend against it either.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-13", 
+    "score_overall": 3
+  }
+},
+{
+  "pk": 22, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "247 calories, 11g protein, 37g carbohydrate, 24g sugar, 5g fat, 310mg sodium", 
+    "score_banana": 2, 
+    "title": "B-Fast breakfast banana shake", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.635", 
+    "nutrition_serving": "per 310ml bottle", 
+    "content": "It was surprising to come across a banana-flavoured drink I had not spotted before but I was slightly assuaged when the internet did not seem to know about it either; the only page seems to be its `Tesco.com item page <http://www.tesco.com/groceries/product/details/?id=283668145>`_ which links to a clearly invalid Facebook URL. A new variation on the `Googlewhack <http://en.wikipedia.org/wiki/Googlewhack>`_, perhaps?\r\n\r\nThe bottle is rather nicely presented with a `shibe <http://www.reddit.com/r/shibe/top/>`_-esque collage of advantages printed on the front in banana yellow. There's an odd lid arrangement - the screw-top feels like it would be extremely secure against leakages, but then there's a rather strong foil lid underneath.\r\n\r\nFinally gaining access, the smell was not overwhelmingly bananery; more of a milk affair which is followed through in the taste. There was also a very slightly industrial twist in the banana flavouring which, whilst not altogether unpleasant, wasn't ideal. The texture is a little too thin for my liking - a bit too \"UHT\", and nothing like the thickness of a Frijj or Yop.\r\n\r\nIt's touted as being for \"on the go\" but I'm sure it was *greatly* improved by being consumed straight from the fridge - I wouldn't like to drink a lukewarm version straight from a man-bag on a long South London commute. It wasn't especially filling either, possibly a reflection of its regrettably thin consistency.\r\n\r\nAt \u00a31 this isn't a bad drink but I'm certain that's an introductory price. There are just better drink options out there for banana seekers.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-06", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 23, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "280 calories, 4g protein, 65g carbohydrate, 49g sugar, 0.2g fat, 100mg sodium", 
+    "score_banana": 4, 
+    "title": "Tesco banana milkshake bottles", 
+    "price": "0.40", 
+    "created": "2014-07-14T15:07:09.638", 
+    "nutrition_serving": "per bag", 
+    "content": "It took me a while to find these again - from my own speckled history with anything banana-flavoured I was certain they existed but my local Tesco has such odd stock control (`no, not this one <http://haggerston-tescos.tumblr.com/>`_) that reliably picking up a specific item can require significant advance planning.\r\n\r\nTaking a more careful look at the packaging I wasn't overly impressed by the usual functional Tesco branding but looking even loser\u2014and despite it being such a clich\u00e9d complaint\u2014I found myself falling in love with the bizarre \"5 sweets\" suggested serving size.\r\n\r\nI suppose the most obvious question is how these compare to the `Co-Operative foamy bananas <http://31bananas.co.uk/day-11-the-co-operative-foamy-bananas>`_. First of all, these bottles are slightly flourey, leaving a little bit of banana dust on your hands after handling a few.\r\n\r\nSecond, the taste is definitely a \"milky\" banana - not only tasty in its own right but also great to have a different twist on banana that isn't banoffee. Admittedly, it's not *as* nice as the foam bananas, but it's very close.\r\n\r\nThe sugar hit is not as strong either but they are still incredibly morish and you could probably end eat more of them as a result. Similar to the foam bananas, I took these on a bike ride around Regents Park, initially rationing myself to two or three per lap, but ended up accelerating this somewhat.\r\n\r\n40p a packet would be more than good enough, but three packets for \u00a31 makes this fantastic value. Highly recommended.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-16", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 24, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "193 calories, 6g protein, 26g carbohydrate, 23g sugar, 6g fat, 0.4g sodium", 
+    "score_banana": 2, 
+    "title": "M\u00fcller Crunch Corner banana chocolate flakes", 
+    "price": "0.75", 
+    "created": "2014-07-14T15:07:09.640", 
+    "nutrition_serving": "per pot", 
+    "content": "Do you remember in the early 2000s when we were obssessed with M\u00fcller products? We couldn't seem to get enough of these curiously-packaged desserts, with entire supermarket aisles dedicated to these inconveniently storable snacks. Available in multipacks of pallet-sized proportions, shops challenged the frugal shopper's mental arithmetic with a dizzying array of X-for-\u00a3Y offers that would make even the most numerically savvy bookmaker pause during his weekly shop.\r\n\r\nAnd when a \"corner\" snack was not being quaffed, conversation on the correct mixing technique was on someone's lips instead. Does one fold over the corner in one go, mix \"as you go\", or even eat the two parts entirely separately...? Were we really so starved of culinary variety that a simple fare of unmixed ingredients was enough to satiate both our stomachs and our sense of accomplishment?\r\n\r\nThey may have fallen out of favour in recent years but they still exist in what I think are the same flavours. I picked up the Banana Chocolate Flakes variety (tagline: \"banana yogurt with milk chocolate coated cornflakes\") for my first banana review of the month.\r\n\r\nAfter a small individual nibble of each I opted for an \"all in\" approach, boldly turning over the corner in one swift movement like a Tudor executioner. A quick volume calcuation would suggest it would not work the other way around, or at least would not generate a humourous enough picture to justify another 75p. I did lick the foil lid.\r\n\r\nBy itself the yoghurt is only slightly bananarey, quite sweet and let down by waterey consistency. One might also criticise the cornflakes for being too small, but this actually turns out to be an advantage later due to the increased chocolate surface area. After mixing the two, however, the whole offering improves but ends up tasting more like chocolate than banana. It isn't bad, but if one is really after a chocolate yoghurt, I'm sure there are better candidates.\r\n\r\nValue-wise, I don't believe they represent the best yoghurt experience, let along the best banana experience - it didn't really fill me up at all or provide a nice underline to my meal. Admittedly I bought mine as a single at a premium over an enormous multipack, but even at 50p each I'm not sure I could recommend them as a banana-specific treat.\r\n\r\nUltimately, slightly disappointed but probably worth eating first out of your pallet of 4,000.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-01", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 25, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "301 calories, 17g protein, 47g carbohydrate, 46g sugar, 5g fat, 1000mg sodium", 
+    "score_banana": 5, 
+    "title": "Frijj Banana & Frijj Supreme Banoffee milkshake", 
+    "price": "1.69", 
+    "created": "2014-07-14T15:07:09.641", 
+    "nutrition_serving": "per bottle", 
+    "content": "After a `disappointing experience yesterday <http://31bananas.co.uk/day-24-wells-banana-bread-beer>`_ I thought I'd try something a little  more likely to be a hit. And just to be sure I'd review two products at once.\r\n\r\nFor those not in the know Frijj (pronounced \"fridge\") is the most popular milkshake in the UK, outsold at garages presumably only by petrol itself. In the past decade they've really jumped on the limited edition bandwagon (\"Jaffa Cake\", anyone?) but their core flavours remain strawberry, chocolate and, of course, banana. Their branding is fun and quirky with a distinctive shape and feel of the bottle, `as is their social media strategy <https://www.facebook.com/frijj>`_ - check out some of the photos.\r\n\r\nI started with the regular banana flavour. I was not overly impressed by just the smell - quite sharp and \"malty\", industrial in a negative way. However, tasting it was entirely different; fantastic with just the right texture. There's somehow an inherent \"stickiness\" in the drink too which is difficult to describe. Banana-wise, this is A+ work. The zenith of banana flavouring. Bravo.\r\n\r\nAnd in the red corner is... Banoffee Pie from the Supreme range. It's unclear exactly what is intended to be \"supreme\" about it. It was slightly more expensive than the regular whilst containing about 25% less. Deviously, the height is the same but the bottle itself is thinner...\r\n\r\nIn contrast with the banana flavour the smell here is extremely nice, particularly for a banoffee item. It turns out to be slightly thicker than the regular too and with a taste that's decidedly \"top shelf\". I'd probably still prefer the banana over this one, but it's absolutely nothing to be sneezed at.\r\n\r\nTwo fantastic drinks, both alike in dignity. Oh, I think they're now on offer at 65p.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-25", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 26, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "139 calories, 4.5g protein, 26g carbohydrate, 12g sugar, 2g sugar, 100mg sodium", 
+    "score_banana": 1, 
+    "title": "SiS GO mini energy bar banana", 
+    "price": "1", 
+    "created": "2014-07-14T15:07:09.643", 
+    "nutrition_serving": "per 40 bar", 
+    "content": "I woke before sunrise for a midweek *belle folie* around Regents Park, `cycling 100km <http://www.strava.com/activities/183255363>`_\u2014or 23 laps\u2014anticlockwise around the outer circle. I took this bar along with me, assuming its banana nature would pep me up when I needed it most. Perhaps after being aggressively overtaken by an Addison Lee taxi or simply due to disorientating dizziness...\r\n\r\nHowever, it was the disappearance of my previously-stashed water, tidied away by some fastidious park ranger or street vagabond, that provoked me to reach for this snack. Projecting the annoyance at my clumsy concealmeant onto their well-intentioned industriousness, I opened my bar to find the worst-looking energy bar I've ever come across. Small, unappetising, dry and devoid of banana taste, I was tempted to not to even finish it.\r\n\r\nLooking at the silvery wrapper, I found myself noticing that whilst SiS stands for \"Science in Sport\" nobody seems to have made the obvious observation that if there's any sport that has had an `overdose of science <https://www.youtube.com/watch?v=viRxs4AqsCI>`_, it's cycling.\r\n\r\nReaching into my back pocket I took out an actual banana, smiled, and continued into the sunrise.", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-26", 
+    "score_overall": 1
+  }
+},
+{
+  "pk": 27, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "160 calories, 1.6g protein, 20g carbohydrate, 12g sugar, 9g fat, 100mg sodium", 
+    "score_banana": 5, 
+    "title": "Respect Organics banana loaf cake", 
+    "price": "2.05", 
+    "created": "2014-07-14T15:07:09.645", 
+    "nutrition_serving": "\u2159 of loaf", 
+    "content": "Banana bread is obviously a \"thing\" but I was worried I wouldn't be able include it this month; rather than being sold, it's typically homemade so would not fit my `available in UK shops </#about>`_ rule, designed so that you, dear reader, can be where I have been and taste what I have tasted.\r\n\r\nIt's a rarity even at a cafe, although there are now `Big Banana Bread <http://bigbananabread.com/>`_ stockists in London, and the \"yellow\" Brick Lane bagel shop (next door to `its more famous cousin <http://en.wikipedia.org/wiki/Beigel_Bake>`_) sells some kind of sweet banana cake. I've even spotted a `hole-in-the-wall banana bread outlet <http://www.broadgate.co.uk/BeanyGreenCoffee>`_ by Liverpool Street station which I have yet to make a withdrawal from.\r\n\r\nHowever, I picked up mine at \"As Nature Intended\", an even more upmarket version of Whole Foods. It's available in Tesco and Sainsbury's as well but these are vulgar stores to acquire organic produce from. The `Respect Organics <http://www.respectorganics.com/>`_ brand certainly has the right pedigree, airily throwing around \"sustainability\" and \"local\" just like the big boys. One thing though - \"Soil Association eggs\" doesn't make much sense to me, but then I didn't pay much attention in biology class...\r\n\r\nThe packaging is top notch, with a huge banana printed on the side and a transparent lid so you can get a real idea of what you've let yourself in for. There's also a practical internal corrugated cardboard \"cake tin\" which ensures the squashable contents are not easily damaged. `Soreen </day-2-soreen-banana-lunchbox-loaves>`_ could take notice.\r\n\r\nOpening it up, I was greeted by a lovely banana smell. The cake itself is just sweet enough and surprisingly moist given that it has a shelf life of about 2-3 weeks. After a few slices of my own\u2014ooh, that crust!\u2014I shared the rest with my colleagues over a morning status meeting - good reviews all round, or at least I haven't heard anything negative.\r\n\r\nEven with the \"organic tax\", it's extremely good value. Highly recommended.", 
+    "source": "As Nature Intended", 
+    "state": "30", 
+    "date": "2014-08-19", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 29, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "203 calories, 6g protein, 39g carbohydrate, 23g sugar, 2g fat, 209mg sodium", 
+    "score_banana": 2, 
+    "title": "PowerBar Energize banana punch energy bar", 
+    "price": "1.69", 
+    "created": "2014-07-14T15:07:09.649", 
+    "nutrition_serving": "per bar", 
+    "content": "To say that I've sampled PowerBars could be an understatement - in June I had at 8, possibly 9, of them in a single day. That was interesting.\r\n\r\nPowerBars have a long history in endurance sports and are actually one of the very first energy bars ever produced. A lot of the `old stories about them <http://forum.slowtwitch.com/forum/Slowtwitch_Forums_C1/Triathlon_Forum_F1/PowerBar_-_Some_History_P4925478-1>`_ still apply today. In particular, how bizarrely they behave in different temperatures: below 15\u00b0C they are hard as a rock requiring a careless attitude to dentistry to consume whilst above 20\u00b0C they are essentially a liquid and will fold over themselves in a despondent droop.\r\n\r\nFor a *sports* bar they are also extremely difficult to get out of packet one-handed and not at all straightforward for people still blessed with two; the bar sticks obstinately to the wrapper which never ever tears as intended. Has anyone from PowerBar actually used these things in anger?\r\n\r\nIndustrial in both taste and design, the rather curious flavours are recognised better by eye than by tongue, although this anonymity might paradoxically be an advantage after a sixth or seventh bar. It's quite intellectually stimulating to invent another foodstuff that PowerBars are a repurposed waste product from.\r\n\r\nI guess I would recognise the taste as banana, but only just - this is definitely \"work\" banana, not \"play\" banana, designed for efficient carbohydrate intake only. There are superior Energize flavours\u2014I would almost eat a *Cookies & Cream* variety as a snack\u2014but another *Banana Punch*? I'll pass.", 
+    "source": "CycleSurgery", 
+    "state": "30", 
+    "date": "2014-08-29", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 30, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "116 calories, 24.3g protein, 2.4g carbohydrate, 1.4g sugar, 1g fat, 115mg sodium", 
+    "score_banana": 4, 
+    "title": "Optimum Nutrition banana cream protein whey powder", 
+    "price": "23.99", 
+    "created": "2014-07-14T15:07:09.651", 
+    "nutrition_serving": "per 31g scoop", 
+    "content": "It is a truth universally acknowledged that a single man in possession of a large container must be in want of some health product to sell inside it. Whey protein offers the *summa* of this, appearing to flog a bottle of perfume's worth of product in a cavenous vessel the size of an oil drum.\r\n\r\nFor those unfamiliar with whey protein powder, the idea is to add a scoop of powder into a \"shaker\", fill up with milk or water, shake for about 20 seconds and then casually drink it whilst out in public. Oh, this? Yeah, well, I guess I was just working out..\r\n\r\n(Anyone who has tried this exhibitionism knows the inevitable downside - you are nowhere near a water source to clean the container afterwards and opening even a day-old shaker results in a smell I would not wish on my worst enemy. At least two days for them.)\r\n\r\nIs it tasty? Yes. It's definitely nicer with milk, but the banana version of this product is almost as good with water, not the case with the other flavours I have tried. My pro tip is to use refrigerated water.\r\n\r\nThe powder also works surprisingly well as an ingredient - just stirring a teaspoon into some almost-ready porridge makes a fantastic replacement for cinnamon, but you can also bake it into cookies, cupcakes, make pancakes, stir it into yoghurt, make hash brownies... you get the idea.\r\n\r\nDo I recommend it? Well, I'm going to neatly sidestep all the broscience here; you already \"know\" if you want to buy whey protein\u2014probably entirely from a, err, lifestyle point of view\u2014but would definitely suggest trying this one first. Enjoy leg day...", 
+    "source": "Amazon.co.uk", 
+    "state": "30", 
+    "date": "2014-08-22", 
+    "score_overall": 4
+  }
+},
+{
+  "pk": 31, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "100 calories", 
+    "score_banana": 4, 
+    "title": "Banana", 
+    "price": "0.19", 
+    "created": "2014-07-14T15:07:09.653", 
+    "nutrition_serving": "approx", 
+    "content": "How do you review the banana? Do notice the article there - it would be scientific to review a specific banana so that it can be compared with the other reviews, but wouldn't that be taking the easy way out? It is, after all, the star of the show, the man of the moment. The *ur*-fruit.\r\n\r\nLet's get a few things out of the way first. The `marshmellow eaters <http://en.wikipedia.org/wiki/Stanford_marshmallow_experiment>`_ amongst you will already been intrigued that I've awarded the banana 4/5 on the scale of \"banana-ness\". How is this possible?\r\n\r\nRecall what I're actually been scoring on - it's not always the most authentically banana-tasting products, rather ones that represent the idea or spirit of the banana. These \"hyper banana\" items, such as `Nesquik <http://31bananas.co.uk/day-30-nestle-nesquik-banana>`_ or `foamy bananas <http://31bananas.co.uk/day-11-the-co-operative-foamy-bananas>`_ simply have to score higher here, requiring a necessary adjustment in score here. Let me put it another way - is crack cocaine better than cocaine? Yes. Yes, it is.\r\n\r\nOf course, the banana will score 5/5 overall. Packaging and marketing? Well, it could be argued that it bruises easily but that's hardly fair - who, say, packs nectarines or plums carelessly into their hand luggage? Plus the lowly banana skin has been an unending font of slapstick humour as well as being fully biodegradable eons before the first Whole Foods. And the banana has no marketing either - you doesn't see adverts paid for by a \"banana board\" in an attempt to increase the nation's consumption - one just doesn't need encouragement to eat bananas. Hm, one doesn't see them for crack cocaine either. Let's move on.\r\n\r\nIf this was just another product I might reveal some interesting tidbit that you might find interesting, but what can I reveal that you don't already know?\r\n\r\nI suppose little is known of the bananas's versatility. Beyond the obvious banana sandwiches and toppings, our hero makes a very fine `single-ingredient ice cream <http://www.thekitchn.com/how-to-make-creamy-ice-cream-with-just-one-ingredient-cooking-lessons-from-the-kitchn-93414>`_, you can also mush one into porridge when it's about half done for a rather interesting texture, make `two-ingredient pancakes <http://www.ourbestbites.com/2014/02/2-ingredient-pancakes/>`_, is great late-night on the barbeque item wrapped in foil with chocolate, and rather good as `French Toast <http://www.tinnedtomatoes.com/2014/02/peanut-butter-nutella-and-banana-french.html>`_. This `Yummly search <http://www.yummly.co.uk/recipes?q=banana>`_ may give you some other ideas.\r\n\r\nWorth mentioning here would be the English tendency to prefer bananas when they are not really ripe, somehow misdiagnosing the smallest black speckle as the recurrence of some plague. Educating to the contrary is a sisyphean task not helped by this misunderstanding generating a lot of produce marked with those three beautiful words \"Reduced to Clear\".\r\n\r\nBut alas, it has come to draw this love letter to this charming fruit to a conclusion. We have come full circle together, or at least a kind of slightly curved crescent shape. Farewell, and see you all next month for 30 gooseberries.\r\n", 
+    "source": "Tesco", 
+    "state": "30", 
+    "date": "2014-08-31", 
+    "score_overall": 5
+  }
+},
+{
+  "pk": 33, 
+  "model": "reviews.review", 
+  "fields": {
+    "nutrition": "199 calories, 13g carbohydrate", 
+    "score_banana": 1, 
+    "title": "Wells Banana bread beer", 
+    "price": "2.49", 
+    "created": "2014-08-22T13:55:19.538", 
+    "nutrition_serving": "500ml bottle", 
+    "content": "It's impossible for me to think of craft beer without `recalling Stewart Lee <http://www.bbc.co.uk/programmes/b040gzbf>`_:\r\n\r\n You walk round the Sainsbury's aisles every week and there's more of these exotic bottled beers with names like Wizard's Sleeve and Goblin's Hole. Catamite's Regret.\r\n\r\n And the pretend folksy names and fake artisanal packaging of these bottled beers conspires to give the functioning 45-year-old alcoholic the impression that he's not a functioning alcoholic but is instead some kind of connoisseur of beer, cutting a valuable exploratory swathe through an uncharted wilderness of 7.8% proof alcohol.\r\n\r\n But I've got news for you, Sainsbury's! I've seen through The Matrix, and an alcoholic is an alcoholic is an alcoholic, whether it's a tramp lying in the gutter drinking Buckfast or a 45-year-old father of two sitting at home alone in the middle of the night drinking Hadron's Collision.\r\n\r\nHe's certainly right about the `Googlewhack <http://en.wikipedia.org/wiki/Googlewhack>`_-esque labelling and constructed history. On the latter point, this beer is no exception: here's Karl Ottomar, Head Brewer at Wells & Young's, `writing in an interview <http://goodfoodgoodbeer.wordpress.com/2014/03/01/banana-bread-beer-charles-wells-enduring-oddity/>`_:\r\n\r\n  The idea of Banana Bread Beer initially came about as a suggestion from the wife of one of the Charles Wells team.\r\n\r\n... whilst the bottle has this far more, err, marketable narrative:\r\n\r\n   Long ago, ale was known as 'Liquid Bread'. We've used our long history of creating the finest malt blends & added fairtrade bananas to awaken the senses with a seriously fruity, rich, yet surprisingly versatile banana bread beer.\r\n\r\nBut enough of this sniping at such an easy target - is it actually any good?\r\n\r\nWell, falling flat right out of the starting gate I simply couldn't detect any hint of banana, either by smell or by an exploratory sip. Was my bottle a duff? Are my banana senses are dulled and muted? It just wasn't there. I like the *idea* of it being there and it could probably work quite well...? Not sure I can say much more.\r\n\r\nFailing that, is it a nice beer? I wouldn't be the person to ask. But if you like bananas *and* beer I'd buy some `lovely banana bread <http://31bananas.co.uk/day-19-respect-organics-banana-loaf-cake>`_ with your next bottle of Gandalf's Memory Stick instead.", 
+    "source": "Oddbins", 
+    "state": "30", 
+    "date": "2014-08-24", 
+    "score_overall": 2
+  }
+},
+{
+  "pk": 4, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 1, 
+    "image_hash": "TTyMmwdN", 
+    "order": 7
+  }
+},
+{
+  "pk": 7, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 1, 
+    "image_hash": "TTyMmwdN", 
+    "order": 4
+  }
+},
+{
+  "pk": 8, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 1, 
+    "image_hash": "TTyMmwdN", 
+    "order": 8
+  }
+},
+{
+  "pk": 15, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 2, 
+    "image_hash": "RUUQzPrz", 
+    "order": 3
+  }
+},
+{
+  "pk": 16, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 2, 
+    "image_hash": "34vPS9cv", 
+    "order": 4
+  }
+},
+{
+  "pk": 17, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 2, 
+    "image_hash": "R9pdFdpW", 
+    "order": 2
+  }
+},
+{
+  "pk": 24, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 15, 
+    "image_hash": "bGcN9fdy", 
+    "order": 2
+  }
+},
+{
+  "pk": 33, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 24, 
+    "image_hash": "Y2q2o13h", 
+    "order": 5
+  }
+},
+{
+  "pk": 40, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 26, 
+    "image_hash": "fbcMjkVQ", 
+    "order": 3
+  }
+},
+{
+  "pk": 43, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 21, 
+    "image_hash": "56zTGGYV", 
+    "order": 2
+  }
+},
+{
+  "pk": 45, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 24, 
+    "image_hash": "Up3r28G0", 
+    "order": 2
+  }
+},
+{
+  "pk": 46, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 24, 
+    "image_hash": "NHqYhgcW", 
+    "order": 3
+  }
+},
+{
+  "pk": 47, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 13, 
+    "image_hash": "bJBBpYGA", 
+    "order": 2
+  }
+},
+{
+  "pk": 48, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 13, 
+    "image_hash": "JLZ8BdTe", 
+    "order": 5
+  }
+},
+{
+  "pk": 49, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 13, 
+    "image_hash": "JGhTNEPM", 
+    "order": 3
+  }
+},
+{
+  "pk": 50, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 13, 
+    "image_hash": "l5sp3oSK", 
+    "order": 4
+  }
+},
+{
+  "pk": 61, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 22, 
+    "image_hash": "OBa11MYC", 
+    "order": 5
+  }
+},
+{
+  "pk": 66, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 9, 
+    "image_hash": "DAQ0wf36", 
+    "order": 1
+  }
+},
+{
+  "pk": 67, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 9, 
+    "image_hash": "m89JoRX7", 
+    "order": 5
+  }
+},
+{
+  "pk": 68, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 9, 
+    "image_hash": "WpiRGU8F", 
+    "order": 3
+  }
+},
+{
+  "pk": 70, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 17, 
+    "image_hash": "U9PxmALR", 
+    "order": 7
+  }
+},
+{
+  "pk": 71, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 17, 
+    "image_hash": "vMLTaNUB", 
+    "order": 8
+  }
+},
+{
+  "pk": 72, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 17, 
+    "image_hash": "2Qi5DGvc", 
+    "order": 9
+  }
+},
+{
+  "pk": 73, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 18, 
+    "image_hash": "CoFtEM7u", 
+    "order": 1
+  }
+},
+{
+  "pk": 74, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 18, 
+    "image_hash": "CQiNIX4O", 
+    "order": 3
+  }
+},
+{
+  "pk": 75, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 18, 
+    "image_hash": "oeeXtmS9", 
+    "order": 2
+  }
+},
+{
+  "pk": 76, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 7, 
+    "image_hash": "aS8hOKAT", 
+    "order": 2
+  }
+},
+{
+  "pk": 78, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 7, 
+    "image_hash": "nPBtilpz", 
+    "order": 6
+  }
+},
+{
+  "pk": 79, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 7, 
+    "image_hash": "DzVwHYjM", 
+    "order": 4
+  }
+},
+{
+  "pk": 83, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 9, 
+    "image_hash": "33ly5iGm", 
+    "order": 6
+  }
+},
+{
+  "pk": 84, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 23, 
+    "image_hash": "1YbXgRFg", 
+    "order": 2
+  }
+},
+{
+  "pk": 86, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 23, 
+    "image_hash": "pmz49gye", 
+    "order": 4
+  }
+},
+{
+  "pk": 88, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 22, 
+    "image_hash": "w3Org1uL", 
+    "order": 2
+  }
+},
+{
+  "pk": 89, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 22, 
+    "image_hash": "UztS3XNq", 
+    "order": 7
+  }
+},
+{
+  "pk": 90, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 22, 
+    "image_hash": "GLHaemF1", 
+    "order": 6
+  }
+},
+{
+  "pk": 92, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 15, 
+    "image_hash": "uEBGtN2v", 
+    "order": 3
+  }
+},
+{
+  "pk": 93, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 15, 
+    "image_hash": "T1SjNxRs", 
+    "order": 5
+  }
+},
+{
+  "pk": 94, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 18, 
+    "image_hash": "nlIy1zSx", 
+    "order": 4
+  }
+},
+{
+  "pk": 95, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 12, 
+    "image_hash": "nARlwE5Z", 
+    "order": 1
+  }
+},
+{
+  "pk": 99, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 12, 
+    "image_hash": "wBWwcpAd", 
+    "order": 6
+  }
+},
+{
+  "pk": 100, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 12, 
+    "image_hash": "OQJPsBn4", 
+    "order": 2
+  }
+},
+{
+  "pk": 101, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 3, 
+    "image_hash": "vPf1Rkpy", 
+    "order": 7
+  }
+},
+{
+  "pk": 102, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 3, 
+    "image_hash": "r5fc4lGY", 
+    "order": 6
+  }
+},
+{
+  "pk": 104, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 3, 
+    "image_hash": "010xrYxf", 
+    "order": 8
+  }
+},
+{
+  "pk": 106, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 3, 
+    "image_hash": "mIBIm5mA", 
+    "order": 4
+  }
+},
+{
+  "pk": 107, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 29, 
+    "image_hash": "6tGIjE6Y", 
+    "order": 5
+  }
+},
+{
+  "pk": 109, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 29, 
+    "image_hash": "Hgu0iSLn", 
+    "order": 1
+  }
+},
+{
+  "pk": 111, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 29, 
+    "image_hash": "ypZUmFRs", 
+    "order": 4
+  }
+},
+{
+  "pk": 112, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 8, 
+    "image_hash": "reaCWg9g", 
+    "order": 1
+  }
+},
+{
+  "pk": 114, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 8, 
+    "image_hash": "bMaLHUne", 
+    "order": 3
+  }
+},
+{
+  "pk": 116, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 8, 
+    "image_hash": "z1QsKDHx", 
+    "order": 5
+  }
+},
+{
+  "pk": 117, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 14, 
+    "image_hash": "Knf1K9ph", 
+    "order": 1
+  }
+},
+{
+  "pk": 118, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 14, 
+    "image_hash": "zlyB6JxU", 
+    "order": 2
+  }
+},
+{
+  "pk": 119, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 14, 
+    "image_hash": "MqEHAZAm", 
+    "order": 3
+  }
+},
+{
+  "pk": 121, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 21, 
+    "image_hash": "hQ8NksW9", 
+    "order": 3
+  }
+},
+{
+  "pk": 122, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 21, 
+    "image_hash": "k3qR94IC", 
+    "order": 4
+  }
+},
+{
+  "pk": 123, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 21, 
+    "image_hash": "pEW9RGRy", 
+    "order": 5
+  }
+},
+{
+  "pk": 124, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 5, 
+    "image_hash": "zwcWfhcs", 
+    "order": 4
+  }
+},
+{
+  "pk": 125, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 5, 
+    "image_hash": "MPGlcQ5W", 
+    "order": 5
+  }
+},
+{
+  "pk": 126, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 5, 
+    "image_hash": "9pMkvm0G", 
+    "order": 6
+  }
+},
+{
+  "pk": 130, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 5, 
+    "image_hash": "6i3wgbL7", 
+    "order": 3
+  }
+},
+{
+  "pk": 132, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 11, 
+    "image_hash": "uWGh59Ep", 
+    "order": 6
+  }
+},
+{
+  "pk": 134, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 11, 
+    "image_hash": "6YsxlsG1", 
+    "order": 3
+  }
+},
+{
+  "pk": 135, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 11, 
+    "image_hash": "xZ7sUaBT", 
+    "order": 5
+  }
+},
+{
+  "pk": 141, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 27, 
+    "image_hash": "IhuKoMqo", 
+    "order": 4
+  }
+},
+{
+  "pk": 148, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 19, 
+    "image_hash": "caE4qTOn", 
+    "order": 1
+  }
+},
+{
+  "pk": 150, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 19, 
+    "image_hash": "I9lXRzqY", 
+    "order": 3
+  }
+},
+{
+  "pk": 151, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 27, 
+    "image_hash": "FiZupO2w", 
+    "order": 2
+  }
+},
+{
+  "pk": 152, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 27, 
+    "image_hash": "Ppd4oI2h", 
+    "order": 5
+  }
+},
+{
+  "pk": 157, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 20, 
+    "image_hash": "EphCbNDw", 
+    "order": 1
+  }
+},
+{
+  "pk": 158, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 20, 
+    "image_hash": "Z4q2CVoy", 
+    "order": 2
+  }
+},
+{
+  "pk": 160, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 20, 
+    "image_hash": "6VO3d2p4", 
+    "order": 4
+  }
+},
+{
+  "pk": 164, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 30, 
+    "image_hash": "jysPuzMQ", 
+    "order": 1
+  }
+},
+{
+  "pk": 165, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 30, 
+    "image_hash": "j02cW9w9", 
+    "order": 2
+  }
+},
+{
+  "pk": 167, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 30, 
+    "image_hash": "NIsUPbiM", 
+    "order": 4
+  }
+},
+{
+  "pk": 168, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 16, 
+    "image_hash": "kGROm849", 
+    "order": 2
+  }
+},
+{
+  "pk": 169, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 16, 
+    "image_hash": "FaxYFDpI", 
+    "order": 4
+  }
+},
+{
+  "pk": 170, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 16, 
+    "image_hash": "PrlHqLep", 
+    "order": 3
+  }
+},
+{
+  "pk": 171, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 33, 
+    "image_hash": "RTQBMVkD", 
+    "order": 4
+  }
+},
+{
+  "pk": 172, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 33, 
+    "image_hash": "Mff5ni5D", 
+    "order": 6
+  }
+},
+{
+  "pk": 173, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 33, 
+    "image_hash": "1QCQz78c", 
+    "order": 5
+  }
+},
+{
+  "pk": 174, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 25, 
+    "image_hash": "MZ15jwnw", 
+    "order": 10
+  }
+},
+{
+  "pk": 175, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 25, 
+    "image_hash": "Rl19kzXx", 
+    "order": 1
+  }
+},
+{
+  "pk": 184, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 25, 
+    "image_hash": "vuBOi0b8", 
+    "order": 9
+  }
+},
+{
+  "pk": 185, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 26, 
+    "image_hash": "3aPnJcxu", 
+    "order": 2
+  }
+},
+{
+  "pk": 187, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 4, 
+    "image_hash": "sx76ZCTJ", 
+    "order": 3
+  }
+},
+{
+  "pk": 188, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 4, 
+    "image_hash": "6wd0etIE", 
+    "order": 2
+  }
+},
+{
+  "pk": 190, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 6, 
+    "image_hash": "hgawDMtD", 
+    "order": 5
+  }
+},
+{
+  "pk": 191, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 6, 
+    "image_hash": "NtA1D9ZM", 
+    "order": 4
+  }
+},
+{
+  "pk": 193, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 10, 
+    "image_hash": "uane1GdW", 
+    "order": 5
+  }
+},
+{
+  "pk": 194, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 10, 
+    "image_hash": "ZzD4WY3F", 
+    "order": 6
+  }
+},
+{
+  "pk": 195, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 10, 
+    "image_hash": "RWSpnzuR", 
+    "order": 4
+  }
+},
+{
+  "pk": 199, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 31, 
+    "image_hash": "XbNlS0g1", 
+    "order": 2
+  }
+},
+{
+  "pk": 201, 
+  "model": "reviews.image", 
+  "fields": {
+    "review": 31, 
+    "image_hash": "vNeUHeGs", 
+    "order": 4
+  }
+}
+]

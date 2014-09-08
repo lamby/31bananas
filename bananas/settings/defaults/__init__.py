@@ -4,9 +4,6 @@ from os.path import abspath, dirname, join
 
 from setup_warnings import *
 
-def get(k, d=None):
-    return os.environ.get('DJANGO_%s' % k, d)
-
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
@@ -118,7 +115,7 @@ CACHES = {
     }
 }
 
-SECRET_KEY = get('SECRET_KEY', 'local-key')
+SECRET_KEY = 'private'
 
 # fcgi is really broken
 FORCE_SCRIPT_NAME = ''
@@ -127,8 +124,8 @@ SITE_URL = 'http://31bananas.co.uk'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
-AWS_ACCESS_KEY_ID = get('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = get('AWS_SECRET_ACCESS_KEY')
+AWS_ACCESS_KEY_ID = 'private'
+AWS_SECRET_ACCESS_KEY = 'private'
 AWS_QUERYSTRING_AUTH = False
 AWS_STORAGE_BUCKET_NAME = 'lamby-bananas'
 
@@ -154,7 +151,7 @@ DATABASE_ENGINE = None # for debug toolbar
 
 LOGIN_REDIRECT_URL = '/admin'
 
-KEYERROR_SECRET_KEY = get('KEYERROR_SECRET_KEY')
+KEYERROR_SECRET_KEY = 'private'
 
 SOUTH_TESTS_MIGRATE = False
 
